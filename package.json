@@ -1,0 +1,22 @@
+{
+  "name": "pydatadelhi.github.io",
+  "version": "1.0.0",
+  "description": "PyDataDelhi Official site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pydatadelhi/pydatadelhi.github.io.git"
+  },
+  "author": "PyDataDelhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pydatadelhi/pydatadelhi.github.io/issues"
+  },
+  "homepage": "https://github.com/pydatadelhi/pydatadelhi.github.io#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
