@@ -21,7 +21,8 @@
 - [License](#license)
 
 ## About 
-	`to be updated`
+
+`to be updated`
 
 
 `This repo is under heavy development.`
@@ -30,13 +31,13 @@
 ## Development 
 
 ### Pre-Requisites 
-	`To be updated`
+`To be updated`
 ### Development-Environment
-	`To be updated` 
+`To be updated` 
 ### FileStructure
-	`To be updated`
+`To be updated`
 ### Build
-	`To be updated`
+`To be updated`
 
 ## Contribution 
  
