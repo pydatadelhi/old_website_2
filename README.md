@@ -21,8 +21,7 @@
 - [License](#license)
 
 ## About 
-
-
+	`to be updated`
 
 
 `This repo is under heavy development.`
@@ -71,27 +70,21 @@ PyData - Delhi has members and contributors around Delhi and the world,  constan
 `To be updated`
 
 ### Branches
- 
 
-Meilix uses an agile continuous integration methodology, so the version is frequently updated and development is really fast. 
+`To be updated`
 
-1. **`Master`** is the development branch. It should always built.
-
-2. **`Generator`** is a legacy branch we keep for reference for the time being. It chrooted a master branch ISO release and made changes as requested by the meilix-generator app and repackaged the customized ISO.
-
-3. No further branches should be created in the main repository.
 
 **Steps to create a pull request**
 
 1. Make a PR to `master` branch. 
 2. Comply with the best practices and guidelines e.g. where the PR concerns visual elements it should have an image showing the effect.
-3. It must pass all continuous integration checks and get positive reviews.
+3. If the review is not positive and changes are not clear, PR will be asked for further updates. 
 
 After this, changes will be merged.
 
 ## Resources
 
-- https://www.meetup.com/meetup_api/
+- [Meetup.com API](https://www.meetup.com/meetup_api/)
 
 ## Gallery
 
@@ -103,4 +96,13 @@ After this, changes will be merged.
 
 ## License
 
-`To Be Updated`
+MIT License
+
+Copyright (c) 2019 PyData Delhi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
