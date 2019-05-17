@@ -73,6 +73,13 @@ Once you have all the requirements checked out, you can develop this project. Yo
 └── src
 ```
 
+ No | File/Folder name | Details 
+ ---|------------------|--------
+ 1 | dict 			   | The directory that contains distribution files and will be hosted on an external hosting service, for example, Google Firebase.
+ 2 | src               | The directory that contains un-built application source code, for example, JS and Vue files.
+ 3 | static            | The directory contains static files used within the application. The build process copies these files into the dist folder. Example files are images, icons, third-party libraries, PWA manifest, and service worker.
+
+
 ### Build
 `To be updated`
 
