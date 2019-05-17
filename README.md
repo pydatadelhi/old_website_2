@@ -31,11 +31,33 @@
 ## Development 
 
 ### Pre-Requisites 
-`To be updated`
+
+In order to work on this project or to develop it, you need to have some pre-installed tools and knowledge about them. Below are the tools you need to install on your system: 
+
+- NPM 
+- NODE
+
+
 ### Development-Environment
-`To be updated` 
+
+Once you have all the requirements checked out, you can develop this project. You need to set up the development environment to work on it. Follow the steps given below to setup:
+
+1. Fork this repo.
+2. Clone the forked repo on your system. `git clone https://github.com/YOUR_USERNAME/pydatadelhi.github.io`
+3. Go inside the cloned folder, and install all the dependencies. `npm install`
+
 ### FileStructure
-`To be updated`
+
+```
+.
+├── LICENSE
+├── logo.png
+├── package.json
+├── package-lock.json
+├── README.md
+└── src
+```
+
 ### Build
 `To be updated`
 
@@ -86,10 +108,6 @@ After this, changes will be merged.
 ## Resources
 
 - [Meetup.com API](https://www.meetup.com/meetup_api/)
-
-## Gallery
-
-`To Be Updated`
 
 ## Credit
 
