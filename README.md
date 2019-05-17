@@ -20,7 +20,7 @@
 - [Credit](#credit)
 - [License](#license)
 
-## About :beginner:
+## :beginner: About
 
 `This project is under heavy development.`
 
@@ -28,22 +28,22 @@
 This project is the home for the official website of PyData Delhi, developed and maintained by PyData Delhi Team and other volunteers. Its purpose is to inform visitors more about events and culture at PyData Delhi and getting them involved with it.
 
 
-### PyData :bar_chart:
+### :bar_chart: PyData
 
 Starting out with a PyData Workshop at the Googleplex in Mountain View, CA, in 2012 PyData has evolved into a successful conference series on using Python for the management, processing, analysis, and visualization of data. Alongside the popular conferences and the excellent PyData tools/packages a steadily growing PyData community has formed. 
 
-### PyData Delhi :chart_with_upwards_trend:
+### :chart_with_upwards_trend: PyData Delhi 
 
 PyData Delhi is a gathering of users and developers of data analysis tools in Python. A major goal of the meetup is to provide a venue for users across all the various domains of data analysis to share their experiences and their techniques, as well as highlight the most triumphs and potential pitfalls of using Python for certain kinds of problems. 
 
-### NumFOCUS :1234:
+### :1234: NumFOCUS
 
 The PyData conference series is organized by NumFOCUS, a non-proﬁt organization which supports and promotes world-class, innovative, open source scientiﬁc software. NumFOCUS aims to ensure that money is available to keep projects in the scientiﬁc Python stack funded and available. So if you ﬁnd value in these tools and have always wanted to give back, donating to NumFOCUS gives you a way of supporting either a speciﬁc project of your choice or all of these great codes at once. NumFOCUS website.
 
 
-## Development :hammer:
+## :hammer: Development
 
-### Pre-Requisites :notebook:
+### :notebook: Pre-Requisites
 
 In order to work on this project or to develop it, you need to have some pre-installed tools and knowledge about them. Below are the tools you need to install on your system: 
 
@@ -51,7 +51,7 @@ In order to work on this project or to develop it, you need to have some pre-ins
 - NodeJs
 
 
-### Development-Environment :milky_way:
+### :milky_way: Development-Environment
 
 Once you have all the requirements checked out, you can develop this project. You need to set up the development environment to work on it. Follow the steps given below to setup:
 
@@ -61,7 +61,7 @@ Once you have all the requirements checked out, you can develop this project. Yo
 4. Go inside the cloned folder, and install all the dependencies. `$ npm install`
 5. Now you can make your changes, to test them run the dev server. `$ npm run dev` 
 
-### FileStructure :file_folder:
+### :file_folder: FileStructure
 
 ```
 .
@@ -107,7 +107,7 @@ Once you have all the requirements checked out, you can develop this project. Yo
  8  | .gitignore         | To ignore files to be a part version control.
 
 
-### Build :wrench:
+### :wrench: Build 
 
 To build the project for production, you can use the following command. The output will be dumped in `/docs` folder which is used by the github pages to host the site.
 
@@ -115,7 +115,7 @@ To build the project for production, you can use the following command. The outp
 $ npm run build
 ``` 
 
-## Contribution :tada:
+## tada: Contribution
  
 Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project.
 
@@ -130,7 +130,7 @@ It can't get better then this, your pull request will be really appreciated by t
 
 > If you are new to open-source, make sure to check read more about it [here](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source) and learn more about creating a pull request [here](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github).
 
-### Community :heartpulse:
+### :heartpulse: Community
 
 
 PyData - Delhi has members and contributors around Delhi and the world,  constantly improving the community and helping others as well to do so. To get in touch with the community, you can use the following communication channels. 
@@ -142,7 +142,7 @@ PyData - Delhi has members and contributors around Delhi and the world,  constan
 **Github**: [https://github.com/pydatadelhi](https://github.com/pydatadelhi) <br>
 **Telegram**: [tg://join?invite=B71pNUGrUQ7QHuyUJq-Ajg](tg://join?invite=B71pNUGrUQ7QHuyUJq-Ajg) <br>
 
-### Guideline :exclamation:
+### :exclamation: Guideline
 
 `To be updated`
 
@@ -156,7 +156,7 @@ PyData - Delhi has members and contributors around Delhi and the world,  constan
 
 After this, changes will be merged.
 
-## Resources :page_facing_up:
+## :page_facing_up: Resources
 
 - [Meetup.com API](https://www.meetup.com/meetup_api/)
 
@@ -164,7 +164,7 @@ After this, changes will be merged.
 
 `To Be Updated`
 
-## License :key:
+## :key: License
 
 MIT License
 
