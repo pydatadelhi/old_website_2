@@ -75,7 +75,7 @@ p {
   min-height:120px;
   width:100%;
   padding-top:0px;
-  background-color: white;
+  background-color: #ffffff
 }
 
 #top-logo {
@@ -103,4 +103,9 @@ p {
   line-height:40px;
   padding-left: 10px;
   margin-top:5px;
+}
+
+.menu li:hover {
+  background-color: var(--primary);
+  color: var(--primaryText);
 }
