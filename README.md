@@ -58,14 +58,25 @@ In order to work on this project or to develop it, you need to have some pre-ins
 Once you have all the requirements checked out, you can develop this project. You need to set up the development environment to work on it. Follow the steps given below to setup:
 
 1. Fork this repo.
-2. Clone the forked repo on your system. `git clone https://github.com/YOUR_USERNAME/pydatadelhi.github.io`
-3. Go inside the cloned folder, and install all the dependencies. `npm install`
+2. Clone the forked repo on your system. 
+```
+$ git clone https://github.com/YOUR_USERNAME/pydatadelhi.github.io
+```
+3. We prefer you to work on different branched on your forked repo.
+4. Go inside the cloned folder, and install all the dependencies. 
+```
+$ npm install
+```
+5. Now you can make your changes, to test them run the dev server. 
+```
+$ npm run dev
+``` 
 
 ### FileStructure
 
 ```
 .
-├── dist
+├── docs
 ├── LICENSE
 ├── logo.png
 ├── package.json
@@ -87,13 +98,18 @@ Once you have all the requirements checked out, you can develop this project. Yo
 
  No | File/Folder name | Details 
  ---|------------------|--------
- 1 | dict 			   | The directory that contains distribution files and will be hosted on an external hosting service, for example, Google Firebase.
+ 1 | docs 			   | The directory that contains distribution files and will be hosted on an external hosting service, for example, Google Firebase.
  2 | src               | The directory that contains un-built application source code, for example, JS and Vue files.
  3 | static            | The directory contains static files used within the application. The build process copies these files into the dist folder. Example files are images, icons, third-party libraries, PWA manifest, and service worker.
  4 | src/components    | The components directory contains all of the individual components view, styling, and logic that our application uses.
 
 ### Build
-`To be updated`
+
+To build the project for production, you can use the following command.
+
+```
+$ npm run build
+``` 
 
 ## Contribution 
  
