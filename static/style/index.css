@@ -8,16 +8,11 @@
   14.8 % Jungle Mist (Green)
   % Pancho (Brown)
   */
-  --boston-blue: #459cb7;
-  --sea-buckthorn: #ee9143;
-  --blue-bayoux: #6c8188;
-  --jungle-mist: #bbd2d8;
-  --pancho :#e4b58e;
   /* Color */
-  --primary: #2708a0;
+  --primary: #0374bf;
   --primaryText: #FFFFFF;
-  --secondary: ;
-  --secondaryText: ;
+  --secondary: #f77c18;
+  --secondaryText: #ffffff;
   --background: #ffffff;
   --card: #ffffff;
   --backgroundText: #000000;
@@ -60,17 +55,13 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0px;
-}
-
-h1{
-  font-family: roboto_t;
-  font-size:28px;
+  font-family: 'Roboto-Slab', sans-serif;
 }
 
 p {
   font-size: var(--body-size);
   letter-spacing: var(--body-spacing);
-  font-family: roboto_r;
+  font-family: 'Roboto', sans-serif;
   margin: 0px;
   padding: 0px;
 }
