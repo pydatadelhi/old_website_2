@@ -15,6 +15,7 @@
 	- [Build](#build)
 - [Contribution](#contribution)
 	- [Community](#community)
+  - [Branch](#branch)
 	- [Guideline](#guideline)
 - [Resources](#resources)
 - [Credit](#credit)
@@ -142,11 +143,23 @@ PyData - Delhi has members and contributors around Delhi and the world,  constan
 **Github**: [https://github.com/pydatadelhi](https://github.com/pydatadelhi) <br>
 **Telegram**: [tg://join?invite=B71pNUGrUQ7QHuyUJq-Ajg](tg://join?invite=B71pNUGrUQ7QHuyUJq-Ajg) <br>
 
+
+
 ### :exclamation: Guideline
+
+`To Be Updated`
+
+### Branches
+
+We use a two branch methodology, where one branch `develop` holds the un-build source code, and branch `master` holds the build code. The reason for this is, the Github pages in case of `USERNAME.github.io` only support hosting from master branch, and that too from root folder but our source code dump out the output in `docs` folder.
+
+- `master` is the **Production** branch, where the build source code is stored.
+
+- `develop` is a the **Development** branch, where the un-build source code is stored, **your pull request should be made to this branch**.
 
 **Steps to create a pull request**
 
-1. Make a PR to `master` branch.
+1. Make a PR to `develop` branch only.
 2. Comply with the best practices and guidelines e.g. where the PR concerns visual elements it should have an image showing the effect.
 3. Also, do not commit the docs folder.
 4. If the review is not positive and changes are not clear, PR will be asked for further updates.
