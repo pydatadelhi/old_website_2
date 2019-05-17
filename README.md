@@ -144,10 +144,6 @@ PyData - Delhi has members and contributors around Delhi and the world,  constan
 
 ### :exclamation: Guideline
 
-`To be updated`
-
-
-
 **Steps to create a pull request**
 
 1. Make a PR to `master` branch. 
