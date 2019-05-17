@@ -2,7 +2,7 @@
     <img src="./logo.png" width="200">
 </p>
 
-# Index 
+# Index
 
 - [About](#about)
 	- [PyData](#pydata)
@@ -30,11 +30,11 @@ This project is the home for the official website of PyData Delhi, developed and
 
 ### :bar_chart: PyData
 
-Starting out with a PyData Workshop at the Googleplex in Mountain View, CA, in 2012 PyData has evolved into a successful conference series on using Python for the management, processing, analysis, and visualization of data. Alongside the popular conferences and the excellent PyData tools/packages a steadily growing PyData community has formed. 
+Starting out with a PyData Workshop at the Googleplex in Mountain View, CA, in 2012 PyData has evolved into a successful conference series on using Python for the management, processing, analysis, and visualization of data. Alongside the popular conferences and the excellent PyData tools/packages a steadily growing PyData community has formed.
 
-### :chart_with_upwards_trend: PyData Delhi 
+### :chart_with_upwards_trend: PyData Delhi
 
-PyData Delhi is a gathering of users and developers of data analysis tools in Python. A major goal of the meetup is to provide a venue for users across all the various domains of data analysis to share their experiences and their techniques, as well as highlight the most triumphs and potential pitfalls of using Python for certain kinds of problems. 
+PyData Delhi is a gathering of users and developers of data analysis tools in Python. A major goal of the meetup is to provide a venue for users across all the various domains of data analysis to share their experiences and their techniques, as well as highlight the most triumphs and potential pitfalls of using Python for certain kinds of problems.
 
 ### :1234: NumFOCUS
 
@@ -45,9 +45,9 @@ The PyData conference series is organized by NumFOCUS, a non-proﬁt organizatio
 
 ### :notebook: Pre-Requisites
 
-In order to work on this project or to develop it, you need to have some pre-installed tools and knowledge about them. Below are the tools you need to install on your system: 
+In order to work on this project or to develop it, you need to have some pre-installed tools and knowledge about them. Below are the tools you need to install on your system:
 
-- NPM 
+- NPM
 - NodeJs
 
 
@@ -59,7 +59,7 @@ Once you have all the requirements checked out, you can develop this project. Yo
 2. Clone the forked repo on your system. `$ git clone https://github.com/YOUR_USERNAME/pydatadelhi.github.io`
 3. We prefer you to work on different branched on your forked repo.
 4. Go inside the cloned folder, and install all the dependencies. `$ npm install`
-5. Now you can make your changes, to test them run the dev server. `$ npm run dev` 
+5. Now you can make your changes, to test them run the dev server. `$ npm run dev`
 
 ### :file_folder: FileStructure
 
@@ -92,31 +92,31 @@ Once you have all the requirements checked out, you can develop this project. Yo
     └── index.html
 ```
 
- No | File/Folder name   | Details 
+ No | File/Folder name   | Details
  ---|--------------------|--------
  1 	| ./docs 		     | Webpack output the build here, which is then hosted by github pages.
  2 	| ./src              | Contains un-built application source code.
  4 	| ./src/components   | Individual components view, styling, and logic that our application uses.
  3 	| ./static           | Static files like images, third-party libraries, PWA manifest, and service worker are stored here.
  7  | ./node_modules/... | Auto installed node packages.
- 10 | package.json       | NPM package file for this project. 
+ 10 | package.json       | NPM package file for this project.
  11 | package-lock.json  | NPM packages details.
  9  | webpack.config.js  | Configuration file for webpack.
- 5  | LICENSE 		     | MIT License. 
+ 5  | LICENSE 		     | MIT License.
  6  | README.md          | This file.
  8  | .gitignore         | To ignore files to be a part version control.
 
 
-### :wrench: Build 
+### :wrench: Build
 
 To build the project for production, you can use the following command. The output will be dumped in `/docs` folder which is used by the github pages to host the site.
 
 ```
 $ npm run build
-``` 
+```
 
 ## :tada: Contribution
- 
+
 Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project.
 
 1. **Report a bug** <br>
@@ -133,8 +133,8 @@ It can't get better then this, your pull request will be really appreciated by t
 ### :heartpulse: Community
 
 
-PyData - Delhi has members and contributors around Delhi and the world,  constantly improving the community and helping others as well to do so. To get in touch with the community, you can use the following communication channels. 
- 
+PyData - Delhi has members and contributors around Delhi and the world,  constantly improving the community and helping others as well to do so. To get in touch with the community, you can use the following communication channels.
+
 **Meetup**: [https://www.meetup.com/PyDataDelhi/](https://www.meetup.com/PyDataDelhi/) <br>
 **Twitter**: [https://twitter.com/meilix_](https://twitter.com/meilix_) <br>
 **Facebook**: [http://facebook.com/pydatadelhi](http://facebook.com/pydatadelhi) <br>
@@ -146,14 +146,16 @@ PyData - Delhi has members and contributors around Delhi and the world,  constan
 
 **Steps to create a pull request**
 
-1. Make a PR to `master` branch. 
+1. Make a PR to `master` branch.
 2. Comply with the best practices and guidelines e.g. where the PR concerns visual elements it should have an image showing the effect.
-3. If the review is not positive and changes are not clear, PR will be asked for further updates. 
+3. Also, do not commit the docs folder.
+4. If the review is not positive and changes are not clear, PR will be asked for further updates.
 
 After this, changes will be merged.
 
 ## :page_facing_up: Resources
 
+- [Vuejs 2 Guide](https://vuejs.org/v2/guide/)
 - [Meetup.com API](https://www.meetup.com/meetup_api/)
 
 ## :star: Credit
@@ -171,4 +173,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
