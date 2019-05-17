@@ -3,6 +3,10 @@
 
     <div id="top">
 
+      <div id="top-logo">
+        <img src="../static/images/icons/mipmap-xxxhdpi.png">
+      </div>
+
       <div id="top-menu">
         <ul class="menu">
           <li v-for="(link, index) in links" :key="index">

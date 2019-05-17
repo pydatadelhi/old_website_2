@@ -13,7 +13,7 @@
   --primaryText: #FFFFFF;
   --secondary: #f77c18;
   --secondaryText: #ffffff;
-  --background: #ffffff;
+  --background: #fefefe;
   --card: #ffffff;
   --backgroundText: #000000;
   --backgroundText1: rgba(0, 0, 0, 0.8);
@@ -71,12 +71,20 @@ p {
 **/
 
 #top {
-  position:fixed;
   top:0px;
   min-height:120px;
   width:100%;
   padding-top:0px;
-  background-color: green;
+  background-color: white;
+}
+
+#top-logo {
+  width:140px;
+  margin: 0px auto;
+}
+
+#top-logo img{
+  width:100%
 }
 
 #top-menu{
