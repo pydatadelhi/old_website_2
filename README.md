@@ -131,7 +131,7 @@ It can't get better then this, your pull request will be really appreciated by t
 
 > If you are new to open-source, make sure to check read more about it [here](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source) and learn more about creating a pull request [here](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github).
 
-### :heartpulse: Community
+### :heart: Community
 
 
 PyData - Delhi has members and contributors around Delhi and the world,  constantly improving the community and helping others as well to do so. To get in touch with the community, you can use the following communication channels.
@@ -149,7 +149,7 @@ PyData - Delhi has members and contributors around Delhi and the world,  constan
 
 `To Be Updated`
 
-### Branches
+### :cactus: Branches
 
 We use a two branch methodology, where one branch `develop` holds the un-build source code, and branch `master` holds the build code. The reason for this is, the Github pages in case of `USERNAME.github.io` only support hosting from master branch, and that too from root folder but our source code dump out the output in `docs` folder.
 
