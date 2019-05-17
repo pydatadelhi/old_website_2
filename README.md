@@ -65,12 +65,24 @@ Once you have all the requirements checked out, you can develop this project. Yo
 
 ```
 .
+├── dist
 ├── LICENSE
 ├── logo.png
 ├── package.json
 ├── package-lock.json
 ├── README.md
-└── src
+├── src
+│   ├── app.js
+│   ├── App.vue
+│   ├── components
+│   │   ├── Home.vue
+│   │   ├── Page1.vue
+│   │   └── PageNotFound.vue
+│   └── router.js
+├── static
+│   └── index.html
+└── webpack.config.js
+
 ```
 
  No | File/Folder name | Details 
@@ -78,7 +90,7 @@ Once you have all the requirements checked out, you can develop this project. Yo
  1 | dict 			   | The directory that contains distribution files and will be hosted on an external hosting service, for example, Google Firebase.
  2 | src               | The directory that contains un-built application source code, for example, JS and Vue files.
  3 | static            | The directory contains static files used within the application. The build process copies these files into the dist folder. Example files are images, icons, third-party libraries, PWA manifest, and service worker.
-
+ 4 | src/components    | The components directory contains all of the individual components view, styling, and logic that our application uses.
 
 ### Build
 `To be updated`
