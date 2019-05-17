@@ -55,7 +55,7 @@ module.exports = (env, argv) => ({
 
   plugins: [
  	// Delete the dist directory before each build, to remove old files.
-    new CleanWebpackPlugin(['dist']),
+    new CleanWebpackPlugin(),
     new VueLoaderPlugin(),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'static', 'index.html'),
