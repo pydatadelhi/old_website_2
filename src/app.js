@@ -5,9 +5,11 @@ import router from './router'
 // False while in development
 Vue.config.productionTip = false
 
-new Vue({
+
+var app = new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>'
+  template: '<App/>'  
 })
+

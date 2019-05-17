@@ -15,7 +15,7 @@
 	- [Build](#build)
 - [Contribution](#contribution)
 	- [Community](#community)
-  - [Branch](#branch)
+    - [Branch](#branch)
 	- [Guideline](#guideline)
 - [Resources](#resources)
 - [Credit](#credit)

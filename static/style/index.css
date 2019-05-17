@@ -13,12 +13,9 @@
   --primaryText: #FFFFFF;
   --secondary: #f77c18;
   --secondaryText: #ffffff;
-  --background: #fefefe;
+  --background: #f3f3f3;
   --card: #ffffff;
   --backgroundText: #000000;
-  --backgroundText1: rgba(0, 0, 0, 0.8);
-  --backgroundText2: rgba(0, 0, 0, 0.6);
-  --backgroundText3: rgba(0, 0, 0, 0.3);
   --cardText: #000000;
   /* Text */
   --title-size: 20px;
@@ -75,7 +72,8 @@ p {
   min-height:120px;
   width:100%;
   padding-top:0px;
-  background-color: #ffffff
+  background-color: #ffffff;
+  border-bottom:1px solid rgba(20,20,20,0.15);
 }
 
 #top-logo {
@@ -87,13 +85,30 @@ p {
   width:100%
 }
 
+.menu-icon{
+  height:40px;
+  width:calc(100% - 10px);
+  line-height:40px;
+  font-size:18px;
+  text-align:left;
+  padding-left:10px;
+  cursor: pointer;
+  color: var(--secondary);
+}
+
+.menu-icon:hover{
+  background-color:var(--secondary);
+  color:var(--secondaryText);
+}
+
 #top-menu{
-  margin-top:0px;
+  margin-top:-20px;
 }
 
 .menu {
   padding: 0px;
   margin:0px;
+  margin-top: 0px;
   list-style:none;
   margin-bottom:10px;
 }

@@ -8,7 +8,8 @@
       </div>
 
       <div id="top-menu">
-        <ul class="menu">
+        <div class="menu-icon fas fa-bars" v-on:click="showMenu"></div>
+        <ul class="menu" v-if="allowMenu">
           <li v-for="(link, index) in links" :key="index">
             <router-link :to="link.to"><div>{{ link.name }}</div></router-link>
           </li>
@@ -28,8 +29,20 @@
 
 
 <script>
+
+
 export default {
+  methods: {
+    showMenu: function() {
+      if(this.allowMenu){
+        this.allowMenu = false
+      }else{
+        this.allowMenu = true
+      }
+    }
+  },
   data: () => ({
+    allowMenu: false,
     links: [
       {
         name: 'Home',
