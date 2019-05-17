@@ -2,7 +2,6 @@
     <img src="./logo.png" width="200">
 </p>
 
- 
 # Index 
 
 - [About](#about)
@@ -50,7 +49,7 @@ The PyData conference series is organized by NumFOCUS, a non-proﬁt organizatio
 In order to work on this project or to develop it, you need to have some pre-installed tools and knowledge about them. Below are the tools you need to install on your system: 
 
 - NPM 
-- NODE
+- NodeJs
 
 
 ### Development-Environment
@@ -58,54 +57,60 @@ In order to work on this project or to develop it, you need to have some pre-ins
 Once you have all the requirements checked out, you can develop this project. You need to set up the development environment to work on it. Follow the steps given below to setup:
 
 1. Fork this repo.
-2. Clone the forked repo on your system. 
-```
-$ git clone https://github.com/YOUR_USERNAME/pydatadelhi.github.io
-```
+2. Clone the forked repo on your system. `$ git clone https://github.com/YOUR_USERNAME/pydatadelhi.github.io`
 3. We prefer you to work on different branched on your forked repo.
-4. Go inside the cloned folder, and install all the dependencies. 
-```
-$ npm install
-```
-5. Now you can make your changes, to test them run the dev server. 
-```
-$ npm run dev
-``` 
+4. Go inside the cloned folder, and install all the dependencies. `$ npm install`
+5. Now you can make your changes, to test them run the dev server. `$ npm run dev` 
 
 ### FileStructure
 
 ```
 .
-├── docs
 ├── LICENSE
 ├── logo.png
 ├── package.json
 ├── package-lock.json
 ├── README.md
+├── webpack.config.js
+├── node_modules/...
+├── docs/...
 ├── src
 │   ├── app.js
 │   ├── App.vue
 │   ├── components
+│   │   ├── Archive.vue
+│   │   ├── Blog.vue
+│   │   ├── Conference.vue
+│   │   ├── Contact.vue
 │   │   ├── Home.vue
-│   │   ├── Page1.vue
-│   │   └── PageNotFound.vue
+│   │   ├── News.vue
+│   │   ├── PageNotFound.vue
+│   │   ├── Sponsors.vue
+│   │   ├── Team.vue
+│   │   └── Volunteer.vue
 │   └── router.js
-├── static
-│   └── index.html
-└── webpack.config.js
-
+└── static
+    └── index.html
 ```
 
- No | File/Folder name | Details 
- ---|------------------|--------
- 1 | docs 			   | The directory that contains distribution files and will be hosted on an external hosting service, for example, Google Firebase.
- 2 | src               | The directory that contains un-built application source code, for example, JS and Vue files.
- 3 | static            | The directory contains static files used within the application. The build process copies these files into the dist folder. Example files are images, icons, third-party libraries, PWA manifest, and service worker.
- 4 | src/components    | The components directory contains all of the individual components view, styling, and logic that our application uses.
+ No | File/Folder name   | Details 
+ ---|--------------------|--------
+ 1 	| ./docs 		     | Webpack output the build here, which is then hosted by github pages.
+ 2 	| ./src              | Contains un-built application source code.
+ 4 	| ./src/components   | Individual components view, styling, and logic that our application uses.
+ 3 	| ./static           | Static files like images, third-party libraries, PWA manifest, and service worker are stored here.
+ 7  | ./node_modules/... | Auto installed node packages.
+ 10 | package.json       | NPM package file for this project. 
+ 11 | package-lock.json  | NPM packages details.
+ 9  | webpack.config.js  | Configuration file for webpack.
+ 5  | LICENSE 		     | MIT License. 
+ 6  | README.md          | This file.
+ 8  | .gitignore         | To ignore files to be a part version control.
+
 
 ### Build
 
-To build the project for production, you can use the following command.
+To build the project for production, you can use the following command. The output will be dumped in `/docs` folder which is used by the github pages to host the site.
 
 ```
 $ npm run build
