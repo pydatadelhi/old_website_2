@@ -6,6 +6,9 @@
 # Index 
 
 - [About](#about)
+	- [PyData](#pydata)
+	- [PyData Delhi](#pydata-delhi)
+	- [NumFOCUS](#numfocus)
 - [Development](#development)
 	- [Pre-Requisites](#pre-requisites)
 	- [Development-Environment](#development-environment)
@@ -22,10 +25,23 @@
 
 ## About 
 
-`to be updated`
-
-
 `This repo is under heavy development.`
+
+
+This repo/project is the home for the official website of PyData Delhi, developed and maintained by PyData Delhi Team and other volunteers. Its purpose is to inform visitors more about events and culture at PyData Delhi and getting them involved with it.
+
+
+### PyData
+
+Starting out with a PyData Workshop at the Googleplex in Mountain View, CA, in 2012 PyData has evolved into a successful conference series on using Python for the management, processing, analysis, and visualization of data. Alongside the popular conferences and the excellent PyData tools/packages a steadily growing PyData community has formed. Visit pydata.org or search for #pydata at Twitter to ﬁnd out more.
+
+### PyData Delhi 
+
+PyData Delhi is a gathering of users and developers of data analysis tools in Python. A major goal of the meetup is to provide a venue for users across all the various domains of data analysis to share their experiences and their techniques, as well as highlight the most triumphs and potential pitfalls of using Python for certain kinds of problems. Visit the meetup page or search for #pydatadelhi at Twitter to find out more and to see the many upcoming PyData events. You can also follow our blog here for updates.
+
+### NumFOCUS
+
+The PyData conference series is organized by NumFOCUS, a non-proﬁt organization which supports and promotes world-class, innovative, open source scientiﬁc software. NumFOCUS aims to ensure that money is available to keep projects in the scientiﬁc Python stack funded and available. So if you ﬁnd value in these tools and have always wanted to give back, donating to NumFOCUS gives you a way of supporting either a speciﬁc project of your choice or all of these great codes at once. NumFOCUS website.
 
 
 ## Development 
