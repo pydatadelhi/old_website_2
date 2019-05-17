@@ -65,3 +65,34 @@ p {
   margin: 0px;
   padding: 0px;
 }
+
+/**
+ App.vue style
+**/
+
+#top {
+  position:fixed;
+  top:0px;
+  min-height:120px;
+  width:100%;
+  padding-top:0px;
+  background-color: green;
+}
+
+#top-menu{
+  margin-top:0px;
+}
+
+.menu {
+  padding: 0px;
+  margin:0px;
+  list-style:none;
+  margin-bottom:10px;
+}
+
+.menu li {
+  height:40px;
+  line-height:40px;
+  padding-left: 10px;
+  margin-top:5px;
+}
