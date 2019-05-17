@@ -115,7 +115,7 @@ To build the project for production, you can use the following command. The outp
 $ npm run build
 ``` 
 
-## tada: Contribution
+## :tada: Contribution
  
 Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project.
 
@@ -160,7 +160,7 @@ After this, changes will be merged.
 
 - [Meetup.com API](https://www.meetup.com/meetup_api/)
 
-## Credit :star:
+## :star: Credit
 
 `To Be Updated`
 
