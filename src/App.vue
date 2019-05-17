@@ -29,6 +29,7 @@
   }
 </style>
 
+
 <script>
 export default {
   data: () => ({
@@ -38,12 +39,36 @@ export default {
         to: '/'
       },
       {
-        name: 'Page 1',
-        to: '/page-1'
+        name: 'Conference',
+        to: '/conference'
       },
       {
-        name: 'Bad Link',
-        to: '/random-bad-url'
+        name: 'Archive',
+        to: '/archive'
+      },
+      {
+        name: 'Blog',
+        to: '/blog'
+      },
+      {
+        name: 'Sponsors',
+        to: '/sponsors'
+      },
+      {
+        name: 'Volunteer',
+        to: '/volunteer'
+      },
+      {
+        name: 'News',
+        to: '/news'
+      },
+      {
+        name: 'Team',
+        to: '/team'
+      },
+      {
+        name: 'Contact',
+        to: '/contact'
       }
     ]
   })
