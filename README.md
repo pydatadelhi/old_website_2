@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./logo.png" width="200">
+    <img src="./static/images/logo.png" width="220">
 </p>
 
 # Index
