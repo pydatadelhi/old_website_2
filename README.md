@@ -141,7 +141,7 @@ PyData - Delhi has members and contributors around Delhi and the world,  constan
 **Facebook**: [http://facebook.com/pydatadelhi](http://facebook.com/pydatadelhi) <br>
 **Youtube**: [https://www.youtube.com/channel/UCz_xSLNdtnkDsVTuYuLprMg](https://www.youtube.com/channel/UCz_xSLNdtnkDsVTuYuLprMg) <br>
 **Github**: [https://github.com/pydatadelhi](https://github.com/pydatadelhi) <br>
-**Telegram**: [tg://join?invite=B71pNUGrUQ7QHuyUJq-Ajg](tg://join?invite=B71pNUGrUQ7QHuyUJq-Ajg) <br>
+**Telegram**: [https://bit.do/joinpydd](https://bit.do/joinpydd) <br>
 
 
 
