@@ -103,15 +103,15 @@ Once you have all the requirements checked out, you can develop this project. Yo
  ---|--------------------|--------
  1 	| ./docs 		     | Webpack output the build here, which is then hosted by github pages.
  2 	| ./src              | Contains un-built application source code.
- 4 	| ./src/components   | Individual components view, styling, and logic that our application uses.
- 3 	| ./static           | Static files like images, third-party libraries, PWA manifest, and service worker are stored here.
- 7  | ./node_modules/... | Auto installed node packages.
- 10 | package.json       | NPM package file for this project.
- 11 | package-lock.json  | NPM packages details.
- 9  | webpack.config.js  | Configuration file for webpack.
- 5  | LICENSE 		     | MIT License.
- 6  | README.md          | This file.
- 8  | .gitignore         | To ignore files to be a part version control.
+ 3 	| ./src/components   | Individual components view, styling, and logic that our application uses.
+ 4 	| ./static           | Static files like images, third-party libraries, PWA manifest, and service worker are stored here.
+ 5  | ./node_modules/... | Auto installed node packages.
+ 6  | package.json       | NPM package file for this project.
+ 7  | package-lock.json  | NPM packages details.
+ 8  | webpack.config.js  | Configuration file for webpack.
+ 9  | LICENSE 		     | MIT License.
+ 10 | README.md          | This file.
+ 11 | .gitignore         | To ignore files to be a part version control.
 
 
 ### :wrench: Build
@@ -153,7 +153,51 @@ PyData - Delhi has members and contributors around Delhi and the world,  constan
 
 ### :exclamation: Guideline
 
-`To Be Updated`
+This project use Vue.js v2 framework and It is highly recommended that you check out its docs (here](https://vuejs.org/v2/guide/). Further, if you are short on time, to quickly get productive with this project, below are some details about how to work with this project.
+
+- **Root files**
+
+The root/entry file for the project can be found in the `./static` folder, it also consists of all the global files like index.css, plus its purpose is to store the static file like images etc. 
+
+
+- **Working with .vue files.**
+
+In the folder `./src/components`, you will find most of the `.vue` files, they are the components for different pages, which you will understand from there name. Below is the basic structure of any `.vue` file. 
+
+``` vue
+<template>
+    HTML CODE...
+</template>
+
+<style scoped>
+    CSS SHEET...
+</style>
+
+<script>
+    JAVASCRIPT CODE...
+</script>
+```
+
+Here, `template` tag consist of all the HTML for that particular component, in our case page. `style` tag consists of all the CSS style and finally, `script` tag consists of all the javascript. To create a new component, you just have to add a `NEW-COMPONENT.vue` to components folder.
+
+- **Adding a new route** 
+
+All the routers are defined in `./src/router.js` file. To add a new route, you must create a new component and import it to this file. 
+
+```
+...
+import Home from '@/components/NEW-COMPONENT-NAME'
+...
+export default new Router({
+  routes: [...
+    {
+      path: '/NEW-LOC',
+      name: 'NEW-COMPONENT-NAME',
+      component: NEW-COMPONENT-NAME
+    }
+...]})
+
+```
 
 ### :cactus: Branches
 
