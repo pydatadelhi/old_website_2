@@ -153,14 +153,14 @@ PyData - Delhi has members and contributors around Delhi and the world,  constan
 
 ### :exclamation: Guideline
 
-This project use Vue.js v2 framework and It is highly recommended that you check out its docs (here](https://vuejs.org/v2/guide/). Further, if you are short on time, to quickly get productive with this project, below are some details about how to work with this project.
+This project use Vue.js v2 framework and It is highly recommended that you check out its docs [here](https://vuejs.org/v2/guide/). Further, if you are short on time, to quickly get productive with this project, below are some details about how to work with this project.
 
-- **Root files**
+#### Root files**
 
 The root/entry file for the project can be found in the `./static` folder, it also consists of all the global files like index.css, plus its purpose is to store the static file like images etc. 
 
 
-- **Working with .vue files.**
+#### **Working with .vue files.**
 
 In the folder `./src/components`, you will find most of the `.vue` files, they are the components for different pages, which you will understand from there name. Below is the basic structure of any `.vue` file. 
 
@@ -180,7 +180,7 @@ In the folder `./src/components`, you will find most of the `.vue` files, they a
 
 Here, `template` tag consist of all the HTML for that particular component, in our case page. `style` tag consists of all the CSS style and finally, `script` tag consists of all the javascript. To create a new component, you just have to add a `NEW-COMPONENT.vue` to components folder.
 
-- **Adding a new route** 
+#### **Adding a new route** 
 
 All the routers are defined in `./src/router.js` file. To add a new route, you must create a new component and import it to this file. 
 
