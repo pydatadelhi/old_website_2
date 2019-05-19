@@ -155,7 +155,7 @@ PyData - Delhi has members and contributors around Delhi and the world,  constan
 
 This project use Vue.js v2 framework and It is highly recommended that you check out its docs [here](https://vuejs.org/v2/guide/). Further, if you are short on time, to quickly get productive with this project, below are some details about how to work with this project.
 
-#### Root files**
+#### Root files
 
 The root/entry file for the project can be found in the `./static` folder, it also consists of all the global files like index.css, plus its purpose is to store the static file like images etc. 
 
@@ -223,7 +223,7 @@ After this, changes will be merged.
 
 ## :star: Credit
 
-`To Be Updated`
+- Initial UI by [Sandeep Kumar](https://www.behance.net/SandeepKumarBhatia) 
 
 ## :key: License
 
