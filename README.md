@@ -67,7 +67,6 @@ Once you have all the requirements checked out, you can develop this project. Yo
 ```
 .
 ├── LICENSE
-├── logo.png
 ├── package.json
 ├── package-lock.json
 ├── README.md
@@ -90,7 +89,14 @@ Once you have all the requirements checked out, you can develop this project. Yo
 │   │   └── Volunteer.vue
 │   └── router.js
 └── static
-    └── index.html
+    ├── CNAME
+    ├── index.html
+    ├── images
+    │   ├── favicon.png
+    │   ├── logo.png
+    │   └── icons/...
+    └── style
+        └── index.css
 ```
 
  No | File/Folder name   | Details
