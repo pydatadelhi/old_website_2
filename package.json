@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/pydatadelhi/pydatadelhi.github.io#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
     "file-loader": "^3.0.1",
     "url-loader": "^1.1.2",
     "vue": "2.6.10",
