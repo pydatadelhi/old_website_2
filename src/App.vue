@@ -70,7 +70,7 @@
                     <span>Contribute</span>
                 </p>
                 <div class="footer-icons">
-                    <a href="https://github.com/pydatadelhi/pydatadelhi.github.io"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/pydatadelhi/pydatadelhi.github.io"><i class="fas fa-code-branch"></i></a>
                 </div>
             </div>
         </footer>
@@ -161,11 +161,12 @@ export default {
     background-color: #161822;
     width: 100%;
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: 0;
     text-align: left;
     padding: 55px 50px;
+
 }
 
 .footer-distributed-bottom 
@@ -174,7 +175,7 @@ export default {
     background-color: #111216;
     width: 100%;
     height: 45px;
-    position: fixed;
+    position: relative;
     bottom: 0;
 }
 
