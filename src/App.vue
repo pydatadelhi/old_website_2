@@ -25,8 +25,9 @@
             <div class="footer-left">
                 <img src="static/images/logo.png" class="logo">
                 <p class="footer-organization-about">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing s	
+                    PyData Delhi brings together both users and developers of data analysis tools to share ideas and learn from each other. The goals are to provide data science enthusiasts, across various domains, a place to discuss how best to apply languages and tools to the challenges of data management, processing, analytics, and visualization.
                 </p>
+                    mail: <a href="mailto:pydatadelhi@gmail.com" target="_top">pydatadelhi@gmail.com</a>
                 <br>
             </div>
             <div class="footer-center">
@@ -45,27 +46,31 @@
                     <span>Important Links</span>
                 </p>
                 <div class="footer-icons">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
+                    <a href="http://facebook.com/pydatadelhi"><i class="fab fa-facebook-f"></i></a> <!--facebook-->
+                    <a href="https://twitter.com/PyDataDelhi"><i class="fab fa-twitter"></i></a> <!--twitter-->
+                    <a href="https://www.meetup.com/PyDataDelhi/"><i class="fab fa-meetup"></i></a> <!--Meetup-->
+                    <a href="https://github.com/pydatadelhi"><i class="fab fa-github"></i></a> <!--github-->
+                    <a href="https://www.youtube.com/channel/UCz_xSLNdtnkDsVTuYuLprMg"><i class="fab fa-youtube"></i></a> <!--youtube-->
+                    <a href="https://bit.do/joinpydd"><i class="fab fa-telegram"></i></a> <!--telegram-->
+                </div> 
                 <br>
                 <p class="footer-organization-about">
                     <span>Credits</span>
                 </p>
                 <div class="footer-icons">
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
+                    <a href="https://github.com/MSanKeys963"><img class="credit" src="https://avatars3.githubusercontent.com/u/20305658?s=460&v=4"></a><!--Sanket Verma-->
+                    <a href="https://github.com/Arsh23"><img class="credit" src="https://avatars2.githubusercontent.com/u/15089721?s=460&v=4"></a><!--Arsh -->
+                    <a href="https://github.com/ramantehlan"><img class="credit" src="https://avatars0.githubusercontent.com/u/29037312?s=460&v=4"></a><!--Raman Tehlan-->
+                    <a href="https://github.com/code-monk08"><img class="credit" src="https://avatars0.githubusercontent.com/u/19390263?s=460&v=4"></a><!--Mayank Singh-->
+                    <a href="https://github.com/codekhal"><img class="credit" src="https://avatars0.githubusercontent.com/u/32578541?s=460&v=4"></a><!--Khushal Vyas-->
+                    <a href="https://github.com/sakshivij"><img class="credit" src="https://avatars0.githubusercontent.com/u/20201675?s=400&v=4"></a><!--Sakshi Vij-->
                 </div>
                 <br>
                 <p class="footer-organization-about">
                     <span>Contribute</span>
                 </p>
                 <div class="footer-icons">
-                    <a href="#"></a>
+                    <a href="https://github.com/pydatadelhi/pydatadelhi.github.io"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </footer>
@@ -134,6 +139,23 @@ export default {
 
 <style scope>
 
+.credit
+{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
 .footer-distributed 
  { 
     background-color: #161822;
@@ -174,6 +196,7 @@ export default {
 .footer-distributed .footer-left 
  { 
     width: 45%;
+    color: #ffffff;
 }
 
 .footer-distributed .logo 
@@ -208,7 +231,7 @@ export default {
 .footer-distributed .footer-organization-about 
  { 
     line-height: 20px;
-    color: #92999f;
+    color: #ffffff;
     font-size: 13px;
     font-weight: normal;
     margin: 0;
