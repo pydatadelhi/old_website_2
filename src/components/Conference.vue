@@ -10,7 +10,7 @@
          <div class="cards-list">
             <div class="card 2019">
                <div class="card_image"> 
-                <img src="https://i.redd.it/b3esnz5ra34y.jpg"/> 
+                <a href="https://pydata.org/delhi2019/"><img src="https://i.redd.it/b3esnz5ra34y.jpg"/></a> 
               </div>
                <div class="card_title title-white">
                   <p class="year">2019</p>
@@ -18,7 +18,7 @@
             </div>
             <div class="card 2018">
                <div class="card_image">
-                  <img src="https://i.redd.it/b3esnz5ra34y.jpg" />
+                  <a href="https://pydata.org/delhi2018/"><img src="https://i.redd.it/b3esnz5ra34y.jpg" /></a>
                </div>
                <div class="card_title title-white">
                   <p class="year">2018</p>
@@ -26,7 +26,7 @@
             </div>
             <div class="card 2017">
                <div class="card_image">
-                  <img src="https://i.redd.it/b3esnz5ra34y.jpg"/>
+                  <a href="https://pydata.org/delhi2017/"><img src="https://i.redd.it/b3esnz5ra34y.jpg"/></a>
                </div>
                <div class="card_title title-white">
                   <p class="year">2017</p>
@@ -69,6 +69,12 @@ section
 }
 
 .card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 20px;
+}
+
+.card .card_image a {
   width: inherit;
   height: inherit;
   border-radius: 20px;
