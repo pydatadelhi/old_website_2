@@ -172,8 +172,17 @@ a {
   top: 5px;
 }
 
+
+.menu li {
+  height:40px;
+  line-height:40px;
+  padding-left: 10px;
+  margin-top:5px;
+  color: #FFFFFF;
+
 .header .menu-icon .navicon:after {
   top: -5px;
+
 }
 
 /* menu btn */
