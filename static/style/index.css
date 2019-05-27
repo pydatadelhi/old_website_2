@@ -37,11 +37,17 @@ html {
   color: var(--backgroundText);
   font-size: var(--body-size);
   font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0px;
   padding: 0px;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -87,11 +93,11 @@ p {
 
 .menu-icon{
   height:40px;
-  width:calc(100% - 10px);
+  width:calc(100% - 3px);
   line-height:40px;
   font-size:18px;
   text-align:left;
-  padding-left:10px;
+  padding-left:3px;
   cursor: pointer;
   color: var(--secondary);
 }
@@ -110,17 +116,433 @@ p {
   margin:0px;
   margin-top: 0px;
   list-style:none;
-  margin-bottom:10px;
+  margin-bottom:3px;
 }
 
 .menu li {
   height:40px;
   line-height:40px;
-  padding-left: 10px;
+  padding-left: 3px;
   margin-top:5px;
 }
 
 .menu li:hover {
   background-color: var(--primary);
   color: var(--primaryText);
+}
+
+
+/* CSS goes here for Home Route */
+
+.home_first {
+
+  height:58vw;
+  width: 100%;
+  /* background-image:url(../static/tmp_desing/other/home_bg.jpg); */
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  margin: 0;
+  text-align: left;
+  position: relative;
+}
+/* .home_first:before { */
+    /* content: "";
+    position: absolute;
+    width : 100%;
+    height: 47vw;
+    background: inherit;
+    z-index: 1; */
+    /* filter        : blur(2px);
+    -moz-filter   : blur(2px);
+    -webkit-filter: blur(2px);
+    -o-filter     : blur(2px); */
+    /* background-color: #9c9c9c; */
+    /* position: absolute;
+  	height: 67vw;
+  	content: "";
+    width: 100%;
+  	-webkit-width: 40%;
+  	background: rgba(10, 32, 37, 0.66);
+  	right: 0
+} */
+.home_first:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 25vw;
+  background-image:url(../static/tmp_desing/other/home_bg.jpg);
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.home_first_block{
+  height: 25vw;
+  width: 70%;
+  background: #032838;
+  position: relative;
+  margin: 0 auto;
+  top: 20%;
+}
+.home_heading {
+  font-family: 'Montserrat', monospace;
+  font-size: 4vw;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  top: 15%;
+  letter-spacing: 0.05em;
+  z-index: 69;
+  text-align: center;
+  text-transform: uppercase;
+}
+.home_subheading {
+  font-family: 'Montserrat', monospace;
+  font-size: 1.7vw;
+  color: #d4cccc;
+  font-weight: 400;
+  position: relative;
+  top: 18%;
+  letter-spacing: 0.05em;
+  z-index: 69;
+  text-align: center;
+  /* text-transform: uppercase; */
+}
+.home_subheading2 {
+  font-family: 'Montserrat', monospace;
+  font-size: 2vw;
+  color: #fff;
+  font-weight: 400;
+  position: relative;
+  top: 25%;
+  letter-spacing: 0.05em;
+  z-index: 69;
+  text-align: center;
+  text-transform: uppercase;
+}
+.home_meetup_button {
+  height: 4.5vw;
+  width: 20vw;
+  position: relative;
+  /* margin-top: 25%; */
+  z-index: 69;
+  display: flex;
+
+  margin: 0 auto;
+  margin-top: 16.8%;
+  background: var(--primary);
+  border: none;
+  font-family: 'Montserrat';
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+}
+
+/* PyData part goes here */
+
+.home_pydata {
+  height: 47vw;
+  width: 100%;
+  background-image:url(../static/tmp_desing/other/home_bg.jpg);
+  z-index: 69;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+.home_pydata_hr{
+  position: relative;
+  margin-top: 6%;
+  width: 6%;
+  height: 9px;
+  background: #f77c18;
+  border: none;
+  float: left;
+  left: 9%;
+}
+.home_pydata_heading{
+  font-size: 4vw;
+    color: #fff;
+    font-family: Montserrat;
+    letter-spacing: 0.04em;
+    float: left;
+    position: relative;
+    margin-top: 8%;
+    left: 3%;
+}
+.home_pydata_left {
+  width: 80%;
+  position: relative;
+  left: 0;
+}
+.home_pydata_left_para{
+  font-size: 1.2vw;
+  float: left;
+  position: absolute;
+  left: 11.5%;
+  color: #d4cccc;
+  font-family: Montserrat;
+  margin-top: 20%;
+  font-weight: lighter;
+  text-align: left;
+  line-height: 1.3em;
+}
+
+
+
+.home_pydata_left_button {
+  position: relative;
+  margin-top: 46%;
+  float: left;
+  left: -16%;
+  border-radius: 100px;
+  background: #f77c18;
+  color: #fff;
+  font-weight: 500;
+  padding: 1.5rem 4.5rem;
+  display: inline-flex;
+  transition: background .2s ease-in-out;
+  outline: none;
+  border: none;
+  font-size: 1.2vw;
+  font-family: Montserrat;
+}
+.home_pydata_social {
+  position: relative;
+  margin-left: -33%;
+  list-style: none;
+  margin-top: 39%;
+  float: left;
+  display: inline-flex;
+}
+.home_pydata_social > li {
+  padding-right: 40px;
+  color: #fff;
+}
+
+.svg_1 {
+  position: relative;
+  margin-top: -2.65%;
+  float: right;
+  right: -10%;
+}
+/* .svg_2{
+  position: relative;
+  float: right;
+  margin-top: 31.5vw;
+  right: 0;
+} */
+
+/* PyData Delhi part goes here */
+
+.home_pydata_delhi{
+  height: 60vw;
+width: 100%;
+background: #fff;
+position: relative;
+}
+/* .svg_2 {
+    left: -27rem;
+    position: relative;
+    width: 604px;
+    height: 684px;
+} */
+.home_pydata_delhi_heading{
+  font-size: 4vw;
+  color: #1a2b3b;
+  font-family: Montserrat;
+  letter-spacing: 0.03em;
+  /* text-transform: uppercase; */
+  font-weight: 800;
+  position: relative;
+  top: 9%;
+  left: 9%;
+  z-index: 70;
+}
+
+.home_pydata_delhi_heading:before{
+  content: "";
+  height: 100px;
+  width: 1.5px;
+  background: #ccc1b5;
+  position: absolute;
+  top: -110px;
+  left: 6%;
+  z-index: 2;
+
+}
+
+.home_pydata_delhi_heading > span{
+  font-weight: 400;
+}
+.home_pydata_delhi_left{
+  width: 50%;
+  height: 76%;
+  top: 5%;
+  position: relative;
+  float: left;
+  /* background: #efe3d4; */
+  background: #f3ece4;
+}
+.home_pydata_delhi_left_p {
+  color: #192b3b;
+  text-align: left;
+  width: 65%;
+  position: relative;
+  left: 18.5%;
+  font-size: 1vw;
+  top:12%;
+}
+
+#home_pydata_delhi_left_button {
+  position: relative;
+    margin-top: 30%;
+    left: -25%;
+    font-size: 1.1vw;
+    font-family: Montserrat;
+    font-weight: 500;
+    border-radius: 100px;
+     padding: 1.6rem 4.5rem;
+     display: inline-flex;
+     transition: background .2s ease-in-out;
+     outline: none;
+     margin-left: 2%;
+}
+.home_pydata_delhi_left_button1{
+  background: #192b3b;
+  color: #fff;
+  border: none;
+}
+.home_pydata_delhi_left_button2 {
+  background: transparent;
+  color: #192b3b;
+  border: 2px solid #192b3b;
+}
+
+
+.home_pydata_delhi_right{
+  width: 50%;
+  height: 90%;
+  position: relative;
+  float: right;
+
+}
+.home_pydata_delhi_right_image{
+    background-size: cover;
+    /* position: absolute; */
+    background-repeat: no-repeat;
+    height: 70%;
+    margin-top: 14%;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+.home_pydata_delhi_left_social {
+  position: relative;
+  list-style: none;
+  margin-top: 20%;
+  float: left;
+  display: inline-flex;
+  left: 14%;
+}
+.home_pydata_delhi_left_social > li {
+  padding-right: 40px;
+  color: #192b3b;
+}
+
+
+/* CFP part goes here */
+.home_pydata_cfp{
+  height: 45vw;
+  width: 100%;
+  background: #fff;
+}
+.home_pydata_cfp_heading{
+  margin: 0 auto;
+position: relative;
+text-align: center;
+font-family: Montserrat;
+font-size: 3vw;
+color: #182b3b;
+font-weight: 600;
+}
+
+.home_pydata_cfp_list{
+  list-style: none;
+margin: 0 auto;
+text-align: center;
+display: inline-flex;
+/* width: 80%; */
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 2%;
+
+}
+.home_pydata_cfp_list_data{
+
+  display: inline-flex;
+position: relative;
+padding-left: 10%;
+padding-right: 10%;
+margin-top: 4%;
+}
+.home_pydata_cfp_image{
+  height: 120px;
+}
+
+
+.home_pydata_cfp_list_div > p{
+  font-size: 0.9vw;
+  font-family: Montserrat;
+  padding-top: 20px;
+  color: #172b3b;
+}
+.home_pydata_cfp_list_div > h3{
+  font-family: Montserrat;
+  color: #172b3b;
+  font-size: 1.3vw;
+  position: relative;
+  top: 5%;
+  padding-bottom: 30px;
+
+}
+.home_pydata_cfp> hr{
+  width: 30%;
+height: 3px;
+background-color: #172b3b;
+border: none;
+position: relative;
+top: 2%;
+}
+.home_pydata_cfp > button {
+  position: relative;
+  border-radius: 100px;
+  background: #172b3b;
+  color: #fff;
+  font-weight: 500;
+  padding: 1.5rem 4.5rem;
+  display: inline-flex;
+  transition: background .2s ease-in-out;
+  outline: none;
+  border: none;
+  font-size: 1.2vw;
+  font-family: Montserrat;
+  margin-top: 6%;
+  left: 40%;
 }
