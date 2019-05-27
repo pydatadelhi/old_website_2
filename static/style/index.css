@@ -73,72 +73,131 @@ p {
  App.vue style
 **/
 
-#top {
-  top:0px;
-  min-height:120px;
-  width:100%;
-  padding-top:0px;
-  background-color: #000000;
-  border-bottom:1px solid rgba(20,20,20,0.15);
+/* navbar style */
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #555;
 }
 
-#top-logo {
-  width:140px;
-  margin: 5px, 5px, 5px, 5px;
+a {
+  color: #000;
+}
+
+/* header */
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  padding-top: 10px;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.header li a {
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  color: white;
+}
+
+.header .logo {
+  display: block;
   float: left;
-  background: #000000;
+}
+ .header .logo img {
+  height: 70px;
+  padding-left: 30px;
 }
 
-#top-logo img{
-  width:100%;
-  background: #000000;
-}
+/* menu */
 
-.logo 
- { 
-    width: 150px;
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+  line-height: 70px;
+  vertical-align: middle;
 }
+.router-link-exact-active { 
+    font-weight: bold;
+}
+/* menu icon */
 
-.menu-icon{
-  height:40px;
-  width:calc(100% - 3px);
-  line-height:40px;
-  font-size:18px;
-  text-align:left;
-  padding-left:3px;
+.header .menu-icon {
   cursor: pointer;
-  color: var(--secondary);
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
 }
 
-.menu-icon:hover{
-  background-color:var(--secondary);
-  color:var(--secondaryText);
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
 }
 
-#top-menu{
-  margin-top:-20px;
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
 }
 
-.menu {
-  padding: 0px;
-  margin:0px;
-  margin-top: 0px;
-  list-style:none;
-  margin-bottom:3px;
+.header .menu-icon .navicon:before {
+  top: 5px;
 }
 
-.menu li {
-  height:40px;
-  line-height:40px;
-  padding-left: 3px;
-  margin-top:5px;
+.header .menu-icon .navicon:after {
+  top: -5px;
 }
 
-.menu li:hover {
-  background-color: var(--primary);
-  color: var(--primaryText);
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
 }
 
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
 
 /* CSS goes here for Home Route */
 
@@ -644,6 +703,27 @@ font-size: 1.2vw;
 font-family: Montserrat;
 padding: 1.5rem 7rem;
 }
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    /* padding: 0px 30px; */
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+/* end navbar style */
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 body {
   margin: 0;
@@ -671,4 +751,44 @@ body {
 .spacing {
   margin-right: 5px;
   display: inline;
+}
+
+/* ------------------------------------------------------------------ */
+/* footer css */
+
+.footer-distributed-bottom 
+ { 
+    color: white;
+    background-color: #111216;
+    width: 100%;
+    height: 45px;
+    position: absolute;
+	bottom: 0;
+  line-height: 45px;
+  vertical-align: middle;
+}
+
+.footer-bottom-text
+ {
+	text-align: left;
+	text-justify: left;
+	vertical-align: bottom;
+	padding-left: 30px;
+	float: left;
+}
+
+.footer-icons {
+ float: right;
+margin-right: 30px;
+}
+
+.footer-icons a 
+ { 
+    display: inline-block;
+    cursor: pointer;
+	font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
 }
