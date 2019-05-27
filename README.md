@@ -146,7 +146,7 @@ It can't get better then this, your pull request will be really appreciated by t
 PyData - Delhi has members and contributors around Delhi and the world,  constantly improving the community and helping others as well to do so. To get in touch with the community, you can use the following communication channels.
 
 **Meetup**: [https://www.meetup.com/PyDataDelhi/](https://www.meetup.com/PyDataDelhi/) <br>
-**Twitter**: [https://twitter.com/meilix_](https://twitter.com/meilix_) <br>
+**Twitter**: [https://twitter.com/PyDataDelhi](https://twitter.com/PyDataDelhi) <br>
 **Facebook**: [http://facebook.com/pydatadelhi](http://facebook.com/pydatadelhi) <br>
 **Youtube**: [https://www.youtube.com/channel/UCz_xSLNdtnkDsVTuYuLprMg](https://www.youtube.com/channel/UCz_xSLNdtnkDsVTuYuLprMg) <br>
 **Github**: [https://github.com/pydatadelhi](https://github.com/pydatadelhi) <br>
