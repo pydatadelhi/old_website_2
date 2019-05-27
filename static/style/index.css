@@ -36,7 +36,7 @@ html {
   background-color: var(--background);
   color: var(--backgroundText);
   font-size: var(--body-size);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat';
   height: 100%;
   width: 100%;
   overflow-x: hidden;
@@ -58,13 +58,14 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0px;
-  font-family: 'Roboto-Slab', sans-serif;
+
+  font-family: 'Montserrat';
 }
 
 p {
   font-size: var(--body-size);
   letter-spacing: var(--body-spacing);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat';
   margin: 0px;
   padding: 0px;
 }
@@ -105,6 +106,7 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   text-decoration: none;
+  color: #bbb
 }
 
 .header li a:hover,
@@ -127,8 +129,10 @@ a {
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
-  line-height: 70px;
+  line-height: 24px;
   vertical-align: middle;
+  padding-right: 20px;
+  font-family: 'Montserrat';
 }
 .router-link-exact-active { 
     font-weight: bold;
@@ -145,7 +149,7 @@ a {
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: #fff;
   display: block;
   height: 2px;
   position: relative;
@@ -155,7 +159,7 @@ a {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: #fff;
   content: '';
   display: block;
   height: 100%;
@@ -198,6 +202,28 @@ a {
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
+
+@media only screen and (min-width: 800px) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    /* padding: 0px 30px; */
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+	line-height: 70px;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+/* end navbar style */
+
+
 
 /* CSS goes here for Home Route */
 
@@ -703,55 +729,8 @@ font-size: 1.2vw;
 font-family: Montserrat;
 padding: 1.5rem 7rem;
 }
-/* 48em = 768px */
 
-@media (min-width: 48em) {
-  .header li {
-    float: left;
-  }
-  .header li a {
-    /* padding: 0px 30px; */
-  }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  .header .menu-icon {
-    display: none;
-  }
-}
 
-/* end navbar style */
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans', sans-serif;
-  color: #333;
-}
-.top {
-  width: 100%;
-  height: 100px;
-  background-color: yellowgreen;
-}
-.navbar {
-  margin-top: 0%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-.f {
-  float: right;
-  margin-top: 20px;
-  padding: 5px, 5px;
-}
-.spacing {
-  margin-right: 5px;
-  display: inline;
-}
 
 /* ------------------------------------------------------------------ */
 /* footer css */
@@ -762,7 +741,7 @@ body {
     background-color: #111216;
     width: 100%;
     height: 45px;
-    position: absolute;
+    position: relative;
 	bottom: 0;
   line-height: 45px;
   vertical-align: middle;
