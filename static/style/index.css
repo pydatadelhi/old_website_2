@@ -36,12 +36,18 @@ html {
   background-color: var(--background);
   color: var(--backgroundText);
   font-size: var(--body-size);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat';
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0px;
   padding: 0px;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -52,13 +58,14 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0px;
-  font-family: 'Roboto-Slab', sans-serif;
+
+  font-family: 'Montserrat';
 }
 
 p {
   font-size: var(--body-size);
   letter-spacing: var(--body-spacing);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat';
   margin: 0px;
   padding: 0px;
 }
@@ -67,99 +74,888 @@ p {
  App.vue style
 **/
 
-#top {
-  top:0px;
-  min-height:120px;
-  width:100%;
-  padding-top:0px;
-  background-color: #000000;
-  border-bottom:1px solid rgba(20,20,20,0.15);
-}
-
-#top-logo {
-  width:140px;
-  margin: 5px, 5px, 5px, 5px;
-  float: left;
-  background: #000000;
-}
-
-#top-logo img{
-  width:100%;
-  background: #000000;
-}
-
-.logo 
- { 
-    width: 150px;
-}
-
-.menu-icon{
-  height:40px;
-  width:calc(100% - 10px);
-  line-height:40px;
-  font-size:18px;
-  text-align:left;
-  padding-left:10px;
-  cursor: pointer;
-  color: var(--secondary);
-}
-
-.menu-icon:hover{
-  background-color:var(--secondary);
-  color:var(--secondaryText);
-}
-
-#top-menu{
-  margin-top:-20px;
-}
-
-.menu {
-  padding: 0px;
-  margin:0px;
-  margin-top: 0px;
-  list-style:none;
-  margin-bottom:10px;
-}
-
-.menu li {
-  height:40px;
-  line-height:40px;
-  padding-left: 10px;
-  margin-top:5px;
-}
-
-.menu li:hover {
-  background-color: var(--primary);
-  color: var(--primaryText);
-}
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+/* navbar style */
 body {
   margin: 0;
-  padding: 0;
-  font-family: 'Open Sans', sans-serif;
-  color: #333;
+  font-family: Helvetica, sans-serif;
+  background-color: #555;
 }
-.top {
+
+a {
+  color: #000;
+}
+
+/* header */
+
+.header {
+  position: fixed;
   width: 100%;
-  height: 100px;
-  background-color: yellowgreen;
+  z-index: 3;
+  padding-top: 10px;
 }
-.navbar {
-  margin-top: 0%;
+
+.header ul {
   margin: 0;
   padding: 0;
+  list-style: none;
   overflow: hidden;
-  background-color: #333;
 }
-.f {
+
+.header li a {
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: #bbb
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  color: white;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+}
+ .header .logo img {
+  height: 70px;
+  padding-left: 30px;
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+  line-height: 24px;
+  vertical-align: middle;
+  padding-right: 20px;
+  font-family: 'Montserrat';
+}
+.router-link-exact-active {
+    font-weight: bold;
+}
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
   float: right;
-  margin-top: 20px;
-  padding: 5px, 5px;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
 }
-.spacing {
-  margin-right: 5px;
-  display: inline;
+
+.header .menu-icon .navicon {
+  background: #fff;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #fff;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+@media only screen and (min-width: 800px) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    /* padding: 0px 30px; */
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+	line-height: 70px;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+/* end navbar style */
+
+
+
+/* CSS goes here for Home Route */
+
+.home_first {
+
+  height:58vw;
+  width: 100%;
+  /* background-image:url(../static/tmp_desing/other/home_bg.jpg); */
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  margin: 0;
+  text-align: left;
+  position: relative;
+}
+/* .home_first:before { */
+    /* content: "";
+    position: absolute;
+    width : 100%;
+    height: 47vw;
+    background: inherit;
+    z-index: 1; */
+    /* filter        : blur(2px);
+    -moz-filter   : blur(2px);
+    -webkit-filter: blur(2px);
+    -o-filter     : blur(2px); */
+    /* background-color: #9c9c9c; */
+    /* position: absolute;
+  	height: 67vw;
+  	content: "";
+    width: 100%;
+  	-webkit-width: 40%;
+  	background: rgba(10, 32, 37, 0.66);
+  	right: 0
+} */
+.home_first:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 25vw;
+  background-image:url(../static/tmp_desing/other/home_bg.jpg);
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.home_first_block{
+  height: 25vw;
+  width: 70%;
+  background: #032838;
+  position: relative;
+  margin: 0 auto;
+  top: 20%;
+}
+.home_heading {
+  font-family: 'Montserrat', monospace;
+  font-size: 4vw;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  top: 15%;
+  letter-spacing: 0.05em;
+  z-index: 69;
+  text-align: center;
+  text-transform: uppercase;
+}
+.home_subheading {
+  font-family: 'Montserrat', monospace;
+  font-size: 1.7vw;
+  color: #d4cccc;
+  font-weight: 400;
+  position: relative;
+  top: 18%;
+  letter-spacing: 0.05em;
+  z-index: 69;
+  text-align: center;
+  /* text-transform: uppercase; */
+}
+.home_subheading2 {
+  font-family: 'Montserrat', monospace;
+  font-size: 2vw;
+  color: #fff;
+  font-weight: 400;
+  position: relative;
+  top: 25%;
+  letter-spacing: 0.05em;
+  z-index: 69;
+  text-align: center;
+  text-transform: uppercase;
+}
+.home_meetup_button {
+  height: 4.5vw;
+  width: 20vw;
+  position: relative;
+  /* margin-top: 25%; */
+  z-index: 69;
+  display: flex;
+
+  margin: 0 auto;
+  margin-top: 16.8%;
+  background: var(--primary);
+  border: none;
+  font-family: 'Montserrat';
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+}
+
+/* PyData part goes here */
+
+.home_pydata {
+  height: 47vw;
+  width: 100%;
+  background-image:url(../static/tmp_desing/other/home_bg.jpg);
+  z-index: 69;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+.home_pydata_hr{
+  position: relative;
+  margin-top: 6%;
+  width: 6%;
+  height: 9px;
+  background: #f77c18;
+  border: none;
+  float: left;
+  left: 9%;
+}
+.home_pydata_heading{
+  font-size: 4vw;
+    color: #fff;
+    font-family: Montserrat;
+    letter-spacing: 0.04em;
+    float: left;
+    position: relative;
+    margin-top: 8%;
+    left: 3%;
+}
+.home_pydata_left {
+  width: 80%;
+  position: relative;
+  left: 0;
+}
+.home_pydata_left_para{
+  font-size: 1.2vw;
+  float: left;
+  position: absolute;
+  left: 11.5%;
+  color: #d4cccc;
+  font-family: Montserrat;
+  margin-top: 20%;
+  font-weight: lighter;
+  text-align: left;
+  line-height: 1.3em;
 }
 
 
+
+.home_pydata_left_button {
+  position: relative;
+  margin-top: 46%;
+  float: left;
+  left: -16%;
+  border-radius: 100px;
+  background: #f77c18;
+  color: #fff;
+  font-weight: 500;
+  padding: 1.5rem 4.5rem;
+  display: inline-flex;
+  transition: background .2s ease-in-out;
+  outline: none;
+  border: none;
+  font-size: 1.2vw;
+  font-family: Montserrat;
+}
+.home_pydata_social {
+  position: relative;
+  margin-left: -34%;
+  list-style: none;
+  margin-top: 39%;
+  float: left;
+  display: inline-flex;
+}
+.home_pydata_social > li {
+  padding-right: 40px;
+  color: #fff;
+}
+.home_pydata_social > li > a > i {
+  color: #fff;
+
+}
+
+.svg_1 {
+  position: relative;
+  margin-top: -2.9%;
+  float: right;
+  right: -10%;
+}
+/* .svg_2{
+  position: relative;
+  float: right;
+  margin-top: 31.5vw;
+  right: 0;
+} */
+
+/* PyData Delhi part goes here */
+
+.home_pydata_delhi{
+  height: 60vw;
+width: 100%;
+background: #fff;
+position: relative;
+}
+/* .svg_2 {
+    left: -27rem;
+    position: relative;
+    width: 604px;
+    height: 684px;
+} */
+.home_pydata_delhi_heading{
+  font-size: 4vw;
+  color: #1a2b3b;
+  font-family: Montserrat;
+  letter-spacing: 0.03em;
+  /* text-transform: uppercase; */
+  font-weight: 800;
+  position: relative;
+  top: 9%;
+  left: 9%;
+  z-index: 70;
+}
+
+.home_pydata_delhi_heading:before{
+  content: "";
+  height: 100px;
+  width: 1.5px;
+  background: #ccc1b5;
+  position: absolute;
+  top: -110px;
+  left: 6%;
+  z-index: 2;
+
+}
+
+.home_pydata_delhi_heading > span{
+  font-weight: 400;
+}
+.home_pydata_delhi_left{
+  width: 50%;
+  height: 76%;
+  top: 5%;
+  position: relative;
+  float: left;
+  /* background: #efe3d4; */
+  background: #f3ece4;
+}
+.home_pydata_delhi_left_p {
+  color: #192b3b;
+  text-align: left;
+  width: 65%;
+  position: relative;
+  left: 18.5%;
+  font-size: 1vw;
+  top:12%;
+}
+
+#home_pydata_delhi_left_button {
+  position: relative;
+margin-top: 30%;
+left: -28%;
+font-size: 1.1vw;
+font-family: Montserrat;
+font-weight: 500;
+border-radius: 100px;
+padding: 1.6rem 4.5rem;
+display: inline-flex;
+transition: background .2s ease-in-out;
+outline: none;
+margin-left: 1%;
+}
+.home_pydata_delhi_left_button1{
+  background: #192b3b;
+  color: #fff;
+  border: none;
+}
+.home_pydata_delhi_left_button2 {
+  background: transparent;
+  color: #192b3b;
+  border: 2px solid #192b3b;
+}
+
+
+.home_pydata_delhi_right{
+  width: 50%;
+  height: 90%;
+  position: relative;
+  float: right;
+
+}
+.home_pydata_delhi_right_image{
+    background-size: cover;
+    /* position: absolute; */
+    background-repeat: no-repeat;
+    height: 70%;
+    margin-top: 14%;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+.home_pydata_delhi_left_social {
+  position: relative;
+  list-style: none;
+  margin-top: 20%;
+  float: left;
+  display: inline-flex;
+  left: 14%;
+}
+.home_pydata_delhi_left_social > li {
+  padding-right: 40px;
+  color: #192b3b;
+}
+.home_pydata_delhi_left_social > li > a > i {
+  color: #192b3b;
+}
+
+
+/* CFP part goes here */
+.home_pydata_cfp{
+  height: 45vw;
+  width: 100%;
+  background: #fff;
+}
+.home_pydata_cfp_heading{
+  margin: 0 auto;
+position: relative;
+text-align: center;
+font-family: Montserrat;
+font-size: 3vw;
+color: #182b3b;
+font-weight: 600;
+}
+
+.home_pydata_cfp_list{
+  list-style: none;
+margin: 0 auto;
+text-align: center;
+display: inline-flex;
+/* width: 80%; */
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 2%;
+
+}
+.home_pydata_cfp_list_data{
+
+  display: inline-flex;
+position: relative;
+padding-left: 10%;
+padding-right: 10%;
+margin-top: 4%;
+}
+.home_pydata_cfp_image{
+  height: 120px;
+}
+
+
+.home_pydata_cfp_list_div > p{
+  font-size: 0.9vw;
+  font-family: Montserrat;
+  padding-top: 20px;
+  color: #172b3b;
+}
+.home_pydata_cfp_list_div > h3{
+  font-family: Montserrat;
+  color: #172b3b;
+  font-size: 1.3vw;
+  position: relative;
+  top: 5%;
+  padding-bottom: 30px;
+
+}
+.home_pydata_cfp> hr{
+  width: 30%;
+height: 3px;
+background-color: #172b3b;
+border: none;
+position: relative;
+top: 2%;
+}
+.home_pydata_cfp > button {
+  position: relative;
+  border-radius: 100px;
+  background: #172b3b;
+  color: #fff;
+  font-weight: 500;
+  padding: 1.5rem 4.5rem;
+  display: inline-flex;
+  transition: background .2s ease-in-out;
+  outline: none;
+  border: none;
+  font-size: 1.2vw;
+  font-family: Montserrat;
+  margin-top: 6%;
+  left: 40%;
+}
+
+/* Past COnference goes here */
+
+.home_pydata_past_conf{
+  width: 100%;
+  height:70vw;
+  background-image:url(../static/tmp_desing/other/home_bg.jpg);
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+.home_pydata_past_conf_heading {
+  font-size: 4vw;
+  color: #fff;
+  font-family: Montserrat;
+  letter-spacing: 0.02em;
+  /* text-transform: uppercase; */
+  font-weight: 800;
+  position: relative;
+  margin-top: 4%;
+  float: right;
+  right: 2.5%;
+  z-index: 70;
+}
+.home_pydata_past_conf_heading>span{
+  font-weight: 400;
+}
+.home_pydata_past_conf_hr{
+  position: relative;
+margin-top: 10%;
+width: 8%;
+height: 9px;
+background: #f77c18;
+border: none;
+float: right;
+right: 39%;
+
+}
+.past_conf_list{
+  position: relative;
+      text-align: center;
+      margin: 0 auto;
+      padding-left: 21px;
+      margin-top: 10%;
+}
+.past_conf_list_data{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.past_conf_list_data_content{
+
+}
+.past_conf_list_data_content > svg {
+
+    height: 42vw;
+    width: 27vw;
+    position: relative;
+}
+.past_conf_list_data_content > img{
+  height: 22vw;
+  width: 22vw;
+  position: absolute;
+  top: 15%;
+  left: 8%;
+  border: 5px double #f77c18;
+}
+.past_conf_list_data_content>button{
+  position: absolute;
+  margin-top: -40%;
+  left: 7.5%;
+  background: #f77c18;
+  color: #fff;
+  font-weight: 500;
+  padding: 1.5rem 4.5rem;
+  display: inline-flex;
+  transition: background .2s ease-in-out;
+  outline: none;
+  border: none;
+  font-size: 1.2vw;
+  font-family: Montserrat;
+  padding: 5% 22%;
+}
+
+/* ------------------------------------------------------------------ */
+/* past meetup css */
+
+.home_pydata_past_meetups{
+  height: 44vw;
+  width: 100%;
+  background: #fff;
+}
+.past_meetups_left{
+  position: relative;
+  height: 100%;
+  width: 45%;
+  float: left;
+
+}
+.past_meetups_right{
+  position: relative;
+  height: 53vw;
+  width: 55%;
+  float: right;
+  background: #f6f7f8;
+  margin-top: -7vw;
+}
+.past_meetups_right_heading{
+  font-family: 'Montserrat';
+    font-size: 4vw;
+    letter-spacing: 0.02em;
+    font-weight: 800;
+    position: relative;
+    left: 24%;
+    /* top: -5%; */
+    color: #233444;
+}
+.past_meetups_right_heading > span{
+  font-weight: 400;
+}
+.past_meetups_images_first{
+  position: relative;
+  display: initial;
+
+}
+.past_meetups_images_first_data{
+  position: relative;
+    height: 22vw;
+    width: 50%;
+    background: tomato;
+    display: inline-flex;
+}
+.past_meetups_images_first_data:nth-child(1){
+  top: 0;
+  float: left;
+  background-image:url(../static/tmp_desing/other/meetup_1.jpeg);
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  overflow:hidden;
+  transition: transform .5s, filter 1.5s ease-in-out
+}
+.past_meetups_images_first_data:nth-child(2){
+  top: -2.1%;
+  float: right;
+  background-image:url(../static/tmp_desing/other/meetup_3.jpeg);
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+  filter: saturate(20%);
+  overflow:hidden;
+  transition: transform .5s, filter 1.5s ease-in-out
+}
+.past_meetups_images_first_data:nth-child(3){
+  bottom: 0;
+  float: left;
+  background-image:url(../static/tmp_desing/other/meetup_5.jpeg);
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+  filter: saturate(20%);
+  overflow:hidden;
+  transition: transform .5s, filter 1.5s ease-in-out
+}
+.past_meetups_images_first_data:nth-child(4){
+  top: -2.1%;
+  float: right;
+  background-image:url(../static/tmp_desing/other/meetup_2.jpeg);
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  overflow:hidden;
+  transition: transform .5s, filter 1.5s ease-in-out
+}
+.past_meetups_images_first_data {
+  transition: transform .5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+}
+.past_meetups_images_first_data:nth-child(1):hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+.past_meetups_images_first_data:nth-child(2):hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+.past_meetups_images_first_data:nth-child(3):hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+.past_meetups_images_first_data:nth-child(4):hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+.meetup_content{
+  height: 10vw;
+width: 60%;
+background: #fff;
+margin-top: 20px;
+margin-bottom: 5px;
+/* border-bottom: 2px solid #223444; */
+text-align: center;
+    margin: 0 auto;
+    padding-top: 2em;
+
+}
+.meetup_content > hr {
+  height: 0.01px;
+  width: 35%;
+  margin-top: 30px;
+}
+
+.meetup_content > h4 {
+  font-family: Montserrat;
+color: #223444;
+font-size: 1.3rem;
+}
+.meetup_content > h3 {
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  color: #223444;
+}
+.meetup_content > h5 {
+  font-family: Montserrat;
+    font-size: 1.2rem;
+    color: #f77c17;
+}
+.check_meetup_button {
+  position: relative;
+  border-radius: 100px;
+  background: #f77c18;
+  color: #fff;
+  font-weight: 500;
+  padding: 1.5rem 4.5rem;
+  display: inline-flex;
+  transition: background .2s ease-in-out;
+  outline: none;
+  border: none;
+  font-size: 1.2vw;
+  font-family: Montserrat;
+  margin-top: 6%;
+  margin-left: 33%;
+}
+
+/* ------------------------------------------------------------------ */
+/* footer css */
+
+.footer-distributed-bottom
+ {
+    color: white;
+    background-color: #111216;
+    width: 100%;
+    height: 45px;
+    position: relative;
+	bottom: 0;
+  line-height: 45px;
+  vertical-align: middle;
+}
+
+.footer-bottom-text
+ {
+	text-align: left;
+	text-justify: left;
+	vertical-align: bottom;
+	padding-left: 30px;
+	float: left;
+}
+
+.footer-icons {
+ float: right;
+ margin-right: 30px;
+}
+
+.footer-icons a
+ {
+    display: inline-block;
+    cursor: pointer;
+	  font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
