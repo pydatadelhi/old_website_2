@@ -1,21 +1,32 @@
 <template>
 <div>
-    <div>
-        <div id="top">
-            <div id="top-logo">
-                <img src="../static/images/icons/mipmap-xxxhdpi.png">
-            </div>
-            <div id="top-menu">
-                <div class="menu-icon fas fa-bars" v-on:click="showMenu"></div>
-                <ul class="menu" v-if="allowMenu">
-                    <li v-for="(link, index) in links" :key="index">
-                        <router-link :to="link.to">
-                            <div>{{ link.name }}</div>
-                        </router-link>
-                    </li>
-                </ul>
-            </div>
+    <header class="header">
+        <a href="" class="logo">
+            <img src="../static/images/logo.png">
+        </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li v-for="(link, index) in links" :key="index">
+                <router-link :to="link.to">{{link.name}}</router-link>
+            </li>
+        </ul>
+    </header> 
+
+    <main>
+        <router-view/>
+    </main>
+
+    <footer class="footer-distributed-bottom">
+        <p class="footer-bottom-text">
+            <i class="far fa-copyright"></i> PyData Delhi 2019
+        </p>
+        <div class="footer-icons">
+            <a v-for="(link, index) in social" :key="index" :href="link.link">
+                <i :class="link.icon"></i>
+            </a>
         </div>
+
         <main>
             <router-view/>
         </main>
@@ -81,6 +92,8 @@
             <p class="footer-bottom-text">2019 | PyData Delhi | All Rights Reserved</p>
         </div>
     </div>
+
+    </footer>
 </div>
 </template>
 
@@ -138,12 +151,51 @@ export default {
           name: 'Contact',
           to: '/contact'
       }
+    ],
+    social: [
+      {
+        id: 0,
+        name: 'Twitter',
+        icon: 'fab fa-twitter',
+        link: 'https://twitter.com/PyDataDelhi'
+      },
+      {
+        id: 1,
+        name: 'Github',
+        icon: 'fab fa-github',
+        link: 'https://github.com/pydatadelhi'
+      },
+      {
+        id: 2,
+        name: 'Meetup',
+        icon: 'fab fa-meetup',
+        link: 'https://www.meetup.com/PyDataDelhi/'
+      },
+      {
+        id: 3,
+        name: 'Facebook',
+        icon: 'fab fa-facebook-f',
+        link: 'http://facebook.com/pydatadelhi'
+      },
+      {
+        id: 4,
+        name: 'Telegram',
+        icon: 'fab fa-telegram',
+        link: 'https://bit.do/joinpydd'
+      },
+      {
+        id: 5,
+        name: 'Youtube',
+        icon: 'fab fa-youtube',
+        link: 'https://www.youtube.com/channel/UCz_xSLNdtnkDsVTuYuLprMg'
+      }
     ]
   })
 }
 </script>
 
 <style scope>
+
 
 .credit
 {
@@ -297,4 +349,5 @@ export default {
         text-align: center;
     }
 }
+
 </style>

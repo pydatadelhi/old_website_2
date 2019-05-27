@@ -101,7 +101,7 @@ module.exports = (env, argv) => ({
   devServer: {
     compress: true,
     host: 'localhost',
-    https: true,
+    https:  false,
     open: true,
     overlay: true,
     port: 9000
