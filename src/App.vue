@@ -63,7 +63,7 @@
                     <a href="https://github.com/ramantehlan"><img class="credit" src="https://avatars0.githubusercontent.com/u/29037312?s=460&v=4"></a><!--Raman Tehlan-->
                     <a href="https://github.com/code-monk08"><img class="credit" src="https://avatars0.githubusercontent.com/u/19390263?s=460&v=4"></a><!--Mayank Singh-->
                     <a href="https://github.com/codekhal"><img class="credit" src="https://avatars0.githubusercontent.com/u/32578541?s=460&v=4"></a><!--Khushal Vyas-->
-                    <a href="https://github.com/sakshivij"><img class="credit" src="https://avatars0.githubusercontent.com/u/20201675?s=400&v=4"></a><!--Sakshi Vij-->
+                    <a href="https://github.com/neerajp99"><img class="credit" src="https://avatars1.githubusercontent.com/u/12716517?s=460&v=4"></a><!--Neeraj Pandey-->
                 </div>
                 <br>
                 <p class="footer-organization-about">
