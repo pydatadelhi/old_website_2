@@ -95,42 +95,46 @@ export default {
   },
   data: () => ({
     allowMenu: false,
-    links: [
+     links: [
       {
+        id: 0,
         name: 'Home',
         to: '/'
       },
       {
+        id: 1,
         name: 'Conference',
         to: '/conference'
       },
       {
+        id: 2,
         name: 'Archive',
         to: '/archive'
       },
       {
-        name: 'Blog',
-        to: '/blog'
+        id: 3,
+          name: 'Blog',
+          to: '/blog'
       },
       {
-        name: 'Sponsors',
-        to: '/sponsors'
+        id: 4,
+          name: 'Sponsors',
+          to: '/sponsors'
       },
       {
-        name: 'Volunteer',
-        to: '/volunteer'
+        id: 5,
+          name: 'Volunteer',
+          to: '/volunteer'
       },
       {
-        name: 'News',
-        to: '/news'
+        id: 6,
+          name: 'Team',
+          to: '/team'
       },
       {
-        name: 'Team',
-        to: '/team'
-      },
-      {
-        name: 'Contact',
-        to: '/contact'
+        id: 7,
+          name: 'Contact',
+          to: '/contact'
       }
     ]
   })
