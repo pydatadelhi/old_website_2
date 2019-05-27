@@ -11,7 +11,7 @@
         <br>
       </div>
   	</div>
-    <hr>
+
 
   <!-- Pydata page goes here -->
   <div class = "home_pydata">
@@ -146,6 +146,68 @@
        </ul>
 
     </div>
+</div>
+<!-- CFP part goes here -->
+
+<div class="home_pydata_past_meetups">
+	<div class="past_meetups_left">
+  <ul class="past_meetups_images_first">
+  <li class="past_meetups_images_first_data">
+
+  </li>
+  <li class="past_meetups_images_first_data">
+
+
+  </li>
+  <li class="past_meetups_images_first_data">
+
+
+  </li>
+  <li class="past_meetups_images_first_data">
+
+
+  </li>
+</ul>
+
+
+	</div>
+	<div class="past_meetups_right">
+    <h1 class = "past_meetups_right_heading"> Past <span>Meetups</span> </h1>
+    <br>
+   <a href = "#">  <div class = "meetup_content">
+      <h4>Saturday, May 11, 2019</h4>
+      <br>
+      <h3>PyData Delhi Meetup #31</h3>
+      <br>
+      <h5>UiPath Academy</h5>
+      <hr>
+    </div>
+    </a>
+    <a href = "#"><div class = "meetup_content">
+      <h4>Saturday, May 11, 2019</h4>
+      <br>
+      <h3>PyData Delhi Meetup #31</h3>
+      <br>
+      <h5>UiPath Academy</h5>
+      <hr>
+    </div></a>
+
+  <a href = "#">  <div class = "meetup_content">
+      <h4>Saturday, May 11, 2019</h4>
+      <br>
+      <h3>PyData Delhi Meetup #31</h3>
+      <br>
+      <h5>UiPath Academy</h5>
+
+    </div>
+    </a>
+    <button class = "check_meetup_button">
+      Check all meetups
+    </button>
+	</div>
+
+
+
 </div>
 
 
