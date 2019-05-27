@@ -1,17 +1,33 @@
 <template>
   <div>
-  <!-- Landing page goes here -->
+    <!-- Landing page goes here -->
+  <!-- <div class='bg'> -->
+        
+        <!-- </div> -->
     <div class = "home_first">
-      <div class = "home_first_block">
-        <h1 class = "home_heading">PyData <span>Delhi</span></h1>
-        <br>
-        <h2 class = "home_subheading"> A community of users and developers of the Python Scientific Stack in Delhi.</h2>
-        <br>
-        <img src="../../static/tmp_desing/other/landing.jpg" class = "home_first_image"/>
-        <button class = "home_meetup_button">join the meetup</button>
-        <br>
-      </div>
-  	</div>
+        <Object class='bg-left-top' data="../static/images/bg-left-top.svg" type="image/svg+xml"></object>
+        <Object class='bg-left-bottom' data="../static/images/bg-left-bottom.svg" type="image/svg+xml"></object>
+        <Object class='bg-right-top' data="../static/images/bg-right-top.svg" type="image/svg+xml"></object>
+        <Object class='bg-right-bottom' data="../static/images/bg-right-bottom.svg" type="image/svg+xml"></object>
+        <div class = "home_first_block">
+            <h1 class = "home_heading">PyData <span>Delhi</span></h1>
+            <h2 class = "home_subheading">
+                A community of users and developers of the Python Scientific Stack in Delhi.
+            </h2>
+            <!-- <button class = "home_meetup_button">join the meetup</button> -->
+        </div>
+        <!-- <div class = "home_first_block"> -->
+        <!--     <h1 class = "home_heading">PyData <span>Delhi</span></h1> -->
+        <!--     <br> -->
+        <!--     <h2 class = "home_subheading">  -->
+        <!--         A community of users and developers of the Python Scientific Stack in Delhi. -->
+        <!--     </h2> -->
+        <!--     <br> -->
+        <!--     <img src="../../static/tmp_desing/other/landing.jpg" class = "home_first_image"/> -->
+        <!--     <button class = "home_meetup_button">join the meetup</button> -->
+        <!--     <br> -->
+        <!-- </div> -->
+    </div>
 
 
   <!-- Pydata page goes here -->

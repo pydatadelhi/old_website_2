@@ -1,11 +1,12 @@
 <template>
 <div>
     <header class="header">
-        <a href="" class="logo">
-            <img src="../static/images/logo.png">
-        </a>
+        <!-- <a href="" class="logo"> -->
+            <!-- <img src="../static/images/logo.png"> -->
+        <!-- </a> -->
         <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <label class="menu-icon" for="menu-btn"><span class="navicon">
+            </span></label>
         <ul class="menu">
             <li v-for="(link, index) in links" :key="index">
                 <router-link :to="link.to">{{link.name}}</router-link>
