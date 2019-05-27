@@ -1,8 +1,8 @@
 <template>
    <div>
-      <h1>conference</h1>
       <!--this section contains info about pydata conferences-->
       <section>
+      <br>
         <p class="text">
          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum suscipit interdum. Pellentesque sed dui quis orci posuere venenatis. Sed sit amet nunc id ipsum tempor bibendum. In tincidunt sapien urna, a blandit sem cursus at. Donec augue nisi, maximus in aliquam eget, maximus quis diam. Integer erat turpis, elementum at nunc et, bibendum ornare lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum suscipit interdum. Pellentesque sed dui quis orci posuere venenatis. Sed sit amet nunc id ipsum tempor bibendum. In tincidunt sapien urna, a blandit sem cursus at. Donec augue nisi, maximus in aliquam eget, maximus quis.
          <br><br>
