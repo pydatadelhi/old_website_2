@@ -12,15 +12,15 @@
          <div class="cards-list">
             <div class="card 2019">
                <div class="card_image"> 
-                <a href="https://pydata.org/delhi2019/"><img src="https://i.redd.it/b3esnz5ra34y.jpg"/></a> 
-              </div>
+                <a href="https://pydata.org/delhi2019/"><img src="https://pbs.twimg.com/media/D7ElBz1UYAElQde?format=jpg&name=small"/></a> 
+              </div>  
                <div class="card_title title-white">
                   <p class="year">2019</p>
                </div>
             </div>
             <div class="card 2018">
                <div class="card_image">
-                  <a href="https://pydata.org/delhi2018/"><img src="https://i.redd.it/b3esnz5ra34y.jpg" /></a>
+                  <a href="https://pydata.org/delhi2018/"><img src="https://live.staticflickr.com/1868/44118460322_b55473148f_k.jpg" /></a>
                </div>
                <div class="card_title title-white">
                   <p class="year">2018</p>
@@ -28,7 +28,7 @@
             </div>
             <div class="card 2017">
                <div class="card_image">
-                  <a href="https://pydata.org/delhi2017/"><img src="https://i.redd.it/b3esnz5ra34y.jpg"/></a>
+                  <a href="https://pydata.org/delhi2017/"><img src="https://pbs.twimg.com/media/DIz7UXNVAAAR8UD?format=jpg&name=medium"/></a>
                </div>
                <div class="card_title title-white">
                   <p class="year">2017</p>
@@ -68,6 +68,7 @@ section
   border-radius: 20px;
   cursor: pointer;
   transition: 0.2s;
+  border: 1px solid black;
 }
 
 .card .card_image {
