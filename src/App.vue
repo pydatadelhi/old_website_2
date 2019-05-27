@@ -24,14 +24,16 @@
         <footer class="footer-distributed">
             <div class="footer-left">
                 <img src="static/images/logo.png" class="logo">
-                <p class="footer-organization-about">
+                <br> <br>
+                <p class="footer-organization-about" style="font-size: 17px;">
                     PyData Delhi brings together both users and developers of data analysis tools to share ideas and learn from each other. The goals are to provide data science enthusiasts, across various domains, a place to discuss how best to apply languages and tools to the challenges of data management, processing, analytics, and visualization.
                 </p>
+                <br> <br>
                     mail: <a href="mailto:pydatadelhi@gmail.com" target="_top">pydatadelhi@gmail.com</a>
                 <br>
             </div>
             <div class="footer-center">
-                <ul class="footer-center-links">
+                <ul class="footer-center-links" style="font-size: 16px;">
                     <li v-for="(link, index) in links" :key="index">
                         <router-link :to="link.to">
                             <div>
@@ -43,7 +45,7 @@
             </div>
             <div class="footer-right">
                 <p class="footer-organization-about">
-                    <span>Important Links</span>
+                    <span style="font-size: 18px;">Important Links</span>
                 </p>
                 <div class="footer-icons">
                     <a href="http://facebook.com/pydatadelhi"><i class="fab fa-facebook-f"></i></a> <!--facebook-->
@@ -53,9 +55,9 @@
                     <a href="https://www.youtube.com/channel/UCz_xSLNdtnkDsVTuYuLprMg"><i class="fab fa-youtube"></i></a> <!--youtube-->
                     <a href="https://bit.do/joinpydd"><i class="fab fa-telegram"></i></a> <!--telegram-->
                 </div> 
-                <br>
+                <br> <br>
                 <p class="footer-organization-about">
-                    <span>Credits</span>
+                    <span style="font-size: 18px;">Credits</span>
                 </p>
                 <div class="footer-icons">
                     <a href="https://github.com/MSanKeys963"><img class="credit" src="https://avatars3.githubusercontent.com/u/20305658?s=460&v=4"></a><!--Sanket Verma-->
@@ -65,9 +67,9 @@
                     <a href="https://github.com/codekhal"><img class="credit" src="https://avatars0.githubusercontent.com/u/32578541?s=460&v=4"></a><!--Khushal Vyas-->
                     <a href="https://github.com/neerajp99"><img class="credit" src="https://avatars1.githubusercontent.com/u/12716517?s=460&v=4"></a><!--Neeraj Pandey-->
                 </div>
-                <br>
+                <br> <br>
                 <p class="footer-organization-about">
-                    <span>Contribute</span>
+                    <span style="font-size: 17px;">Contribute</span>
                 </p>
                 <div class="footer-icons">
                     <a href="https://github.com/pydatadelhi/pydatadelhi.github.io"><i class="fas fa-code-branch"></i></a>
@@ -159,7 +161,6 @@ export default {
     margin-bottom: 5px;
 }
 
-
 .footer-distributed 
  { 
     background-color: #161822;
@@ -170,7 +171,7 @@ export default {
     bottom: 0;
     text-align: left;
     padding: 55px 50px;
-
+  
 }
 
 .footer-distributed-bottom 
@@ -222,7 +223,6 @@ export default {
  { 
     display: block;
     color: #ffffff;
-    vertical-align: middle;
     margin: 0;
 }
 
@@ -257,6 +257,7 @@ export default {
 .footer-distributed .footer-icons 
  { 
     margin-top: 25px;
+    margin-right: 20px;
 }
 
 .footer-distributed .footer-icons a 
@@ -273,6 +274,10 @@ export default {
     line-height: 35px;
     margin-right: 3px;
     margin-bottom: 5px;
+}
+.footer-icons a:hover {
+  opacity: 0.7%;
+  background: #55ACEE; 
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
