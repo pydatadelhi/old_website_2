@@ -1,35 +1,39 @@
 <template>
   <div>
-
     <div id="top">
+      
+<nav>
+  <div> 
+    <img src="static/images/logo.png" class="logo">
+  </div>
+  <div class="f">
+      <router-link class="spacing" v-for="routes in links" 
+      v-bind:key="routes.id"
+      :to="`${routes.to}`">{{routes.name}}</router-link>
+  </div>
+</nav>
 
-      <div id="top-logo">
-        <img src="../static/images/icons/mipmap-xxxhdpi.png">
-      </div>
-
-      <div id="top-menu">
+      <!-- <div id="top-menu">                                              /////Will make responsive in next commit
         <div class="menu-icon fas fa-bars" v-on:click="showMenu"></div>
         <ul class="menu" v-if="allowMenu">
           <li v-for="(link, index) in links" :key="index">
             <router-link :to="link.to"><div>{{ link.name }}</div></router-link>
           </li>
         </ul>
-      </div>
+      </div> -->
 
     </div>
 
-    <main>
+    <!-- <main>
       <router-view/>
-    </main>
+      <Navigation />
+      <router-link />
+    </main> -->
 
   </div>
 </template>
 
-
-
-
 <script>
-
 
 export default {
   methods: {
@@ -43,42 +47,46 @@ export default {
   },
   data: () => ({
     allowMenu: false,
-    links: [
+     links: [
       {
+        id: 0,
         name: 'Home',
         to: '/'
       },
       {
+        id: 1,
         name: 'Conference',
         to: '/conference'
       },
       {
+        id: 2,
         name: 'Archive',
         to: '/archive'
       },
       {
-        name: 'Blog',
-        to: '/blog'
+        id: 3,
+          name: 'Blog',
+          to: '/blog'
       },
       {
-        name: 'Sponsors',
-        to: '/sponsors'
+        id: 4,
+          name: 'Sponsors',
+          to: '/sponsors'
       },
       {
-        name: 'Volunteer',
-        to: '/volunteer'
+        id: 5,
+          name: 'Volunteer',
+          to: '/volunteer'
       },
       {
-        name: 'News',
-        to: '/news'
+        id: 6,
+          name: 'Team',
+          to: '/team'
       },
       {
-        name: 'Team',
-        to: '/team'
-      },
-      {
-        name: 'Contact',
-        to: '/contact'
+        id: 7,
+          name: 'Contact',
+          to: '/contact'
       }
     ]
   })
