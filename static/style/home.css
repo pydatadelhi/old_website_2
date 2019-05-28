@@ -1,4 +1,10 @@
 /* CSS goes here for Home Route */
+.icon1 {
+  height: 150px;
+  width: 320px;
+  margin-top: 0%;
+}
+
 .bg-left-top {
     position: absolute;
     height: 87vmin;
@@ -43,8 +49,8 @@
 }
 
 .home_first_block{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 0px;
+    padding-bottom: 65px;
     padding-left: 20vw;
     padding-right: 20vw;
 }
@@ -56,7 +62,7 @@
   color: #1e1e1e;
   font-weight: 600;
   position: relative;
-  top: 11%;
+  top: 25%;
   letter-spacing: 0.05em;
   z-index: 69;
   text-align: center;
@@ -72,7 +78,7 @@
   color: #1e1e1e;
   font-weight: 400;
   position: relative;
-  top: 12%;
+  top: 35%;
   letter-spacing: 0.05em;
   z-index: 69;
   text-align: center;
@@ -208,10 +214,10 @@
   left: 11.5%;
   color: #d4cccc;
   font-family: Montserrat;
-  margin-top: 20%;
-  font-weight: lighter;
+  margin-top: 17%;
+  font-weight: 500;
   text-align: left;
-  line-height: 1.3em;
+  line-height: 200%;
 }
 
 
@@ -322,6 +328,9 @@ position: relative;
   left: 18.5%;
   font-size: 1vw;
   top:12%;
+  font-weight: 400;
+  line-height: 250%;
+  font-size: 3vm;
 }
 
 #home_pydata_delhi_left_button {
@@ -342,11 +351,13 @@ margin-left: 1%;
   background: #192b3b;
   color: #fff;
   border: none;
+  top: 2%;
 }
 .home_pydata_delhi_left_button2 {
   background: transparent;
   color: #192b3b;
   border: 2px solid #192b3b;
+  top: 2%;
 }
 
 
@@ -374,6 +385,7 @@ margin-left: 1%;
   float: left;
   display: inline-flex;
   left: 14%;
+  top: 3%;
 }
 .home_pydata_delhi_left_social > li {
   padding-right: 40px;
@@ -424,13 +436,31 @@ margin-top: 4%;
 }
 
 
-.home_pydata_cfp_list_div > p{
+.home_pydata_cfp_list_div1 > p{
   font-size: 0.9vw;
   font-family: Montserrat;
   padding-top: 20px;
   color: #172b3b;
 }
-.home_pydata_cfp_list_div > h3{
+.home_pydata_cfp_list_div1 > h3{
+  font-family: Montserrat;
+  color: #172b3b;
+  font-size: 1.3vw;
+  position: relative;
+  top: 5%;
+  padding-bottom: 30px;
+
+}
+.home_pydata_cfp_list_div2 {
+  margin-left: 500px;
+}
+.home_pydata_cfp_list_div2 > p{
+  font-size: 0.9vw;
+  font-family: Montserrat;
+  padding-top: 20px;
+  color: #172b3b;
+}
+.home_pydata_cfp_list_div2 > h3{
   font-family: Montserrat;
   color: #172b3b;
   font-size: 1.3vw;
@@ -460,7 +490,7 @@ top: 2%;
   border: none;
   font-size: 1.2vw;
   font-family: Montserrat;
-  margin-top: 6%;
+  margin-top: 3%;
   left: 40%;
 }
 
