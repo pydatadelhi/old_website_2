@@ -1,16 +1,33 @@
 <template>
   <div>
-  <!-- Landing page goes here -->
+    <!-- Landing page goes here -->
+  <!-- <div class='bg'> -->
+        
+        <!-- </div> -->
     <div class = "home_first">
-      <div class = "home_first_block">
-        <h1 class = "home_heading">PyData Delhi</h1>
-        <br>
-        <h2 class = "home_subheading"> A community of users and developers of the Python Scientific Stack in Delhi.</h2>
-        <br>
-        <button class = "home_meetup_button">join the meetup</button>
-        <br>
-      </div>
-  	</div>
+        <Object class='bg-left-top' data="../static/images/bg-left-top.svg" type="image/svg+xml"></object>
+        <Object class='bg-left-bottom' data="../static/images/bg-left-bottom.svg" type="image/svg+xml"></object>
+        <Object class='bg-right-top' data="../static/images/bg-right-top.svg" type="image/svg+xml"></object>
+        <Object class='bg-right-bottom' data="../static/images/bg-right-bottom.svg" type="image/svg+xml"></object>
+        <div class = "home_first_block">
+            <h1 class = "home_heading">PyData <span>Delhi</span></h1>
+            <h2 class = "home_subheading">
+                A community of users and developers of the Python Scientific Stack in Delhi.
+            </h2>
+            <!-- <button class = "home_meetup_button">join the meetup</button> -->
+        </div>
+        <!-- <div class = "home_first_block"> -->
+        <!--     <h1 class = "home_heading">PyData <span>Delhi</span></h1> -->
+        <!--     <br> -->
+        <!--     <h2 class = "home_subheading">  -->
+        <!--         A community of users and developers of the Python Scientific Stack in Delhi. -->
+        <!--     </h2> -->
+        <!--     <br> -->
+        <!--     <img src="../../static/tmp_desing/other/landing.jpg" class = "home_first_image"/> -->
+        <!--     <button class = "home_meetup_button">join the meetup</button> -->
+        <!--     <br> -->
+        <!-- </div> -->
+    </div>
 
 
   <!-- Pydata page goes here -->
@@ -77,7 +94,7 @@
       <li class = "home_pydata_cfp_list_data">
          <div class = "home_pydata_cfp_list_div">
             <img src="../../static/tmp_desing/other/speaker.png" class = "home_pydata_cfp_image"/>
-            <h3 class = "">Talks</h3>
+            <h3 class = "">Submit a talk.</h3>
             <br>
             <p class = "">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
          </div>
@@ -85,7 +102,7 @@
       <li class = "home_pydata_cfp_list_data">
          <div class = "home_pydata_cfp_list_div">
             <img src="../../static/tmp_desing/other/workshop.png" class = "home_pydata_cfp_image"/>
-            <h3 class = "">Workshops</h3>
+            <h3 class = "">Suggest a topic.</h3>
             <br>
             <p class = "">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
          </div>
