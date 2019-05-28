@@ -2,7 +2,6 @@
   <div>
     <!-- Landing page goes here -->
     <div class = "home_first">
-        <img src="images/logo.png" class="icon1">
         <Object class='bg-left-top' data="images/bg-left-top.svg" type="image/svg+xml"></object>
         <Object class='bg-left-bottom' data="images/bg-left-bottom.svg" type="image/svg+xml"></object>
         <Object class='bg-right-top' data="images/bg-right-top.svg" type="image/svg+xml"></object>
@@ -17,40 +16,48 @@
     </div>
 
 
-  <!-- Pydata page goes here -->
-  <div class = "home_pydata">
-   <hr class = "home_pydata_hr">
-   <h1 class = "home_pydata_heading">
-      PyData
-   </h1>
-   <br>
-   <div class="home_pydata_left">
-      <p class = "home_pydata_left_para">
-         PyData conferences bring together users and developers of data analysis tools to share ideas and learn from each other.
-         The PyData community gathers to discuss how best to apply Python tools, as well as tools using R and Julia, 
-         to meet evolving challenges in data management, processing, analytics, and visualization.<br> <br>
-         We aim to be an accessible, community-driven conference, with tutorials for novices, advanced topical workshops for practitioners,
-         and opportunities for package developers and users to meet in person.<br>
-         For more information about the conference series, visit the website:
-      </p>
-      <br>
-      <a href="https://delhi.pydata.org"><button class = "home_pydata_left_button">Website</button></a>
-      <br>
-      <ul class = "home_pydata_social">
-         <li><a href="https://twitter.com/PyDataDelhi"><i class="fab fa-twitter fa-3x"></i></a></li>
-         <li><a href="https://www.youtube.com/channel/UCz_xSLNdtnkDsVTuYuLprMg"><i class="fab fa-youtube fa-3x"></i></a></li>
-         <li><a href="https://github.com/pydatadelhi"><i class="fab fa-github fa-3x"></i></a></li>
-         <li><a href="https://www.meetup.com/pro/pydata/"><i class="fab fa-meetup fa-3x"></i></a></li>
-      </ul>
-   </div>
-   <div class="home_pydata_right">
-      <div class="svg_1">
-         <svg xmlns="http://www.w3.org/2000/svg" width="459" height="239" viewBox="0 0 459 239" fill="#f77c18">
-            <path class="blob-shape" d="M1.53561257,0 L458.12641,0 C461.773868,71.7384575 420.478337,183.060211 311.475162,224.585557 C194.808755,269.032251 89.8950627,199.485285 47.8554028,150.197559 C11.1268941,107.139844 -2.14235785,50.799793 1.53561316,-8.15533587e-06 L1.53561257,0 Z" transform="translate(-968.000000, -3455.000000) translate(968.000000, 3455.000000)"></path>
-         </svg>
-      </div>
-   </div>
-</div>
+    <!-- Pydata page goes here -->
+    <div class = "home_pydata">
+        <!-- <hr class = "home_pydata_hr"> -->
+        <div class = "home_pydata_hr_wrap">
+            <div class = "home_pydata_hr"></div>
+            <br>
+            <h1 class = "home_pydata_heading"> PyData </h1>
+            <br>
+            <br>
+            <br>
+            <div class="home_pydata_left">
+                <p class = "home_pydata_left_para">
+                    PyData conferences bring together users and developers of data analysis tools to share ideas and learn from each other.
+                    The PyData community gathers to discuss how best to apply Python tools, as well as tools using R and Julia, 
+                    to meet evolving challenges in data management, processing, analytics, and visualization.<br> <br>
+                    We aim to be an accessible, community-driven conference, with tutorials for novices, advanced topical workshops for practitioners,
+                    and opportunities for package developers and users to meet in person.
+                    <br>
+                    <br>
+                    For more information about the conference series, visit the website
+                </p>
+                <br>
+                <br>
+                <a href="https://delhi.pydata.org">
+                    <button class = "home_pydata_left_button">Website</button>
+                </a>
+                <br>
+
+            </div>
+            <!-- </div> -->
+            <div class="home_pydata_right">
+                <div >
+                    <svg class="svg_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 459 239" fill="#f77c18">
+                    <path class="blob-shape" d="M1.53561257,0 L458.12641,0 C461.773868,71.7384575 420.478337,183.060211 311.475162,224.585557 C194.808755,269.032251 89.8950627,199.485285 47.8554028,150.197559 C11.1268941,107.139844 -2.14235785,50.799793 1.53561316,-8.15533587e-06 L1.53561257,0 Z" transform="translate(-968.000000, -3455.000000) translate(968.000000, 3455.000000)"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 <!-- Pydata Delhi page goes here -->
 
 <div class = "home_pydata_delhi">

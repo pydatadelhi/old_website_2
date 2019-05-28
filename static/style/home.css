@@ -1,9 +1,4 @@
 /* CSS goes here for Home Route */
-.icon1 {
-  height: 150px;
-  width: 320px;
-  margin-top: 0%;
-}
 
 .bg-left-top {
     position: absolute;
@@ -123,54 +118,13 @@
 
 
 
-.home_first_image{
-  position: relative;
-    height: 30vw;
-    width: 70%;
-    text-align: center;
-    margin: 0 auto;
-    left: 15%;
-    margin-top: 10%;
-    filter: sepia(70%);
-}
 
-.home_subheading2 {
-  font-family: 'Montserrat', monospace;
-  font-size: 2vw;
-  color: #fff;
-  font-weight: 400;
-  position: relative;
-  top: 25%;
-  letter-spacing: 0.05em;
-  z-index: 69;
-  text-align: center;
-  text-transform: uppercase;
-}
-.home_meetup_button {
-  height: 4.5vw;
-  width: 20vw;
-  position: relative;
-  /* margin-top: 25%; */
-  z-index: 69;
-  display: flex;
 
-  margin: 0 auto;
-  margin-top: -3%;
-  background: var(--primary);
-  border: none;
-  font-family: 'Montserrat';
-  font-size: 1.5vw;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #fff;
-  justify-content: center;
-  text-align: center;
-}
 
 /* PyData part goes here */
 
 .home_pydata {
-  height: 47vw;
+  font-size: 16px;
   width: 100%;
   background-image:url(../tmp_desing/other/home_bg.jpg);
   z-index: 69;
@@ -179,96 +133,84 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  text-align: center;
+  /* text-align: center; */
   background-repeat: no-repeat;
 }
-.home_pydata_hr{
+.home_pydata_hr_wrap{
+    padding-top: 7.188em;
+    padding-bottom: 7.188em;
+    padding-left: 10vw;
+
   position: relative;
-  margin-top: 6%;
-  width: 6%;
-  height: 9px;
+}
+.home_pydata_hr{
+  margin: 0;
+  width: 7.188em;
+  height: 0.563em;
   background: #f77c18;
   border: none;
-  float: left;
-  left: 9%;
 }
 .home_pydata_heading{
-  font-size: 4vw;
+  font-size: 4.688em;
     color: #fff;
     font-family: Montserrat;
     letter-spacing: 0.04em;
-    float: left;
-    position: relative;
-    margin-top: 8%;
-    left: 3%;
 }
 .home_pydata_left {
   width: 80%;
-  position: relative;
-  left: 0;
 }
 .home_pydata_left_para{
-  font-size: 1.2vw;
-  float: left;
-  position: absolute;
-  left: 11.5%;
+  font-size: 1.500em;
   color: #d4cccc;
   font-family: Montserrat;
-  margin-top: 17%;
-  font-weight: 500;
+  font-weight: 100;
   text-align: left;
-  line-height: 200%;
 }
 
-
-
 .home_pydata_left_button {
-  position: relative;
-  margin-top: 46%;
-  float: left;
-  left: -16%;
-  border-radius: 100px;
+  border-radius: 6.250em;
   background: #f77c18;
   color: #fff;
   font-weight: 500;
-  padding: 1.5rem 4.5rem;
+  padding: 1.313em 3.938em;
   display: inline-flex;
   transition: background .2s ease-in-out;
   outline: none;
   border: none;
-  font-size: 1.2vw;
+  font-size: 1.500em;
   font-family: Montserrat;
   cursor: pointer;
 }
-.home_pydata_social {
-  position: relative;
-  margin-left: -34%;
-  list-style: none;
-  margin-top: 39%;
-  float: left;
-  display: inline-flex;
-}
-.home_pydata_social > li {
-  padding-right: 40px;
-  color: #fff;
-}
-.home_pydata_social > li > a > i {
-  color: #fff;
 
-}
-
-.svg_1 {
-  position: relative;
-  margin-top: -2.9%;
-  float: right;
-  right: -10%;
-}
-/* .svg_2{
-  position: relative;
-  float: right;
-  margin-top: 31.5vw;
+.home_pydata_right {
+  position: absolute;
   right: 0;
-} */
+  top: 0;
+  transform: translate(50%, 0)
+}
+.svg_1{
+    height: 20vmin;
+}
+
+@media only screen and (max-width: 700px) {
+    .home_pydata {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .home_pydata {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .home_pydata {
+        font-size: 10px;
+    }
+}
+
+
+
+
 
 /* PyData Delhi part goes here */
 
