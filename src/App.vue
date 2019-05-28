@@ -31,8 +31,9 @@
         <main>
             <router-view/>
         </main>
-    </div>
-    <div>
+    </footer>
+
+    
         <footer class="footer-distributed">
             <div class="footer-left">
                 <img src="static/images/logo.png" class="logo">
