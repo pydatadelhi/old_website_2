@@ -238,6 +238,7 @@
   border: none;
   font-size: 1.2vw;
   font-family: Montserrat;
+  cursor: pointer;
 }
 .home_pydata_social {
   position: relative;
@@ -330,7 +331,7 @@ position: relative;
   top:12%;
   font-weight: 400;
   line-height: 250%;
-  font-size: 3vm;
+  font-size: 4vm;
 }
 
 #home_pydata_delhi_left_button {
@@ -351,13 +352,15 @@ margin-left: 1%;
   background: #192b3b;
   color: #fff;
   border: none;
-  top: 2%;
+  top: 0%;
+  cursor: pointer;
 }
 .home_pydata_delhi_left_button2 {
   background: transparent;
   color: #192b3b;
   border: 2px solid #192b3b;
-  top: 2%;
+  top: 0%;
+  cursor: pointer;
 }
 
 
@@ -385,7 +388,7 @@ margin-left: 1%;
   float: left;
   display: inline-flex;
   left: 14%;
-  top: 3%;
+  top: 0%;
 }
 .home_pydata_delhi_left_social > li {
   padding-right: 40px;
@@ -533,7 +536,6 @@ background: #f77c18;
 border: none;
 float: right;
 right: 39%;
-
 }
 .past_conf_list{
   position: relative;
@@ -549,9 +551,6 @@ right: 39%;
   margin: 0 auto;
   margin-left: 10%;
   margin-right: 10%;
-}
-.past_conf_list_data_content{
-
 }
 .past_conf_list_data_content > svg {
 
