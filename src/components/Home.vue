@@ -1,14 +1,12 @@
 <template>
   <div>
     <!-- Landing page goes here -->
-  <!-- <div class='bg'> -->
         
-        <!-- </div> -->
     <div class = "home_first">
-        <Object class='bg-left-top' data="../static/images/bg-left-top.svg" type="image/svg+xml"></object>
-        <Object class='bg-left-bottom' data="../static/images/bg-left-bottom.svg" type="image/svg+xml"></object>
-        <Object class='bg-right-top' data="../static/images/bg-right-top.svg" type="image/svg+xml"></object>
-        <Object class='bg-right-bottom' data="../static/images/bg-right-bottom.svg" type="image/svg+xml"></object>
+        <Object class='bg-left-top' data="images/bg-left-top.svg" type="image/svg+xml"></object>
+        <Object class='bg-left-bottom' data="images/bg-left-bottom.svg" type="image/svg+xml"></object>
+        <Object class='bg-right-top' data="images/bg-right-top.svg" type="image/svg+xml"></object>
+        <Object class='bg-right-bottom' data="images/bg-right-bottom.svg" type="image/svg+xml"></object>
         <div class = "home_first_block">
             <h1 class = "home_heading">PyData <span>Delhi</span></h1>
             <h2 class = "home_subheading">
@@ -16,17 +14,6 @@
             </h2>
             <!-- <button class = "home_meetup_button">join the meetup</button> -->
         </div>
-        <!-- <div class = "home_first_block"> -->
-        <!--     <h1 class = "home_heading">PyData <span>Delhi</span></h1> -->
-        <!--     <br> -->
-        <!--     <h2 class = "home_subheading">  -->
-        <!--         A community of users and developers of the Python Scientific Stack in Delhi. -->
-        <!--     </h2> -->
-        <!--     <br> -->
-        <!--     <img src="../../static/tmp_desing/other/landing.jpg" class = "home_first_image"/> -->
-        <!--     <button class = "home_meetup_button">join the meetup</button> -->
-        <!--     <br> -->
-        <!-- </div> -->
     </div>
 
 
@@ -80,7 +67,7 @@
 
   </div>
 	<div class="home_pydata_delhi_right">
-    <img src="../../static/tmp_desing/other/pydd.jpeg" class = "home_pydata_delhi_right_image"/>
+    <img src="tmp_desing/other/pydd.jpeg" class = "home_pydata_delhi_right_image"/>
   </div>
 
 </div>
@@ -93,7 +80,7 @@
    <ul class = "home_pydata_cfp_list">
       <li class = "home_pydata_cfp_list_data">
          <div class = "home_pydata_cfp_list_div">
-            <img src="../../static/tmp_desing/other/speaker.png" class = "home_pydata_cfp_image"/>
+            <img src="tmp_desing/other/speaker.png" class = "home_pydata_cfp_image"/>
             <h3 class = "">Submit a talk.</h3>
             <br>
             <p class = "">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -101,7 +88,7 @@
       </li>
       <li class = "home_pydata_cfp_list_data">
          <div class = "home_pydata_cfp_list_div">
-            <img src="../../static/tmp_desing/other/workshop.png" class = "home_pydata_cfp_image"/>
+            <img src="tmp_desing/other/workshop.png" class = "home_pydata_cfp_image"/>
             <h3 class = "">Suggest a topic.</h3>
             <br>
             <p class = "">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
