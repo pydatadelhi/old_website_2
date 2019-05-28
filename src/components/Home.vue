@@ -1,8 +1,8 @@
 <template>
   <div>
     <!-- Landing page goes here -->
-    
     <div class = "home_first">
+        <img src="images/logo.png" class="icon1">
         <Object class='bg-left-top' data="images/bg-left-top.svg" type="image/svg+xml"></object>
         <Object class='bg-left-bottom' data="images/bg-left-bottom.svg" type="image/svg+xml"></object>
         <Object class='bg-right-top' data="images/bg-right-top.svg" type="image/svg+xml"></object>
@@ -26,8 +26,12 @@
    <br>
    <div class="home_pydata_left">
       <p class = "home_pydata_left_para">
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         PyData conferences bring together users and developers of data analysis tools to share ideas and learn from each other.
+         The PyData community gathers to discuss how best to apply Python tools, as well as tools using R and Julia, 
+         to meet evolving challenges in data management, processing, analytics, and visualization.<br> <br>
+         We aim to be an accessible, community-driven conference, with tutorials for novices, advanced topical workshops for practitioners,
+         and opportunities for package developers and users to meet in person.<br>
+         For more information about the conference series, visit the website:
       </p>
       <br>
       <a href="https://delhi.pydata.org"><button class = "home_pydata_left_button">Website</button></a>
@@ -53,8 +57,11 @@
   <h1 class = "home_pydata_delhi_heading">PyData <span>Delhi</span> </h1>
 
   <div class="home_pydata_delhi_left">
-    <p class = "home_pydata_delhi_left_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doconsectetur adipisicing elit, sed do consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mieiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mi eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <br>
+    <p class = "home_pydata_delhi_left_p">
+       PyData Delhi brings together both users and developers of data analysis tools to share ideas and learn from each other. <br><br>
+       The goals are to provide data science enthusiasts, across various domains, a place to discuss how best to apply languages and tools to the challenges of data management, processing, analytics, and visualization.<br> <br>
+       Do follow us on our Social Handles:
+    </p> <br>
     <ul class = "home_pydata_delhi_left_social">
          <li><a href="https://twitter.com/PyDataDelhi"><i class="fab fa-twitter fa-3x"></i></a></li>
          <li><a href="https://www.youtube.com/channel/UCz_xSLNdtnkDsVTuYuLprMg"><i class="fab fa-youtube fa-3x"></i></a></li>
@@ -79,19 +86,22 @@
    <br>
    <ul class = "home_pydata_cfp_list">
       <li class = "home_pydata_cfp_list_data">
-         <div class = "home_pydata_cfp_list_div">
+         <div class = "home_pydata_cfp_list_div1">
             <img src="tmp_desing/other/speaker.png" class = "home_pydata_cfp_image"/>
             <h3 class = "">Submit a talk.</h3>
             <br>
-            <p class = "">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class = "">Want to speak at PyData Delhi 2019 Conference? <br> Hola! We would love to have you onboard!</p>
          </div>
       </li>
       <li class = "home_pydata_cfp_list_data">
-         <div class = "home_pydata_cfp_list_div">
+         <div class = "home_pydata_cfp_list_div2">
             <img src="tmp_desing/other/workshop.png" class = "home_pydata_cfp_image"/>
             <h3 class = "">Suggest a topic.</h3>
             <br>
-            <p class = "">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class = "">We’re looking for proposals on every aspect of data science such as:<br> Machine learning
+            , Deep learning 
+            , AI
+            , Development in languages used in data science (e.g. Python, R, Julia)</p>
          </div>
       </li>
    </ul>
