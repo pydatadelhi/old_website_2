@@ -497,273 +497,129 @@
 }
 
 
-/* Past COnference goes here */
+/* Past Conference goes here */
 
 .home_pydata_past_conf{
-  width: 100%;
-  height:70vw;
-  background-image:url(../tmp_desing/other/home_bg.jpg);
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  background-repeat: no-repeat;
+    font-size: 16px;
+    text-align: right;
+    padding-top: 6.250em;
+    padding-bottom: 6.250em;
+    color: #fff;
+    width: 100%;
+    /* height:70vw; */
+    background-image:url(../tmp_desing/other/home_bg.jpg);
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .home_pydata_past_conf_heading {
-  font-size: 4vw;
-  color: #fff;
-  font-family: Montserrat;
-  letter-spacing: 0.02em;
-  /* text-transform: uppercase; */
-  font-weight: 800;
-  position: relative;
-  margin-top: 4%;
-  float: right;
-  right: 2.5%;
-  z-index: 70;
-}
-.home_pydata_past_conf_heading>span{
-  font-weight: 400;
-}
-.home_pydata_past_conf_hr{
-  position: relative;
-margin-top: 10%;
-width: 8%;
-height: 9px;
-background: #f77c18;
-border: none;
-float: right;
-right: 39%;
-}
-.past_conf_list{
-  position: relative;
-      text-align: center;
-      margin: 0 auto;
-      padding-left: 21px;
-      margin-top: 10%;
-}
-.past_conf_list_data{
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  margin: 0 auto;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-.past_conf_list_data_content > svg {
-
-    height: 42vw;
-    width: 27vw;
-    position: relative;
-}
-.past_conf_list_data_content > img{
-  height: 22vw;
-  width: 22vw;
-  position: absolute;
-  top: 15%;
-  left: 8%;
-  border: 5px double #f77c18;
-}
-.past_conf_list_data_content>button{
-  position: absolute;
-  margin-top: -40%;
-  left: 7.5%;
-  background: #f77c18;
-  color: #fff;
-  font-weight: 500;
-  padding: 1.5rem 4.5rem;
-  display: inline-flex;
-  transition: background .2s ease-in-out;
-  outline: none;
-  border: none;
-  font-size: 1.2vw;
-  font-family: Montserrat;
-  padding: 5% 22%;
-}
-
-/* ------------------------------------------------------------------ */
-/* past meetup css */
-
-.home_pydata_past_meetups{
-  height: 44vw;
-  width: 100%;
-  background: #fff;
-}
-.past_meetups_left{
-  position: relative;
-  height: 100%;
-  width: 45%;
-  float: left;
-
-}
-.past_meetups_right{
-  position: relative;
-  height: 53vw;
-  width: 55%;
-  float: right;
-  background: #f6f7f8;
-  margin-top: -7vw;
-}
-.past_meetups_right_heading{
-  font-family: 'Montserrat';
-    font-size: 4vw;
+    font-size: 3.750em;
+    font-family: Montserrat;
     letter-spacing: 0.02em;
+    padding-right: 10vw;
     font-weight: 800;
     position: relative;
-    left: 24%;
-    /* top: -5%; */
-    color: #233444;
+    z-index: 70;
 }
-.past_meetups_right_heading > span{
-  font-weight: 400;
+.home_pydata_past_conf_heading>span{
+    font-weight: 400;
 }
-.past_meetups_images_first{
-  position: relative;
-  display: initial;
-
+.home_pydata_past_conf_hr{
+    position: relative;
+    width: 142px;
+    height: 0.563em;
+    background: #f77c18;
+    float: right;
+    right: calc(408px + 10vw);
 }
-.past_meetups_images_first_data{
-  position: relative;
-    height: 22vw;
-    width: 50%;
-    background: tomato;
-    display: inline-flex;
-}
-.past_meetups_images_first_data:nth-child(1){
-  top: 0;
-  float: left;
-  background-image:url(../tmp_desing/other/meetup_1.jpeg);
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  background-repeat: no-repeat;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
-  overflow:hidden;
-  transition: transform .5s, filter 1.5s ease-in-out
-}
-.past_meetups_images_first_data:nth-child(2){
-  top: -2.1%;
-  float: right;
-  background-image:url(../tmp_desing/other/meetup_3.jpeg);
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  background-repeat: no-repeat;
-  filter: saturate(20%);
-  overflow:hidden;
-  transition: transform .5s, filter 1.5s ease-in-out
-}
-.past_meetups_images_first_data:nth-child(3){
-  bottom: 0;
-  float: left;
-  background-image:url(../tmp_desing/other/meetup_5.jpeg);
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  background-repeat: no-repeat;
-  filter: saturate(20%);
-  overflow:hidden;
-  transition: transform .5s, filter 1.5s ease-in-out
-}
-.past_meetups_images_first_data:nth-child(4){
-  top: -2.1%;
-  float: right;
-  background-image:url(../tmp_desing/other/meetup_2.jpeg);
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  background-repeat: no-repeat;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
-  overflow:hidden;
-  transition: transform .5s, filter 1.5s ease-in-out
-}
-.past_meetups_images_first_data {
-  transition: transform .5s, filter 1.5s ease-in-out;
-  filter: grayscale(100%);
-}
-.past_meetups_images_first_data:nth-child(1):hover {
-  filter: grayscale(0);
-  transform: scale(1.1);
-}
-.past_meetups_images_first_data:nth-child(2):hover {
-  filter: grayscale(0);
-  transform: scale(1.1);
-}
-.past_meetups_images_first_data:nth-child(3):hover {
-  filter: grayscale(0);
-  transform: scale(1.1);
-}
-.past_meetups_images_first_data:nth-child(4):hover {
-  filter: grayscale(0);
-  transform: scale(1.1);
+.home_pydata_past_meetup_hr{
+    position: relative;
+    width: 142px;
+    height: 0.563em;
+    background: #f77c18;
+    float: right;
+    right: calc(292px + 10vw);
 }
 
-.meetup_content{
-  height: 10vw;
-width: 60%;
-background: #fff;
-margin-top: 20px;
-margin-bottom: 5px;
-/* border-bottom: 2px solid #223444; */
-text-align: center;
-    margin: 0 auto;
-    padding-top: 2em;
-
-}
-.meetup_content > hr {
-  height: 0.01px;
-  width: 35%;
-  margin-top: 30px;
+.past_conf_list {
+    text-align: left;
+    display: flex;
+    width: 100vw;
 }
 
-.meetup_content > h4 {
-  font-family: Montserrat;
-color: #223444;
-font-size: 1.3rem;
+.past_conf_item {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
-.meetup_content > h3 {
-  font-family: Montserrat;
-  font-size: 1.8rem;
-  color: #223444;
+
+.past_conf_item > h3 {
+    font-size: 2.000em;
+    font-family: Montserrat;
 }
-.meetup_content > h5 {
-  font-family: Montserrat;
-    font-size: 1.2rem;
+.past_conf_item > p {
+    font-size: 1.125em;
+    font-family: Montserrat;
+}
+.past_conf_item > a {
+    font-size: 1.125em;
     color: #f77c17;
+    font-family: Montserrat;
+    text-decoration: underline;
 }
-.check_meetup_button {
-  position: relative;
-  border-radius: 100px;
-  background: #f77c18;
-  color: #fff;
-  font-weight: 500;
-  padding: 1.5rem 4.5rem;
-  display: inline-flex;
-  transition: background .2s ease-in-out;
-  outline: none;
-  border: none;
-  font-size: 1.2vw;
-  font-family: Montserrat;
-  margin-top: 6%;
-  margin-left: 33%;
+#home_pydata_past_meetup{
+    background-image:none;
+    color: #172b3b;
 }
 
-
+@media only screen and (max-width: 1100px) {
+    .home_pydata_past_conf {
+        font-size: 14px;
+    }
+    .home_pydata_past_conf_hr{
+        width: 125px;
+        right: calc(360px + 10vw);
+    }
+    .home_pydata_past_meetup_hr{
+        width: 125px;
+        right: calc(256px + 10vw);
+    }
+}
+@media only screen and (max-width: 800px) {
+    .home_pydata_past_conf {
+        font-size: 10px;
+    }
+     .home_pydata_past_conf_hr{
+        width: 90px;
+        right: calc(257px + 10vw);
+    }
+    .home_pydata_past_meetup_hr{
+        width: 90px;
+        right: calc(183px + 10vw);
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .home_pydata_past_conf {
+        font-size: 8px;
+    }
+ .home_pydata_past_conf_hr{
+        width: 72px;
+        right: calc(204px + 10vw);
+    }
+.home_pydata_past_meetup_hr{
+        width: 72px;
+        right: calc(146px + 10vw);
+    }
+    
+}
+@media only screen and (max-width: 500px) {
+    .past_conf_list {
+        flex-direction: column;
+    }
+}
