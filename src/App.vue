@@ -55,7 +55,7 @@ export default {
         name: 'Conference',
         to: '/conference'
       },
-      {
+      /*{
         id: 2,
         name: 'Archive',
         to: '/archive'
@@ -64,12 +64,12 @@ export default {
         id: 3,
           name: 'Blog',
           to: '/blog'
-      },
+      },*/
       {
         id: 4,
           name: 'Sponsors',
           to: '/sponsors'
-      },
+      },/*
       {
         id: 5,
           name: 'Volunteer',
@@ -79,7 +79,7 @@ export default {
         id: 6,
           name: 'Team',
           to: '/team'
-      },
+      },*/
       {
         id: 7,
           name: 'Contact',
