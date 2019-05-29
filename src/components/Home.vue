@@ -62,7 +62,6 @@
 
 
 <!-- Pydata Delhi page goes here -->
-
 <div class = "home_pydata_delhi">
     <div class="home_pydata_delhi_left">
         <h1 class = "home_pydata_delhi_heading">PyData <span>Delhi</span> </h1>
@@ -102,49 +101,55 @@
 
 
 
-
-
-
-
-
-
-
 <!-- CFP part goes here -->
 <div class="home_pydata_cfp">
-   <h1 class = "home_pydata_cfp_heading">Want to speak at a PyData Delhi event?</h1>
-   <hr>
-   <br>
-   <ul class = "home_pydata_cfp_list">
-      <li class = "home_pydata_cfp_list_data">
-         <div class = "home_pydata_cfp_list_div1">
+    <h1 class = "home_pydata_cfp_heading">Want to speak at a PyData Delhi event?</h1>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <div class = "home_pydata_cfp_list">
+        <div class = "home_pydata_cfp_list_div">
+            <br>
+            <br>
             <img src="tmp_desing/other/speaker.png" class = "home_pydata_cfp_image"/>
+            <br>
+            <br>
             <h3 class = "">Submit a talk.</h3>
             <br>
-            <p class = "">Want to speak at PyData Delhi 2019 Conference? <br> Hola! We would love to have you onboard!</p>
-         </div>
-      </li>
-      <li class = "home_pydata_cfp_list_data">
-         <div class = "home_pydata_cfp_list_div2">
+            <p class = "">
+            Want to speak at PyData Delhi meetup? Send in your talk proposals below!</p>
+        </div>
+        <div class = "home_pydata_cfp_list_div">
+            <br>
+            <br>
             <img src="tmp_desing/other/workshop.png" class = "home_pydata_cfp_image"/>
+            <br>
+            <br>
             <h3 class = "">Suggest a topic.</h3>
             <br>
-            <p class = "">We’re looking for proposals on every aspect of data science such as:<br> Machine learning
-            , Deep learning 
-            , AI
-            , Development in languages used in data science (e.g. Python, R, Julia)</p>
-         </div>
-      </li>
-   </ul>
-   <br>
-   <button>
-   <a href="https://github.com/pydatadelhi/talks/issues" style="color: white">Submit an issue here</a>
-   </button>
+            <p class = "">
+            Have a Topic you want to see a talk or workshop on? Feel free to 
+            suggest it to us below!
+            </p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class='home_pydata_cfp_btn'>
+       <button>
+           <a href="https://github.com/pydatadelhi/talks/issues" style="color: white">
+               Submit an issue here
+           </a>
+       </button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
 </div>
-
-
-
-
-
 
 
 

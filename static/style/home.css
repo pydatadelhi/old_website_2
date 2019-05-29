@@ -223,7 +223,6 @@
     position: relative;
     display: flex;
     padding-top: 8.125em;
-    padding-bottom: 8.125em;
     font-size: 16px;
 }
 .home_pydata_delhi_heading{
@@ -374,105 +373,129 @@
 
 
 
-
-
 /* CFP part goes here */
 .home_pydata_cfp{
-  height: 45vw;
-  width: 100%;
-  background: #fff;
+    padding-top: 5.125em;
+    font-size: 16px;
+    width: 100%;
+    background: #fff;
 }
 .home_pydata_cfp_heading{
-  margin: 0 auto;
-position: relative;
-text-align: center;
-font-family: Montserrat;
-font-size: 3vw;
-color: #182b3b;
-font-weight: 600;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.225em;
+    color: #182b3b;
+    font-weight: 600;
+}
+.home_pydata_cfp> hr{
+    width: 27.938em;
+    height: 3px;
+    background-color: #172b3b;
+    border: none;
+    position: relative;
+    top: 2%;
 }
 
 .home_pydata_cfp_list{
-  list-style: none;
-margin: 0 auto;
-text-align: center;
-display: inline-flex;
-/* width: 80%; */
-margin-left: 10%;
-margin-right: 10%;
-margin-top: 2%;
-
+    display: flex;
+    text-align: center;
 }
-.home_pydata_cfp_list_data{
 
-  display: inline-flex;
-position: relative;
-padding-left: 10%;
-padding-right: 10%;
-margin-top: 4%;
-}
 .home_pydata_cfp_image{
-  height: 120px;
+    height: 7.500em;
 }
 
+.home_pydata_cfp_list_div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    position: relative;
+}
 
-.home_pydata_cfp_list_div1 > p{
-  font-size: 0.9vw;
-  font-family: Montserrat;
-  padding-top: 20px;
-  color: #172b3b;
+.home_pydata_cfp_list_div > p{
+    font-size: 1.063em;
+    font-family: Montserrat;
+    color: #172b3b;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
-.home_pydata_cfp_list_div1 > h3{
-  font-family: Montserrat;
-  color: #172b3b;
-  font-size: 1.3vw;
-  position: relative;
-  top: 5%;
-  padding-bottom: 30px;
+.home_pydata_cfp_list_div > h3{
+    font-family: Montserrat;
+    color: #172b3b;
+    font-size: 1.563em;
+}
 
+.home_pydata_cfp_btn {
+    width: 100%;
 }
-.home_pydata_cfp_list_div2 {
-  margin-left: 500px;
+.home_pydata_cfp_btn > button {
+    position: relative;
+    border-radius: 100px;
+    background: #172b3b;
+    color: #fff;
+    font-weight: 500;
+    padding: 1.5rem 4.5rem;
+    display: inline-flex;
+    transition: background .2s ease-in-out;
+    outline: none;
+    border: none;
+    font-size: 1.438em;
+    font-family: Montserrat;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
-.home_pydata_cfp_list_div2 > p{
-  font-size: 0.9vw;
-  font-family: Montserrat;
-  padding-top: 20px;
-  color: #172b3b;
-}
-.home_pydata_cfp_list_div2 > h3{
-  font-family: Montserrat;
-  color: #172b3b;
-  font-size: 1.3vw;
-  position: relative;
-  top: 5%;
-  padding-bottom: 30px;
 
+@media only screen and (max-width: 800px) {
+    .home_pydata_cfp {
+        font-size: 12px;
+    }
+    .home_pydata_cfp_btn > button {
+        padding: 1.5rem 3.5rem;
+    }
 }
-.home_pydata_cfp> hr{
-  width: 30%;
-height: 3px;
-background-color: #172b3b;
-border: none;
-position: relative;
-top: 2%;
+@media only screen and (max-width: 580px) {
+    .home_pydata_cfp {
+        font-size: 10px;
+    }
+    .home_pydata_cfp_btn > button {
+        padding: 1.5rem 2.5rem;
+    }
 }
-.home_pydata_cfp > button {
-  position: relative;
-  border-radius: 100px;
-  background: #172b3b;
-  color: #fff;
-  font-weight: 500;
-  padding: 1.5rem 4.5rem;
-  display: inline-flex;
-  transition: background .2s ease-in-out;
-  outline: none;
-  border: none;
-  font-size: 1.2vw;
-  font-family: Montserrat;
-  margin-top: 3%;
-  left: 40%;
+@media only screen and (max-width: 500px) {
+    .home_pydata_cfp {
+        font-size: 8px;
+    }
+    .home_pydata_cfp_list{
+        flex-direction: column;
+    }
+    .home_pydata_cfp_list_div > p{
+        padding-left: 30vw;
+        padding-right: 30vw;
+    }
 }
+@media only screen and (max-width: 400px) {
+    .home_pydata_cfp_heading{
+        font-size: 1.725em;
+    }
+    .home_pydata_cfp> hr{
+        width: 20.938em;
+    }
+}
+@media only screen and (min-width: 1350px) {
+    .home_pydata_cfp_list_div > p{
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+    .home_pydata_cfp_heading{ 
+        font-size: 3.000em;
+    }
+    .home_pydata_cfp> hr{
+        width: 35.938em;
+    }
+}
+
 
 /* Past COnference goes here */
 
