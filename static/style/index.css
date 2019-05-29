@@ -136,10 +136,11 @@ a {
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
-  line-height: 24px;
+  line-height: 32px;
   vertical-align: middle;
   padding-right: 20px;
   font-family: 'Montserrat';
+  font-size: 20px;
 }
 .router-link-exact-active {
     font-weight: bold;
@@ -154,7 +155,7 @@ a {
   padding: 24px 16px;
   margin-right: 20px;
   background: #ecebe3;
-  border: .5px solid #1e1e1e;
+  /* border: .5px solid #1e1e1e; */
   border-radius: 50%;
   /* padding: 38px 30px; */
   position: relative;
@@ -197,7 +198,7 @@ a {
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+  max-height: 270px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -280,4 +281,35 @@ a {
     text-align: center;
     margin-left: 12px;
     margin-right: 12px;
+}
+
+@media only screen and (max-width: 650px) {
+    .footer-distributed-bottom{
+
+          font-size: 18px;
+    }
+
+    .footer-bottom-text{ 
+
+          font-size: 14px;
+    }
+    .footer-icons a{
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .footer-distributed-bottom{
+
+          font-size: 14px;
+    }
+
+    .footer-bottom-text{ 
+
+          font-size: 10px;
+    }
+    .footer-icons a{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
