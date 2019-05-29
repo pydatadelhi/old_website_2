@@ -18,7 +18,6 @@
 
     <!-- Pydata page goes here -->
     <div class = "home_pydata">
-        <!-- <hr class = "home_pydata_hr"> -->
         <div class = "home_pydata_hr_wrap">
             <div class = "home_pydata_hr"></div>
             <br>
@@ -28,15 +27,20 @@
             <br>
             <div class="home_pydata_left">
                 <p class = "home_pydata_left_para">
-                    PyData conferences bring together users and developers of data analysis tools to share ideas and learn from each other.
-                    The PyData community gathers to discuss how best to apply Python tools, as well as tools using R and Julia, 
-                    to meet evolving challenges in data management, processing, analytics, and visualization.<br> <br>
-                    We aim to be an accessible, community-driven conference, with tutorials for novices, advanced topical workshops for practitioners,
+                    PyData conferences bring together users and developers of data analysis tools 
+                    to share ideas and learn from each other.
+                    The PyData community gathers to discuss how best to apply Python tools, 
+                    as well as tools using R and Julia, 
+                    to meet evolving challenges in data management, processing, analytics, and visualization.
+                    <br> <br>
+                    We aim to be an accessible, community-driven conference, with tutorials for novices, 
+                    advanced topical workshops for practitioners,
                     and opportunities for package developers and users to meet in person.
                     <br>
                     <br>
                     For more information about the conference series, visit the website
                 </p>
+                <br>
                 <br>
                 <br>
                 <a href="https://delhi.pydata.org">
@@ -45,7 +49,6 @@
                 <br>
 
             </div>
-            <!-- </div> -->
             <div class="home_pydata_right">
                 <div >
                     <svg class="svg_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 459 239" fill="#f77c18">
@@ -61,30 +64,50 @@
 <!-- Pydata Delhi page goes here -->
 
 <div class = "home_pydata_delhi">
-  <h1 class = "home_pydata_delhi_heading">PyData <span>Delhi</span> </h1>
-
-  <div class="home_pydata_delhi_left">
-    <p class = "home_pydata_delhi_left_p">
-       PyData Delhi brings together both users and developers of data analysis tools to share ideas and learn from each other. <br><br>
-       The goals are to provide data science enthusiasts, across various domains, a place to discuss how best to apply languages and tools to the challenges of data management, processing, analytics, and visualization.<br> <br>
-       Do follow us on our Social Handles:
-    </p> <br>
-    <ul class = "home_pydata_delhi_left_social">
-         <li><a href="https://twitter.com/PyDataDelhi"><i class="fab fa-twitter fa-3x"></i></a></li>
-         <li><a href="https://www.youtube.com/channel/UCz_xSLNdtnkDsVTuYuLprMg"><i class="fab fa-youtube fa-3x"></i></a></li>
-         <li><a href="https://github.com/pydatadelhi"><i class="fab fa-github fa-3x"></i></a></li>
-         <li><a href="https://www.meetup.com/pro/pydata/"><i class="fab fa-meetup fa-3x"></i></a></li>
-   </ul>
-    <br>
-    <button class = "home_pydata_delhi_left_button1" id = "home_pydata_delhi_left_button">Conference</button>
-    <a href="https://www.meetup.com/pro/pydata/"><button class = "home_pydata_delhi_left_button2" id = "home_pydata_delhi_left_button">Meetup</button></a>
-
-  </div>
-	<div class="home_pydata_delhi_right">
-    <a href="#"><img src="tmp_desing/other/pydd.jpeg" class = "home_pydata_delhi_right_image"/></a>
-  </div>
-
+    <div class="home_pydata_delhi_left">
+        <h1 class = "home_pydata_delhi_heading">PyData <span>Delhi</span> </h1>
+        <br>
+        <br>
+        <br>
+        <p class = "home_pydata_delhi_left_p">
+            PyData Delhi brings together both users and developers of data analysis 
+            tools to share ideas and learn from each other. 
+            <br><br>
+            The goals are to provide data science enthusiasts, across various domains, 
+            a place to discuss how best to apply languages and tools to the challenges of 
+            a place to discuss how best to apply languages and tools to the challenges of 
+            a place to discuss how best to apply languages and tools to the challenges of 
+            a place to discuss how best to apply languages and tools to the challenges of 
+            a place to discuss how best to apply languages and tools to the challenges of 
+            a place to discuss how best to apply languages and tools to the challenges of 
+            data management, processing, analytics, and visualization.
+            
+        </p> 
+        <br>
+        <br>
+        <br>
+        <br>
+            <a href="https://pydata.org/delhi2019">
+                <button class = "home_pydata_delhi_left_button1" id = "home_pydata_delhi_left_button">Conference</button>
+            </a>
+            <a href="https://www.meetup.com/pydatadelhi">
+                <button class = "home_pydata_delhi_left_button2" id = "home_pydata_delhi_left_button">Meetup</button>
+            </a>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
 </div>
+
+
+
+
+
+
+
+
+
 
 <!-- CFP part goes here -->
 <div class="home_pydata_cfp">
@@ -117,6 +140,15 @@
    <a href="https://github.com/pydatadelhi/talks/issues" style="color: white">Submit an issue here</a>
    </button>
 </div>
+
+
+
+
+
+
+
+
+
 <!-- Past Conference part goes here -->
 <div class="home_pydata_past_conf">
 <hr class = "home_pydata_past_conf_hr">
