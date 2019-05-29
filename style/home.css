@@ -1,4 +1,5 @@
 /* CSS goes here for Home Route */
+
 .bg-left-top {
     position: absolute;
     height: 87vmin;
@@ -29,54 +30,54 @@
 
 
 .home_first {
-  height:100vh;
-  width: 100%;
-  position: relative;
-  z-index: 1;
-  margin: 0;
-  text-align: left;
-  position: relative;
-  display: flex; 
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    height:100vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    text-align: left;
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .home_first_block{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 0px;
+    padding-bottom: 65px;
     padding-left: 20vw;
     padding-right: 20vw;
 }
 
 .home_heading {
-  font-family: 'Montserrat', monospace;
-  font-size: 52px;
-  /* color: #fff; */
-  color: #1e1e1e;
-  font-weight: 600;
-  position: relative;
-  top: 11%;
-  letter-spacing: 0.05em;
-  z-index: 69;
-  text-align: center;
-  /* text-transform: uppercase; */
+    font-family: 'Montserrat', monospace;
+    font-size: 52px;
+    /* color: #fff; */
+    color: #1e1e1e;
+    font-weight: 600;
+    position: relative;
+    top: 25%;
+    letter-spacing: 0.05em;
+    z-index: 69;
+    text-align: center;
+    /* text-transform: uppercase; */
 }
 .home_heading>span{
-  font-weight: 400;
+    font-weight: 400;
 }
 .home_subheading {
-  font-family: 'Montserrat', monospace;
-  font-size: 20px;
-  /* color: #d4cccc; */
-  color: #1e1e1e;
-  font-weight: 400;
-  position: relative;
-  top: 12%;
-  letter-spacing: 0.05em;
-  z-index: 69;
-  text-align: center;
-  /* text-transform: uppercase; */
+    font-family: 'Montserrat', monospace;
+    font-size: 20px;
+    /* color: #d4cccc; */
+    color: #1e1e1e;
+    font-weight: 400;
+    position: relative;
+    top: 35%;
+    letter-spacing: 0.05em;
+    z-index: 69;
+    text-align: center;
+    /* text-transform: uppercase; */
 }
 
 @media only screen and (max-width: 655px) {
@@ -117,624 +118,506 @@
 
 
 
-.home_first_image{
-  position: relative;
-    height: 30vw;
-    width: 70%;
-    text-align: center;
-    margin: 0 auto;
-    left: 15%;
-    margin-top: 10%;
-    filter: sepia(70%);
-}
 
-.home_subheading2 {
-  font-family: 'Montserrat', monospace;
-  font-size: 2vw;
-  color: #fff;
-  font-weight: 400;
-  position: relative;
-  top: 25%;
-  letter-spacing: 0.05em;
-  z-index: 69;
-  text-align: center;
-  text-transform: uppercase;
-}
-.home_meetup_button {
-  height: 4.5vw;
-  width: 20vw;
-  position: relative;
-  /* margin-top: 25%; */
-  z-index: 69;
-  display: flex;
 
-  margin: 0 auto;
-  margin-top: -3%;
-  background: var(--primary);
-  border: none;
-  font-family: 'Montserrat';
-  font-size: 1.5vw;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #fff;
-  justify-content: center;
-  text-align: center;
-}
 
 /* PyData part goes here */
 
 .home_pydata {
-  height: 47vw;
-  width: 100%;
-  background-image:url(../static/tmp_desing/other/home_bg.jpg);
-  z-index: 69;
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  background-repeat: no-repeat;
+    font-size: 16px;
+    width: 100%;
+    background-image:url(../tmp_desing/other/home_bg.jpg);
+    z-index: 69;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* text-align: center; */
+    background-repeat: no-repeat;
+}
+.home_pydata_hr_wrap{
+    padding-top: 7.188em;
+    padding-bottom: 7.188em;
+    padding-left: 10vw;
+    position: relative;
 }
 .home_pydata_hr{
-  position: relative;
-  margin-top: 6%;
-  width: 6%;
-  height: 9px;
-  background: #f77c18;
-  border: none;
-  float: left;
-  left: 9%;
+    margin: 0;
+    width: 7.188em;
+    height: 0.563em;
+    background: #f77c18;
+    border: none;
 }
 .home_pydata_heading{
-  font-size: 4vw;
+    font-size: 4.688em;
     color: #fff;
     font-family: Montserrat;
     letter-spacing: 0.04em;
-    float: left;
-    position: relative;
-    margin-top: 8%;
-    left: 3%;
 }
 .home_pydata_left {
-  width: 80%;
-  position: relative;
-  left: 0;
+    width: 80%;
 }
 .home_pydata_left_para{
-  font-size: 1.2vw;
-  float: left;
-  position: absolute;
-  left: 11.5%;
-  color: #d4cccc;
-  font-family: Montserrat;
-  margin-top: 20%;
-  font-weight: lighter;
-  text-align: left;
-  line-height: 1.3em;
+    font-size: 1.500em;
+    color: #d4cccc;
+    font-family: Montserrat;
+    font-weight: 100;
+    text-align: left;
 }
-
-
 
 .home_pydata_left_button {
-  position: relative;
-  margin-top: 46%;
-  float: left;
-  left: -16%;
-  border-radius: 100px;
-  background: #f77c18;
-  color: #fff;
-  font-weight: 500;
-  padding: 1.5rem 4.5rem;
-  display: inline-flex;
-  transition: background .2s ease-in-out;
-  outline: none;
-  border: none;
-  font-size: 1.2vw;
-  font-family: Montserrat;
-}
-.home_pydata_social {
-  position: relative;
-  margin-left: -34%;
-  list-style: none;
-  margin-top: 39%;
-  float: left;
-  display: inline-flex;
-}
-.home_pydata_social > li {
-  padding-right: 40px;
-  color: #fff;
-}
-.home_pydata_social > li > a > i {
-  color: #fff;
-
+    border-radius: 6.250em;
+    background: #f77c18;
+    color: #fff;
+    font-weight: 500;
+    /* padding: 1.313em 3.938em; */
+    padding: 1.5rem 4.5rem;
+    display: inline-flex;
+    transition: background .2s ease-in-out;
+    outline: none;
+    border: none;
+    font-size: 1.500em;
+    font-family: Montserrat;
+    cursor: pointer;
 }
 
-.svg_1 {
-  position: relative;
-  margin-top: -2.9%;
-  float: right;
-  right: -10%;
+.home_pydata_right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(50%, 0)
 }
-/* .svg_2{
-  position: relative;
-  float: right;
-  margin-top: 31.5vw;
-  right: 0;
-} */
+.svg_1{
+    height: 30vmin;
+}
+
+@media only screen and (max-width: 700px) {
+    .home_pydata {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .home_pydata {
+        font-size: 12px;
+    }
+    .home_pydata_left_button {
+        padding: 1.5rem 3.5rem;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .home_pydata {
+        font-size: 10px;
+    }
+}
+
+
+
+
 
 /* PyData Delhi part goes here */
 
 .home_pydata_delhi{
-  height: 60vw;
-width: 100%;
-background: #fff;
-position: relative;
-}
-/* .svg_2 {
-    left: -27rem;
+    width: 100%;
+    background: #fff;
     position: relative;
-    width: 604px;
-    height: 684px;
-} */
+    display: flex;
+    padding-top: 8.125em;
+    font-size: 16px;
+}
 .home_pydata_delhi_heading{
-  font-size: 4vw;
-  color: #1a2b3b;
-  font-family: Montserrat;
-  letter-spacing: 0.03em;
-  /* text-transform: uppercase; */
-  font-weight: 800;
-  position: relative;
-  top: 9%;
-  left: 9%;
-  z-index: 70;
+    font-size: 4.688em;
+    color: #1a2b3b;
+    font-family: Montserrat;
+    font-weight: 800;
+    padding-left: 10vw;
+    z-index: 70;
+    margin-top: -45px;
 }
 
 .home_pydata_delhi_heading:before{
-  content: "";
-  height: 100px;
-  width: 1.5px;
-  background: #ccc1b5;
-  position: absolute;
-  top: -110px;
-  left: 6%;
-  z-index: 2;
-
+    content: "";
+    height: 100px;
+    width: 2px;
+    background: #ccc1b5;
+    position: absolute;
+    top: -18px;
+    left: 108px;
+    z-index: 2;
+    margin-left: 10vw;
 }
 
 .home_pydata_delhi_heading > span{
-  font-weight: 400;
+    font-weight: 400;
 }
 .home_pydata_delhi_left{
-  width: 50%;
-  height: 76%;
-  top: 5%;
-  position: relative;
-  float: left;
-  /* background: #efe3d4; */
-  background: #f3ece4;
+    flex-grow: 1;
+    width: 50%;
+    width: 100%;
+    background: #f3ece4;
 }
 .home_pydata_delhi_left_p {
-  color: #192b3b;
-  text-align: left;
-  width: 65%;
-  position: relative;
-  left: 18.5%;
-  font-size: 1vw;
-  top:12%;
+    color: #192b3b;
+    text-align: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 1.250em;
 }
 
 #home_pydata_delhi_left_button {
-  position: relative;
-margin-top: 30%;
-left: -28%;
-font-size: 1.1vw;
-font-family: Montserrat;
-font-weight: 500;
-border-radius: 100px;
-padding: 1.6rem 4.5rem;
-display: inline-flex;
-transition: background .2s ease-in-out;
-outline: none;
-margin-left: 1%;
+    position: relative;
+    font-size: 1.250em;
+    font-family: Montserrat;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 1.6rem 4.5rem;
+    display: inline-flex;
+    transition: background .2s ease-in-out;
+    outline: none;
 }
 .home_pydata_delhi_left_button1{
-  background: #192b3b;
-  color: #fff;
-  border: none;
+    background: #192b3b;
+    color: #fff;
+    border: none;
+    top: 0%;
+    cursor: pointer;
+    margin-left: 10vw;
 }
 .home_pydata_delhi_left_button2 {
-  background: transparent;
-  color: #192b3b;
-  border: 2px solid #192b3b;
+    background: transparent;
+    color: #192b3b;
+    border: 2px solid #192b3b;
+    top: 0%;
+    cursor: pointer;
 }
 
 
 .home_pydata_delhi_right{
-  width: 50%;
-  height: 90%;
-  position: relative;
-  float: right;
-
+    flex-grow: 1;
+    width: 50%;
+    position: relative;
+    text-align:center;
+    overflow: hidden;
 }
 .home_pydata_delhi_right_image{
     background-size: cover;
-    /* position: absolute; */
+    position: absolute;
     background-repeat: no-repeat;
-    height: 70%;
-    margin-top: 14%;
+    height: 70vmin;
     filter: gray;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .home_pydata_delhi_left_social {
-  position: relative;
-  list-style: none;
-  margin-top: 20%;
-  float: left;
-  display: inline-flex;
-  left: 14%;
+    position: relative;
+    list-style: none;
+    display: inline-flex;
 }
 .home_pydata_delhi_left_social > li {
-  padding-right: 40px;
-  color: #192b3b;
+    padding-right: 40px;
+    color: #192b3b;
 }
 .home_pydata_delhi_left_social > li > a > i {
-  color: #192b3b;
+    color: #192b3b;
 }
+@media only screen and (max-width: 700px) {
+    .home_pydata_delhi {
+        font-size: 14px;
+    }
+    .home_pydata_delhi_heading:before{
+        left: 94px;
+        height: 80px;
+        top: -11px;
+    }
+    .home_pydata_delhi_heading {
+        margin-top: -40px;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .home_pydata_delhi {
+        font-size: 12px;
+    }
+    #home_pydata_delhi_left_button {
+        padding: 1.6rem 2.5rem;
+    }
+    .home_pydata_delhi_heading {
+        margin-top: -35px;
+    }
+    .home_pydata_delhi_heading:before{
+        left: 80px;
+        height: 70px;
+        top: -15px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .home_pydata_delhi {
+        font-size: 10px;
+    }
+    #home_pydata_delhi_left_button {
+        padding: 1.6rem 2.0rem;
+    }
+    .home_pydata_delhi_heading {
+        margin-top: -30px;
+    }
+    .home_pydata_delhi_heading:before{
+        left: 68px;
+        height: 50px;
+        top: -6px;
+        width: 1px;
+    }
+}
+
 
 
 /* CFP part goes here */
 .home_pydata_cfp{
-  height: 45vw;
-  width: 100%;
-  background: #fff;
+    padding-top: 5.125em;
+    font-size: 16px;
+    width: 100%;
+    background: #fff;
 }
 .home_pydata_cfp_heading{
-  margin: 0 auto;
-position: relative;
-text-align: center;
-font-family: Montserrat;
-font-size: 3vw;
-color: #182b3b;
-font-weight: 600;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.225em;
+    color: #182b3b;
+    font-weight: 600;
+}
+.home_pydata_cfp> hr{
+    width: 27.938em;
+    height: 3px;
+    background-color: #172b3b;
+    border: none;
+    position: relative;
+    top: 2%;
 }
 
 .home_pydata_cfp_list{
-  list-style: none;
-margin: 0 auto;
-text-align: center;
-display: inline-flex;
-/* width: 80%; */
-margin-left: 10%;
-margin-right: 10%;
-margin-top: 2%;
-
+    display: flex;
+    text-align: center;
 }
-.home_pydata_cfp_list_data{
 
-  display: inline-flex;
-position: relative;
-padding-left: 10%;
-padding-right: 10%;
-margin-top: 4%;
-}
 .home_pydata_cfp_image{
-  height: 120px;
+    height: 7.500em;
 }
 
+.home_pydata_cfp_list_div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    position: relative;
+}
 
 .home_pydata_cfp_list_div > p{
-  font-size: 0.9vw;
-  font-family: Montserrat;
-  padding-top: 20px;
-  color: #172b3b;
+    font-size: 1.063em;
+    font-family: Montserrat;
+    color: #172b3b;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 .home_pydata_cfp_list_div > h3{
-  font-family: Montserrat;
-  color: #172b3b;
-  font-size: 1.3vw;
-  position: relative;
-  top: 5%;
-  padding-bottom: 30px;
-
-}
-.home_pydata_cfp> hr{
-  width: 30%;
-height: 3px;
-background-color: #172b3b;
-border: none;
-position: relative;
-top: 2%;
-}
-.home_pydata_cfp > button {
-  position: relative;
-  border-radius: 100px;
-  background: #172b3b;
-  color: #fff;
-  font-weight: 500;
-  padding: 1.5rem 4.5rem;
-  display: inline-flex;
-  transition: background .2s ease-in-out;
-  outline: none;
-  border: none;
-  font-size: 1.2vw;
-  font-family: Montserrat;
-  margin-top: 6%;
-  left: 40%;
+    font-family: Montserrat;
+    color: #172b3b;
+    font-size: 1.563em;
 }
 
-/* Past COnference goes here */
+.home_pydata_cfp_btn {
+    position: relative;
+    border-radius: 100px;
+    background: #172b3b;
+    color: #fff;
+    font-weight: 500;
+    padding: 1.5rem 4.5rem;
+    display: inline-flex;
+    transition: background .2s ease-in-out;
+    outline: none;
+    border: none;
+    font-size: 1.438em;
+    font-family: Montserrat;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .home_pydata_cfp {
+        font-size: 12px;
+    }
+    .home_pydata_cfp_btn > button {
+        padding: 1.5rem 3.5rem;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .home_pydata_cfp {
+        font-size: 10px;
+    }
+    .home_pydata_cfp_btn > button {
+        padding: 1.5rem 2.5rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .home_pydata_cfp {
+        font-size: 8px;
+    }
+    .home_pydata_cfp_list{
+        flex-direction: column;
+    }
+    .home_pydata_cfp_list_div > p{
+        padding-left: 30vw;
+        padding-right: 30vw;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .home_pydata_cfp_heading{
+        font-size: 1.725em;
+    }
+    .home_pydata_cfp> hr{
+        width: 20.938em;
+    }
+}
+@media only screen and (min-width: 1350px) {
+    .home_pydata_cfp_list_div > p{
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+    .home_pydata_cfp_heading{ 
+        font-size: 3.000em;
+    }
+    .home_pydata_cfp> hr{
+        width: 35.938em;
+    }
+}
+
+
+/* Past Conference goes here */
 
 .home_pydata_past_conf{
-  width: 100%;
-  height:70vw;
-  background-image:url(../static/tmp_desing/other/home_bg.jpg);
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  background-repeat: no-repeat;
+    font-size: 16px;
+    text-align: right;
+    padding-top: 6.250em;
+    padding-bottom: 6.250em;
+    color: #fff;
+    width: 100%;
+    /* height:70vw; */
+    background-image:url(../tmp_desing/other/home_bg.jpg);
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .home_pydata_past_conf_heading {
-  font-size: 4vw;
-  color: #fff;
-  font-family: Montserrat;
-  letter-spacing: 0.02em;
-  /* text-transform: uppercase; */
-  font-weight: 800;
-  position: relative;
-  margin-top: 4%;
-  float: right;
-  right: 2.5%;
-  z-index: 70;
-}
-.home_pydata_past_conf_heading>span{
-  font-weight: 400;
-}
-.home_pydata_past_conf_hr{
-  position: relative;
-margin-top: 10%;
-width: 8%;
-height: 9px;
-background: #f77c18;
-border: none;
-float: right;
-right: 39%;
-
-}
-.past_conf_list{
-  position: relative;
-      text-align: center;
-      margin: 0 auto;
-      padding-left: 21px;
-      margin-top: 10%;
-}
-.past_conf_list_data{
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  margin: 0 auto;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-.past_conf_list_data_content{
-
-}
-.past_conf_list_data_content > svg {
-
-    height: 42vw;
-    width: 27vw;
-    position: relative;
-}
-.past_conf_list_data_content > img{
-  height: 22vw;
-  width: 22vw;
-  position: absolute;
-  top: 15%;
-  left: 8%;
-  border: 5px double #f77c18;
-}
-.past_conf_list_data_content>button{
-  position: absolute;
-  margin-top: -40%;
-  left: 7.5%;
-  background: #f77c18;
-  color: #fff;
-  font-weight: 500;
-  padding: 1.5rem 4.5rem;
-  display: inline-flex;
-  transition: background .2s ease-in-out;
-  outline: none;
-  border: none;
-  font-size: 1.2vw;
-  font-family: Montserrat;
-  padding: 5% 22%;
-}
-
-/* ------------------------------------------------------------------ */
-/* past meetup css */
-
-.home_pydata_past_meetups{
-  height: 44vw;
-  width: 100%;
-  background: #fff;
-}
-.past_meetups_left{
-  position: relative;
-  height: 100%;
-  width: 45%;
-  float: left;
-
-}
-.past_meetups_right{
-  position: relative;
-  height: 53vw;
-  width: 55%;
-  float: right;
-  background: #f6f7f8;
-  margin-top: -7vw;
-}
-.past_meetups_right_heading{
-  font-family: 'Montserrat';
-    font-size: 4vw;
+    font-size: 3.750em;
+    font-family: Montserrat;
     letter-spacing: 0.02em;
+    padding-right: 10vw;
     font-weight: 800;
     position: relative;
-    left: 24%;
-    /* top: -5%; */
-    color: #233444;
+    z-index: 70;
 }
-.past_meetups_right_heading > span{
-  font-weight: 400;
+.home_pydata_past_conf_heading>span{
+    font-weight: 400;
 }
-.past_meetups_images_first{
-  position: relative;
-  display: initial;
-
+.home_pydata_past_conf_hr{
+    position: relative;
+    width: 142px;
+    height: 0.563em;
+    background: #f77c18;
+    float: right;
+    right: calc(408px + 10vw);
 }
-.past_meetups_images_first_data{
-  position: relative;
-    height: 22vw;
-    width: 50%;
-    background: tomato;
-    display: inline-flex;
-}
-.past_meetups_images_first_data:nth-child(1){
-  top: 0;
-  float: left;
-  background-image:url(../static/tmp_desing/other/meetup_1.jpeg);
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  background-repeat: no-repeat;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
-  overflow:hidden;
-  transition: transform .5s, filter 1.5s ease-in-out
-}
-.past_meetups_images_first_data:nth-child(2){
-  top: -2.1%;
-  float: right;
-  background-image:url(../static/tmp_desing/other/meetup_3.jpeg);
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  background-repeat: no-repeat;
-  filter: saturate(20%);
-  overflow:hidden;
-  transition: transform .5s, filter 1.5s ease-in-out
-}
-.past_meetups_images_first_data:nth-child(3){
-  bottom: 0;
-  float: left;
-  background-image:url(../static/tmp_desing/other/meetup_5.jpeg);
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  background-repeat: no-repeat;
-  filter: saturate(20%);
-  overflow:hidden;
-  transition: transform .5s, filter 1.5s ease-in-out
-}
-.past_meetups_images_first_data:nth-child(4){
-  top: -2.1%;
-  float: right;
-  background-image:url(../static/tmp_desing/other/meetup_2.jpeg);
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  background-repeat: no-repeat;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
-  overflow:hidden;
-  transition: transform .5s, filter 1.5s ease-in-out
-}
-.past_meetups_images_first_data {
-  transition: transform .5s, filter 1.5s ease-in-out;
-  filter: grayscale(100%);
-}
-.past_meetups_images_first_data:nth-child(1):hover {
-  filter: grayscale(0);
-  transform: scale(1.1);
-}
-.past_meetups_images_first_data:nth-child(2):hover {
-  filter: grayscale(0);
-  transform: scale(1.1);
-}
-.past_meetups_images_first_data:nth-child(3):hover {
-  filter: grayscale(0);
-  transform: scale(1.1);
-}
-.past_meetups_images_first_data:nth-child(4):hover {
-  filter: grayscale(0);
-  transform: scale(1.1);
+.home_pydata_past_meetup_hr{
+    position: relative;
+    width: 142px;
+    height: 0.563em;
+    background: #f77c18;
+    float: right;
+    right: calc(292px + 10vw);
 }
 
-.meetup_content{
-  height: 10vw;
-width: 60%;
-background: #fff;
-margin-top: 20px;
-margin-bottom: 5px;
-/* border-bottom: 2px solid #223444; */
-text-align: center;
-    margin: 0 auto;
-    padding-top: 2em;
-
-}
-.meetup_content > hr {
-  height: 0.01px;
-  width: 35%;
-  margin-top: 30px;
+.past_conf_list {
+    text-align: left;
+    display: flex;
+    width: 100vw;
 }
 
-.meetup_content > h4 {
-  font-family: Montserrat;
-color: #223444;
-font-size: 1.3rem;
+.past_conf_item {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
-.meetup_content > h3 {
-  font-family: Montserrat;
-  font-size: 1.8rem;
-  color: #223444;
+
+.past_conf_item > h3 {
+    font-size: 2.000em;
+    font-family: Montserrat;
 }
-.meetup_content > h5 {
-  font-family: Montserrat;
-    font-size: 1.2rem;
+.past_conf_item > p {
+    font-size: 1.125em;
+    font-family: Montserrat;
+}
+.past_conf_item > a {
+    font-size: 1.125em;
     color: #f77c17;
+    font-family: Montserrat;
+    text-decoration: underline;
 }
-.check_meetup_button {
-  position: relative;
-  border-radius: 100px;
-  background: #f77c18;
-  color: #fff;
-  font-weight: 500;
-  padding: 1.5rem 4.5rem;
-  display: inline-flex;
-  transition: background .2s ease-in-out;
-  outline: none;
-  border: none;
-  font-size: 1.2vw;
-  font-family: Montserrat;
-  margin-top: 6%;
-  margin-left: 33%;
+#home_pydata_past_meetup{
+    background-image:none;
+    color: #172b3b;
 }
 
-
+@media only screen and (max-width: 1100px) {
+    .home_pydata_past_conf {
+        font-size: 14px;
+    }
+    .home_pydata_past_conf_hr{
+        width: 125px;
+        right: calc(360px + 10vw);
+    }
+    .home_pydata_past_meetup_hr{
+        width: 125px;
+        right: calc(256px + 10vw);
+    }
+}
+@media only screen and (max-width: 800px) {
+    .home_pydata_past_conf {
+        font-size: 10px;
+    }
+     .home_pydata_past_conf_hr{
+        width: 90px;
+        right: calc(257px + 10vw);
+    }
+    .home_pydata_past_meetup_hr{
+        width: 90px;
+        right: calc(183px + 10vw);
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .home_pydata_past_conf {
+        font-size: 8px;
+    }
+ .home_pydata_past_conf_hr{
+        width: 72px;
+        right: calc(204px + 10vw);
+    }
+.home_pydata_past_meetup_hr{
+        width: 72px;
+        right: calc(146px + 10vw);
+    }
+    
+}
+@media only screen and (max-width: 500px) {
+    .past_conf_list {
+        flex-direction: column;
+    }
+}
