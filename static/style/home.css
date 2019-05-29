@@ -428,9 +428,6 @@
 }
 
 .home_pydata_cfp_btn {
-    width: 100%;
-}
-.home_pydata_cfp_btn > button {
     position: relative;
     border-radius: 100px;
     background: #172b3b;
@@ -445,6 +442,7 @@
     font-family: Montserrat;
     left: 50%;
     transform: translate(-50%, 0%);
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 800px) {

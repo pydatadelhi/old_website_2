@@ -27,23 +27,17 @@
             <br>
             <div class="home_pydata_left">
                 <p class = "home_pydata_left_para">
-                    PyData conferences bring together users and developers of data analysis tools 
-                    to share ideas and learn from each other.
-                    The PyData community gathers to discuss how best to apply Python tools, 
-                    as well as tools using R and Julia, 
-                    to meet evolving challenges in data management, processing, analytics, and visualization.
+                    PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other.
                     <br> <br>
-                    We aim to be an accessible, community-driven conference, with tutorials for novices, 
-                    advanced topical workshops for practitioners,
-                    and opportunities for package developers and users to meet in person.
+                    The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R.
                     <br>
                     <br>
-                    For more information about the conference series, visit the website
+                    For more information about the PyData, visit the website
                 </p>
                 <br>
                 <br>
                 <br>
-                <a href="https://delhi.pydata.org">
+                <a href="https://pydata.org">
                     <button class = "home_pydata_left_button">Website</button>
                 </a>
                 <br>
@@ -69,21 +63,13 @@
         <br>
         <br>
         <p class = "home_pydata_delhi_left_p">
-            PyData Delhi brings together both users and developers of data analysis 
-            tools to share ideas and learn from each other. 
+        <b>PyData Delhi</b> bring together users, data science enthusiasts and developers of data analysis tools to share ideas and learn from each other. The PyData community gathers to discuss how best to apply Python tools, as well as tools using R and Julia, to meet evolving challenges in data management, processing, analytics, and visualization. 
             <br><br>
-            The goals are to provide data science enthusiasts, across various domains, 
-            a place to discuss how best to apply languages and tools to the challenges of 
-            a place to discuss how best to apply languages and tools to the challenges of 
-            a place to discuss how best to apply languages and tools to the challenges of 
-            a place to discuss how best to apply languages and tools to the challenges of 
-            a place to discuss how best to apply languages and tools to the challenges of 
-            a place to discuss how best to apply languages and tools to the challenges of 
-            data management, processing, analytics, and visualization.
+            We are currently the biggest PyData community in India with over 6000 members. Meetups are organized once every two weeks at different venues across Delhi. Join our meetup to support and become a part of the growing community of data engineers, data scientists and pythonistas in Delhi! 
+            <br><br>
+            Our annual conference, <b>PyData Delhi 2019</b> is scheduled for 3rd and 4th August, visit the website for more details.
             
         </p> 
-        <br>
-        <br>
         <br>
         <br>
             <a href="https://pydata.org/delhi2019">
@@ -138,12 +124,12 @@
     <br>
     <br>
     <br>
-    <div class='home_pydata_cfp_btn'>
-       <button>
-           <a href="https://github.com/pydatadelhi/talks/issues" style="color: white">
+    <div >
+       <a href="https://github.com/pydatadelhi/talks/issues" style="color: white">
+           <button class='home_pydata_cfp_btn'>
                Submit an issue here
-           </a>
-       </button>
+           </button>
+       </a>
     </div>
     <br>
     <br>
@@ -174,14 +160,14 @@
                 Have a Topic you want to see a talk or workshop on? Feel free to 
             </p>
             <br>
-            <a href="">Conference website</a>
+            <a href="https://pydata.org/delhi2018">Conference website</a>
         </div>
         <div class='past_conf_item'>
             <br>
             <br>
             <br>
             <br>
-            <h3>PyData Delhi 2018</h3>
+            <h3>PyData Delhi 2017</h3>
             <br>
             <br>
             <p>
@@ -189,7 +175,7 @@
                 Have a Topic you want to see a talk or workshop on? Feel free to 
             </p>
             <br>
-            <a href="">Conference website</a>
+            <a href="https://pydata.org/delhi2017">Conference website</a>
         </div>
             
     </div>
@@ -215,21 +201,21 @@
             UiPath Academy, Gurgaon, New Delhi
             </p>
             <br>
-            <a href="">More Details</a>
+            <a href="https://www.meetup.com/PyDataDelhi/events/261057427/">More Details</a>
         </div>
         <div class='past_conf_item'>
             <br>
             <br>
             <br>
             <br>
-            <h3>PyData Delhi Meetup #31</h3>
+            <h3>PyData Delhi Meetup #30</h3>
             <br>
             <p>
-            Saturday, May 11, 2019<br>
-            UiPath Academy, Gurgaon, New Delhi 
+            Sunday, April 7, 2019<br>
+            Investopad, Hauz Khas, New Delhi 
             </p>
             <br>
-            <a href="">Conference website</a>
+            <a href="https://www.meetup.com/PyDataDelhi/events/260146982/">More Details</a>
         </div>
             
     </div>
@@ -240,28 +226,28 @@
             <br>
             <br>
             <br>
-            <h3>PyData Delhi Meetup #31</h3>
+            <h3>PyData Delhi Meetup #29</h3>
             <br>
             <p>
-            Saturday, May 11, 2019<br>
-            UiPath Academy, Gurgaon, New Delhi
+            Sunday, March 17, 2019<br>
+            Aspiring Minds, Gurgaon, New Delhi
             </p>
             <br>
-            <a href="">More Details</a>
+            <a href="https://www.meetup.com/PyDataDelhi/events/259625888/">More Details</a>
         </div>
         <div class='past_conf_item'>
             <br>
             <br>
             <br>
             <br>
-            <h3>PyData Delhi Meetup #31</h3>
+            <h3>PyData Delhi Meetup #28</h3>
             <br>
             <p>
-            Saturday, May 11, 2019<br>
-            UiPath Academy, Gurgaon, New Delhi 
+            Saturday, January 19, 2019<br>
+            SocialCops, Saket, New Delhi 
             </p>
             <br>
-            <a href="">Conference website</a>
+            <a href="https://www.meetup.com/PyDataDelhi/events/257994541/">More Details</a>
         </div>
             
     </div>
