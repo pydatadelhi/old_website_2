@@ -156,8 +156,7 @@
             <br>
             <br>
             <p>
-                Have a Topic you want to see a talk or workshop on? Feel free to 
-                Have a Topic you want to see a talk or workshop on? Feel free to 
+                The second edition of the conference had 4 keynotes along with 28 talks and 6 workshops. This time around we have over 350 attendees from six countries 
             </p>
             <br>
             <a href="https://pydata.org/delhi2018">Conference website</a>
@@ -171,8 +170,8 @@
             <br>
             <br>
             <p>
-                Have a Topic you want to see a talk or workshop on? Feel free to 
-                Have a Topic you want to see a talk or workshop on? Feel free to 
+                Our inaugural conference, Pydata 2017 was held on 2nd and 3rd September.
+                We hosted 270 attendees from five countries and 29 cities all over India. Over the course of two days, we had 4 keynotes, 30 talks, 6 workshops along with a great panel discussion.
             </p>
             <br>
             <a href="https://pydata.org/delhi2017">Conference website</a>
