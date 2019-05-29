@@ -42,7 +42,7 @@
         
         <li class="list-item"><i class="fa fa-user-circle-o fa-2x"><span class="contact-text phone"><a href="mailto:svsanketverma5@gmail.com" title="Organiser">svsanketverma5@gmail.com </a></span></i></li>
         
-        <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:Delhi@pydata.org" title="Send me an email">Delhi@pydata.org@gmail.com</a></span></i></li>
+        <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:Delhi@pydata.org" title="Send me an email">Delhi@pydata.org</a></span></i></li>
       </ul>
 
       <hr>
