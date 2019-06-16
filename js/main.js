@@ -303,3 +303,14 @@ setInterval(function() { makeTimer(); }, 1000);
 
 
 })(jQuery);
+
+// leaflet map rendering canvas
+var mymap = L.map('mapid').setView([28.5828636,77.2343588], 12);
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox.streets',
+    accessToken: 'pk.eyJ1IjoicHJpeWFuc2h1MjQiLCJhIjoiY2p3eTZ5ejBsMHJlNzQ4anozdnRybTBvYSJ9.yuer3_OM91N0Tt3T2ENY2Q'
+}).addTo(mymap);
+var marker = L.marker([28.5456282, 77.2731505]).addTo(mymap);
+marker.bindPopup("<h6>PyData Delhi <span>Conference 2019</span> @IIITD </h6>").openPopup();

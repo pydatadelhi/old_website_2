@@ -20,7 +20,15 @@
 
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- leaflet css file and leaflet js file for map  -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+	integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+	crossorigin=""/>
+	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+	integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+	crossorigin=""></script>
+
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
@@ -84,7 +92,7 @@
 		          	<div class="text mt-4 mt-md-0">
 			            <h1 class="mb-4">PyData Delhi <span>Conference</span> 2019</h1>
 			            <h2 class="mb-4">August 03-04, 2019</h2>
-			            <p><a href="https://in.explara.com/e/pydata-delhi-2019" class="btn btn-primary py-3 px-4">Get Ticket</a> <a href="#" class="btn btn-white py-3 px-4">Watch Video</a></p>
+			            <p><a href="https://in.explara.com/e/pydata-delhi-2019" class="btn btn-primary py-3 px-4">Get Ticket</a> <a href="https://www.youtube.com/channel/UCz_xSLNdtnkDsVTuYuLprMg" class="btn btn-white py-3 px-4">Watch Video</a></p>
 		            </div>
 		          </div>
 	        	</div>
@@ -147,38 +155,19 @@
     	</div>
     </section>
 
-		<section class="ftco-section ftco-subscribe img" style="background-image: url(images/bg_1.jpg);">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row justify-content-center pb-5">
-          <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
-            <h2 class="mb-4">Join Our Event</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            <div class="row d-flex justify-content-center mt-4">
-              <div class="col-md-10">
-                <form action="#" class="subscribe-form">
-                  <div class="form-group d-flex">
-                    <input type="text" class="form-control" placeholder="Enter email address">
-                    <input type="submit" value="Subscribe" class="submit px-3">
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-			</div>
-		</section>
+
 
 		<section class="ftco-section ftco-speakers" id="speakers-section">
 			<div class="container">
 				<div class="row justify-content-center pb-5">
           <div class="col-md-12 heading-section heading-section-white text-center ftco-animate">
           	<span class="subheading">Speakers</span>
-            <h2 class="mb-4">MeetUp Speakers</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+			<h2 class="mb-4">Conference Speakers</h2>
+			<p>TO BE ANNOUNCED!</p>
+            <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> -->
           </div>
         </div>
-        <div class="row">
+        <div class="row" style="display: none">
 					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
@@ -347,7 +336,7 @@
 
 	            </div>
 	          </div>
-	          <div class="col-md-8 tab-wrap">
+	          <div class="col-md-8 tab-wrap" style="display: none">
 
 	            <div class="tab-content" id="v-pills-tabContent">
 
@@ -503,7 +492,7 @@
 			</div>
 		</section>
 
-		<!--
+		<!-- 
     <section class="ftco-section bg-light" id="blog-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
@@ -569,6 +558,22 @@
       </div>
 		</section>
 		-->
+		<section class="ftco-section ftco-subscribe img" style="background-image: url(images/bg_1.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row justify-content-center pb-5">
+          <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
+            <h2 class="mb-4">Join Our MeetUp</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <div class="row d-flex justify-content-center mt-4">
+              <div class="col-md-10">
+				<a href="https://www.meetup.com/PyDataDelhi/" class="btn btn-primary py-3 px-4">Join MeetUp</a>
+              </div>
+            </div>
+          </div>
+        </div>
+			</div>
+		</section>
 
     <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
       <div class="container">
@@ -655,7 +660,7 @@
     </section>
 
 		<section class="ftco-section ftco-no-pt ftco-no-pb">
-			<div id="map" class="bg-white"></div>
+			<div id="mapid" class="bg-white"></div>
 		</section>
 
     <footer class="ftco-footer ftco-section">
