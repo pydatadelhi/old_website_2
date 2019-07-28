@@ -9637,6 +9637,13 @@ textarea.form-control {
     font-weight: 500;
     margin-bottom: 20px; }
 
+
+.calendar
+{
+  color: black;
+}
+
+
 .categories, .sidelink {
   padding: 0;
   margin: 0; }
