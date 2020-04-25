@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <style>
+            @font-face {
+                font-family: 'CourierPrimeSans';
+                src:  url('../fonts/CourierPrimeSans.ttf') format('truetype');
+            }
+            body {
+                background-color: #000000;
+            }
+            #timer {
+                font-family: 'CourierPrimeSans';
+                font-size: 48px;
+                word-spacing: -10px;
+                letter-spacing: -2px;
+                color: #818181;
+            }
+            .timer-countdown {
+                font-size: 62px;
+                word-spacing: -20px;
+                letter-spacing: -4px;
+            }
+            .logo {
+                height: 200px;
+            }
+        </style>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src='https://cdn.jsdelivr.net/npm/luxon@1/build/global/luxon.min.js'></script>
+    </head>
+    <body>
+		<div id='timer'>
+            <br>
+            <br>
+            <object type="image/svg+xml" data="../images/logo_without_year.svg" class="logo">
+            </object>
+            <br>
+            <br>
+            We will be live in:<br>
+            <div class='timer-countdown'>
+                {{ display }}
+            </div>
+		</div>
+        <script>
+			const app = new Vue({
+				el: '#timer',
+				data() {
+					return {
+						now: luxon.DateTime
+								.local()
+								.set({ milliseconds: 0 }),
+						end: luxon.DateTime
+								.local(2020, 4, 26, 21, 0)
+								.set({ milliseconds: 0 })
+								.setZone('Asia/Kolkata'),
+						tick: null
+					}
+				},
+				watch: {
+					now() {
+						if (this.finished) {
+							clearInterval(this.tick)
+						}
+					}
+				},
+				computed: {
+					remaining() {
+						return this.end.diff(this.now).toObject()
+					},
+					display() {
+						rem = luxon.Duration
+							.fromObject(this.remaining)
+							.shiftTo('days', 'hours', 'minutes', 'seconds')
+						return rem.days + ' days, ' + rem.hours + ' hrs, ' +
+                            rem.minutes + ' mins, ' + rem.seconds + ' secs'
+					},
+					finished() {
+						return this.now >= this.end
+					}
+				},
+				mounted() {
+					this.tick = setInterval(() => {
+						this.now = luxon.DateTime
+							.local()
+							.set({ milliseconds: 0 })
+					}, 1000)
+				}
+			})
+        </script>
+    </body>
+</html>
