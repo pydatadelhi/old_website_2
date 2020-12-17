@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PyData Delhi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="images/favicon.ico" />
+
+	<!-- leaflet css file and leaflet js file for map  -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+	integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+	crossorigin=""/>
+	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+	integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+	crossorigin=""></script>
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"><img src="./images/pydatalogo.png"></a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#speakers-section" class="nav-link"><span>Speakers</span></a></li>
+	          <li class="nav-item"><a href="#schedule-section" class="nav-link"><span>Schedule</span></a></li>
+			  <li class="nav-item"><a href="#pricing-section" class="nav-link"><span>Pricing</span></a></li>
+			  <li class="nav-item"><a href="#sponsor" class="nav-link"><span>Sponsor</span></a></li>
+	          <li class="nav-item"><a href="https://delhi.pydata.org/blog/" class="nav-link"><span>Blog</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	          <li class="nav-item cta"><a href="https://in.explara.com/e/pydata-delhi-2019" class="nav-link">Buy Ticket</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero js-fullheight">
+	  	<h3 class="vr"><span>Welcome</span> to PyData Delhi.</h3>
+	  	<div id="timer" class="text-center">
+			  <div class="time" id="days"></div>
+			  <div class="time" id="hours"></div>
+			  <div class="time" id="minutes"></div>
+			  <div class="time" id="seconds"></div>
+			</div>
+		  <div class="home-slider owl-carousel js-fullheight">
+	      <div class="slider-item js-fullheight">
+	      	<div class="overlay"></div>
+	        <div class="container-fluid px-0">
+	          <div class="row d-md-flex no-gutters slider-text js-fullheight align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third order-md-last js-fullheight img" style="background-image:url(https://secure.meetupstatic.com/photos/event/9/3/8/9/highres_481537769.jpeg);">
+	          		<div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth js-fullheight d-flex align-items-start align-items-md-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text mt-4 mt-md-0">
+			            <h1 class="mb-4">PyData Delhi <span>Conference</span> 2019</span></h1>
+			            <h2 class="mb-4">August 03-04, 2019 </h2>
+			            <p><a href="#" class="btn btn-primary py-3 px-4">Get Ticket</a> <a href="#" class="btn btn-white py-3 px-4">Watch Video</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+
+	      <div class="slider-item js-fullheight">
+	      	<div class="overlay"></div>
+	        <div class="container-fluid px-0">
+	          <div class="row d-flex no-gutters slider-text js-fullheight align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third order-md-last js-fullheight img" style="background-image:url(https://secure.meetupstatic.com/photos/event/2/b/4/b/highres_464651083.jpeg);">
+	          		<div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth js-fullheight d-flex align-items-start align-items-md-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text mt-4 mt-md-0">
+			            <h1 class="mb-4">PyData Delhi <span>Conference</span> 2019</h1>
+			            <h2 class="mb-4">August 03-04, 2019</h2>
+			            <p><a href="https://in.explara.com/e/pydata-delhi-2019" class="btn btn-primary py-3 px-4">Get Ticket</a> <a href="https://www.youtube.com/channel/UCz_xSLNdtnkDsVTuYuLprMg" class="btn btn-white py-3 px-4">Watch Video</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
+    </section>
+
+    <section class="ftco-about ftco-counter ftco-no-pb img ftco-section" id="about-section">
+    	<div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 col-lg-5 d-flex">
+    				<div class="img-about img d-flex align-items-stretch">
+    					<div class="overlay"></div>
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(https://pbs.twimg.com/media/D6WVLmdV4AEH3k0.jpg);">
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-7 pl-lg-5 pt-5">
+    				<div class="row justify-content-start pb-3">
+		          <div class="col-md-12 heading-section ftco-animate">
+		          	<span class="subheading">Welcome</span>
+		            <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">PyData Delhi</h2>
+		            <p>PyData Delhi is a gathering of users and developers of data analysis tools in Python. A major goal of the meetup is to provide a venue for users across all the various domains of data analysis to share their experiences and their techniques, as well as highlight the most triumphs and potential pitfalls of using Python for certain kinds of problems.</p>
+		          </div>
+		        </div>
+	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
+              <div class="text p-4 pr-5 bg-primary">
+              	<p class="mb-0">
+	                <span class="number" data-number="6000">0</span>
+	                <span>+ Members</span>
+                </p>
+              </div>
+	          </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section ftco-no-pb ftco-no-pt">
+    	<div class="container-fluid px-0">
+    		<div class="row no-gutters">
+	  			<div class="col-md-6 col-lg-3 ftco-animate">
+	  				<div class="gallery img" style="background-image: url(https://live.staticflickr.com/1881/43260950315_e72138be3c_z.jpg);">
+	  				</div>
+	  			</div>
+	  			<div class="col-md-6 col-lg-3 ftco-animate">
+	  				<div class="gallery img" style="background-image: url(https://live.staticflickr.com/1862/42357799110_309f058b0e_z.jpg);">
+	  				</div>
+	  			</div>
+	  			<div class="col-md-6 col-lg-3 ftco-animate">
+	  				<div class="gallery img" style="background-image: url(images/IMG_20190615_173110.jpg)">
+	  				</div>
+	  			</div>
+	  			<div class="col-md-6 col-lg-3 ftco-animate">
+	  				<div class="gallery img" style="background-image: url(images/photo6100677315559270632.jpg);">
+	  				</div>
+	  			</div>
+    		</div>
+    	</div>
+    </section>
+
+
+
+		<section class="ftco-section ftco-speakers" id="speakers-section">
+			<div class="container">
+				<div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section heading-section-white text-center ftco-animate">
+          	<span class="subheading">Speakers</span>
+			<h2 class="mb-4">Keynote Speakers</h2>
+          </div>
+        </div>
+        <div class="row1">
+					
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(https://pydata.org/delhi2019/media/images/new2_Hg6ocjD.original.png);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2">Dr. Viral  <br>B. Shah</h3>
+									<span class="position mb-4">Co-Creator, Julia; Co-Founder & CEO, Julia Computing</span>
+									<ul class="ftco-social">
+		                <li class="ftco-animate"><a href="https://twitter.com/viral_b_shah"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.linkedin.com/in/viralbshah/"><span class="icon-linkedin"></span></a></li>	                
+		                <li class="ftco-animate"><a href="https://github.com/viralbshah"><span class="icon-github"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(https://pydata.org/delhi2019/media/images/new_PmJdR55.original.png);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2">Prukalpa <br>Sankar</h3>
+									<span class="position mb-4">Co-Founder, Atlan & SocialCops</span><br>
+									<ul class="ftco-social">
+		                <li class="ftco-animate"><a href="https://twitter.com/prukalpa"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/prukalpa"><span class="icon-facebook"></span></a></li>	                
+		                <li class="ftco-animate"><a href="https://www.linkedin.com/in/prukalpa/"><span class="icon-linkedin"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					<!--
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/staff-3.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2">Mike <br>Smith</h3>
+									<span class="position mb-4">Entrepreneur</span>
+									<ul class="ftco-social">
+		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>		                
+		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/staff-4.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2">Adrian <br>Henderson</h3>
+									<span class="position mb-4">Web Developer</span>
+									<ul class="ftco-social">
+		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>		                
+		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/person_1.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2">John <br>Wilson</h3>
+									<span class="position mb-4">CEO, Founder</span>
+									<ul class="ftco-social">
+		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>               
+		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/person_2.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2">Robert <br>Wills</h3>
+									<span class="position mb-4">Businessman</span>
+									<ul class="ftco-social">
+		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>		                
+		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/person_3.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2">Mike <br>Smith</h3>
+									<span class="position mb-4">Entrepreneur</span>
+									<ul class="ftco-social">
+		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>		                
+		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/person_4.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2">Adrian <br>Henderson</h3>
+									<span class="position mb-4">Web Developer</span>
+									<ul class="ftco-social">
+		                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					-->
+				</div>
+			</div>
+		</section>
+
+		<section class="ftco-section bg-light" id="schedule-section">
+			<div class="container">
+				<div class="row justify-content-center pb-5">
+          <div class="col-md-14 heading-section text-center ftco-animate">
+          	<span class="subheading">Schedule</span>
+						<h2 class="mb-4">Conference Schedule</h2>
+						<div class="container">
+													<h3>Schedule — Saturday Aug. 3, 2019</h3>
+													<table class="calendar table table-bordered pricing-entry pricing-entry">
+							<thead> 
+									<tr>
+											<th class="time">&nbsp;</th>											
+													<th>C01</th>											
+													<th>C11</th>										
+													<th>C02</th>
+									</tr>
+							</thead>
+							<tbody>									
+											<tr>
+													<td class="time">8:00 AM</td>													
+															<td class="slot slot-" colspan="3" rowspan="1">												
+																			<p>Coffee &amp; Registration</p>
+															</td>																			
+											</tr>									
+											<tr>
+													<td class="time">9:00 AM</td>													
+															<td class="slot slot-" colspan="3" rowspan="1">												
+																			<p><b>Opening Notes <br><a href="https://twitter.com/MSanKeys963">Sanket Verma</a><br>(Hall C101)</b></p>
+															</td>
+											</tr>
+											<tr>
+													<td class="time">9:20 AM</td>
+															<td class="slot slot-" colspan="3" rowspan="1">
+																			<p>IIITD Introduction<br>
+					<a href="https://iiitd.ac.in/vikram">Vikram Goyal</a>, <a href="https://iiitd.ac.in/rajivratn">Rajiv Ratn Shah</a><br>(Hall C101)</p>			
+															</td>	
+											</tr>
+											<tr>
+													<td class="time">9:30 AM</td>
+															<td class="slot slot-" colspan="3" rowspan="1">
+																			<p><b>The Power of Data Science to Measure Unmeasured Parameters in Emerging Markets<br><a href="https://twitter.com/prukalpa">Prukalpa Sankar</a><br>(Hall C101)</b></p>
+															</td>		
+											</tr>
+											<tr>
+													<td class="time">10:30 AM</td>													
+															<td class="slot slot-talk" colspan="1" rowspan="1">																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/6/fundamental-results-ml-and-how-use-them/">
+																							Fundamental Results in ML and How to Use Them
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Jaidev Deshpande
+																		</span>																
+															</td>													
+															<td class="slot slot-talk" colspan="1" rowspan="1">																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/7/intelligent-recruitment-using-nlp-and-machine-learning-identify-most-suitable-candidates/">
+																							Intelligent recruitment using NLP and machine learning to identify the most suitable candidates
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Victor Robin
+																		</span>																
+															</td>													
+															<td class="slot slot-tutorial" colspan="1" rowspan="3">																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/13/tips-tricks-and-topics-text-analysis/">
+																							Tips, Tricks and Topics in Text Analysis
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Bhargav Srinivasa Desikan
+																		</span>																
+															</td>									
+											</tr>
+											<tr>
+													<td class="time">11:15 AM</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/8/how-gpu-computing-literally-saved-me-work/">
+																							How GPU Computing literally saved me at work
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Abhishek Mungoli
+																		</span>
+																
+															</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/9/magic-numpy/">
+																							The Magic of Numpy
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Sarah Masud
+																		</span>
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">12:00 PM</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/10/auria-kathi-power-multi-model-machine-learning-pipelines/">
+																							Auria Kathi - The power of Multi Model Machine Learning Pipelines
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Sleeba Paul
+																		</span>
+																
+															</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/11/understanding-opacity-machine-learning-models/">
+																							Understanding Opacity in Machine Learning Models
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Ankit Rathi, Yatin Bhatia
+																		</span>
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">12:40 PM</td>
+													
+															<td class="slot slot-" colspan="3" rowspan="1">
+																
+																	
+																			<p>Contests &amp; Pop Quiz</p>
+																	
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">1:00 PM</td>
+													
+															<td class="slot slot-" colspan="3" rowspan="1">
+																
+																	
+																			<p><b>Lunch &amp; Networking</b></p>
+																	
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">2:30 PM</td>
+													
+															<td class="slot slot-" colspan="1" rowspan="1">
+																
+																	
+																			<p><b>Lightning Talks</b></p>
+																	
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">3:00 PM</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/12/transfer-learning-natural-language-processing/">
+																							Transfer Learning in Natural Language Processing
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Janu Verma
+																		</span>
+																
+															</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/14/automating-data-pipeline-using-apache-airflow/">
+																							Automating Data Pipeline using Apache Airflow
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Mridu Bhatnagar
+																		</span>
+																
+															</td>
+													
+															<td class="slot slot-tutorial" colspan="1" rowspan="3">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/3/quantitative-finance-r/">
+																							Quantitative Finance with R
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Harshit Joshi, Vedant Bonde
+																		</span>
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">3:45 PM</td>
+													
+															<td class="slot slot-" colspan="1" rowspan="2">
+																
+																	
+																			<p>Sponsored Talk [Barclays Bank]</p>
+																	
+																
+															</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/15/generating-sorting-networks-using-neat/">
+																							Generating Sorting Networks using NEAT
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Parth Raghav
+																		</span>
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">4:30 PM</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/26/generating-tabla-note-sequences-markov-chains-and-processingp5js/">
+																							Generating tabla note sequences with Markov Chains and Processing/p5.js
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Keshav Joshi
+																		</span>
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">5:10 PM</td>
+													
+															<td class="slot slot-" colspan="1" rowspan="1">
+																
+																	
+																			<p>Invited Talk: <b>James Powell</b></p>
+																	
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">5:50 PM</td>
+													
+															<td class="slot slot-" colspan="3" rowspan="1">
+																
+																	
+																			<p>Wrapping up Day 1</p>
+																	
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">6:00 PM</td>
+													
+															<td class="slot slot-" colspan="3" rowspan="1">
+																
+																	
+																			<p>Evening Snacks</p>
+																	
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">6:20 PM</td>
+													
+													
+															<td colspan="3"></td>
+													
+											</tr>
+									
+							</tbody>
+					</table>
+					
+											
+													<h3>Schedule — Sunday Aug. 4, 2019</h3>
+													<table class="calendar table table-bordered pricing-entry">
+							<thead> 
+									<tr>
+											<th class="time">&nbsp;</th>
+											
+													<th>C01</th>
+											
+													<th>C11</th>
+											
+													<th>C02</th>
+											
+									</tr>
+							</thead>
+							<tbody>
+									
+											<tr>
+													<td class="time">8:00 AM</td>
+													
+															<td class="slot slot-" colspan="3" rowspan="1">
+																
+																	
+																			<p>Coffee &amp; Registration</p>
+																	
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">9:00 AM</td>
+													
+															<td class="slot slot-" colspan="3" rowspan="1">
+																
+																	
+																			<p><b>Differentiable Programming: An Exciting Generalization of Deep Neural Networks<br><a href="https://twitter.com/Viral_B_Shah">Dr. Viral B. Shah</a></b></p>
+																	
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">10:00 AM</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/16/deep-sequence-models-attribute-extraction-product-titles/">
+																							Deep Sequence Models for Attribute Extraction from Product Titles
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Deepak Sharma
+																		</span>
+																
+															</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/17/automated-large-scale-forecasting-1000-products/">
+																							Automated Large Scale Forecasting for 1000+ products
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Aanish Singla, Nikita Sharma
+																		</span>
+																
+															</td>
+													
+															<td class="slot slot-tutorial" colspan="1" rowspan="3">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/4/advance-ml-improving-performance-machine-learning-models-optimizing-hyper-parameters/">
+																							Advance ML- On Improving Performance of Machine Learning Models by Optimizing Hyper-parameters
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Anubav Kesari, Tanay Agrawal
+																		</span>
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">10:45 AM</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/18/improving-model-lifecycle-management-machine-learning-models/">
+																							Improving Model Lifecycle Management for Machine Learning Models
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Pankaj Gupta
+																		</span>
+																
+															</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/19/image-manipulation-detection-using-neural-networks/">
+																							Image Manipulation Detection using Neural Networks
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Sonal Kukreja
+																		</span>
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">11:30 AM</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/20/using-nlp-disaster-management/">
+																							Using NLP for disaster management
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Kaustubh Hiware
+																		</span>
+																
+															</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/21/building-interactive-data-visualisations-altair-django/">
+																							Building interactive data visualisations with Altair &amp; Django
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Rajesh Golani
+																		</span>
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">12:15 PM</td>
+													
+															<td class="slot slot-" colspan="1" rowspan="1">
+																
+																	
+																			<p><b>Panel Discussion</b></p>
+																	
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">1:30 PM</td>
+													
+															<td class="slot slot-" colspan="3" rowspan="1">
+																
+																	
+																			<p><b>Lunch &amp; Networking</b></p>
+																	
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">3:00 PM</td>
+													
+															<td class="slot slot-" colspan="1" rowspan="1">
+																
+																	
+																			<p>Understanding User Churn in GoPay (Sponsored Talk)<br>
+					<i>Karthik Vijayakumar</i></p>
+																	
+																
+															</td>
+													
+															<td class="slot slot-" colspan="1" rowspan="1">
+																
+																	
+																			<p>Automating Deep Learning Workflows (Sponsored Talk)<br>
+					<i>Joinal Ahmed</i></p>
+																	
+																
+															</td>
+													
+															<td class="slot slot-tutorial" colspan="1" rowspan="3">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/5/machine-learning-security-data-scientists-guide-hardening-ml-models/">
+																							Machine Learning Security - The Data Scientist&#39;s Guide to Hardening ML Models
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Arjun Bahuguna
+																		</span>
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">3:45 PM</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/22/knowledge-graph-made-simple-using-nlp-and-transfer-learning/">
+																							Knowledge Graph made simple using NLP and Transfer Learning
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Suyog Swami
+																		</span>
+																
+															</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/23/how-i-used-data-visualization-my-quest-perfect-wine/">
+																							How I Used Data Visualization in My Quest for the Perfect Wine
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Pranav Suri
+																		</span>
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">4:30 PM</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/24/building-robust-ai-models-against-adversarial-attacks-python-libraries-cleverhans-and-foolbox/">
+																							Building robust AI models against adversarial attacks: Python libraries Cleverhans and Foolbox
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Deya Chatterjee
+																		</span>
+																
+															</td>
+													
+															<td class="slot slot-talk" colspan="1" rowspan="1">
+																
+																		<span class="title">
+																					<a href="https://pydata.org/delhi2019/schedule/presentation/25/autocorrect-words-and-autosuggest-sentences/">
+																							Autocorrect of words and Autosuggest of Sentences
+																					</a>
+																		</span>
+																		<span class="speaker">
+																				Sayantan Gangopadhyay
+																		</span>
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">5:10 PM</td>
+													
+															<td class="slot slot-" colspan="1" rowspan="1">
+																
+																	
+																			<p>Open Spaces</p>
+																	
+																
+															</td>
+													
+															<td class="slot slot-" colspan="1" rowspan="1">
+																
+																	
+																			<p>BoF Session</p>
+																	
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">5:40 PM</td>
+													
+															<td class="slot slot-" colspan="3" rowspan="1">
+																
+																	
+																			<p><b>Closing Notes</b></p>
+																	
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">6:00 PM</td>
+													
+															<td class="slot slot-" colspan="3" rowspan="1">
+																
+																	
+																			<p>Evening Snacks &amp; Wrapping up Day 2</p>
+																	
+																
+															</td>
+													
+													
+											</tr>
+									
+											<tr>
+													<td class="time">6:20 PM</td>
+													
+													
+															<td colspan="3"></td>
+													
+											</tr>
+									
+							</tbody>
+					</table>
+					
+											
+							
+					</div>
+<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+	<a class="nav-link ftco-animate active fadeInUp ftco-animated"  href="https://drive.google.com/open?id=1oc4bE-1rmPBJSfy7zyo1AW1uIloi_wzv" target="_blank" role="tab" aria-controls="v-pills-1" aria-selected="true"> <i class="icon-download" aria-hidden="true"></i> Download Schedule</a>
+</div>
+		  
+          </div>
+        </div>	
+			</div>
+			
+		</section>
+
+		<section class="ftco-section" id="pricing-section">
+			<div class="container">
+				<div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<span class="subheading">Pricing</span>
+            <h2 class="mb-4">Buy Tickets</h2>
+            <p>We aim to be an accessible, community-driven conference with tutorials for novices, advanced topical workshops for practitioners, and opportunities for package developers and users to meet in person.</p>
+          </div>
+        </div>
+				<div class="row">
+        	<div class="col-md-3 ftco-animate">
+        		<div class="pricing-entry pb-5 text-center">
+        			<div>
+	        			<h3 class="mb-4">Student Ticket</h3>
+	        			<p><span class="price">₹1000.00</span> <span class="per">/ ticket</span></p>
+	        		</div>
+        			<ul>
+        				<li>Keynotes</li>
+								<li>Tutorials</li>
+								<li>Workshops</li>
+								<li>Networking</li>
+								<li>Lunch</li>
+								<li>Goodies</li>
+								<li>Swags</li>
+        			</ul>
+        			<p class="button text-center"><a href="https://in.explara.com/e/pydata-delhi-2019" class="btn btn-primary px-4 py-3">Buy Ticket</a></p>
+        		</div>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<div class="pricing-entry pb-5 text-center">
+        			<div>
+	        			<h3 class="mb-4">Regular Ticket</h3>
+	        			<p><span class="price">₹1700.00</span> <span class="per">/ ticket</span></p>
+	        		</div>
+        			<ul>
+        				<li>Keynotes</li>
+								<li>Tutorials</li>
+								<li>Workshops</li>
+								<li>Networking</li>
+								<li>Lunch</li>
+								<li>Goodies</li>
+								<li>Swags</li>
+        			</ul>
+        			<p class="button text-center"><a href="https://in.explara.com/e/pydata-delhi-2019" class="btn btn-primary px-4 py-3">Buy Ticket</a></p>
+        		</div>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<div class="pricing-entry active pb-5 text-center">
+        			<div>
+	        			<h3 class="mb-4">Late Bird</h3>
+	        			<p><span class="price">₹2500.00</span><span class="per">/ ticket</span></p>
+	        		</div>
+        			<ul>
+        				<li>Keynotes</li>
+								<li>Tutorials</li>
+								<li>Workshops</li>
+								<li>Networking</li>
+								<li>Lunch</li>
+								<li>Goodies</li>
+								<li>Swags</li>
+        			</ul>
+        			<p class="button text-center"><a href="https://in.explara.com/e/pydata-delhi-2019" class="btn btn-primary px-4 py-3">Buy Ticket</a></p>
+        		</div>
+        	</div>
+        	<div class="col-md-3 ftco-animate">
+        		<div class="pricing-entry pb-5 text-center">
+        			<div>
+	        			<h3 class="mb-4">Support Ticket</h3>
+	        			<p><span class="price">₹6500.00</span> <span class="per">/ ticket</span></p>
+	        		</div>
+        			<ul>
+        				<li>Keynotes</li>
+								<li>Tutorials</li>
+								<li>Workshops</li>
+								<li>Networking</li>
+								<li>Lunch</li>
+								<li>Goodies</li>
+								<li>Swags</li>
+        			</ul>
+        			<p class="button text-center"><a href="https://in.explara.com/e/pydata-delhi-2019" class="btn btn-primary px-4 py-3">Buy Ticket</a></p>
+        		</div>
+        	</div>
+        </div>
+			</div>
+		</section>
+
+		<!-- 
+    <section class="ftco-section bg-light" id="blog-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <span class="subheading">Blog</span>
+            <h2 class="mb-4">Our Blog</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+              	<div class="d-flex align-items-center mb-3 meta">
+	                <p class="mb-0">
+	                	<span class="mr-2">March 23, 2019</span>
+	                	<a href="#" class="mr-2">Admin</a>
+	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+	                </p>
+                </div>
+                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+              	<div class="d-flex align-items-center mb-3 meta">
+	                <p class="mb-0">
+	                	<span class="mr-2">March 23, 2019</span>
+	                	<a href="#" class="mr-2">Admin</a>
+	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+	                </p>
+                </div>
+                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+              	<div class="d-flex align-items-center mb-3 meta">
+	                <p class="mb-0">
+	                	<span class="mr-2">March 23, 2019</span>
+	                	<a href="#" class="mr-2">Admin</a>
+	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+	                </p>
+                </div>
+                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+		-->
+		<section class="ftco-section" id="sponsor">
+			<div class="container">
+				<div class="row justify-content-center pb-5">
+					<div class="col-md-12 heading-section text-center ftco-animate">
+						<span class="subheading">Sponsor</span>
+						<h2 class="mb-4">OUR SPONSORS</h2>
+						
+						<!--Platinum-->
+						<span class="subheading">Platinum</span>
+						<div class="row1">
+							<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+								<div>
+									<a href="https://www.gojek.io/">
+										<img src="images/gojek.png" style="width:300px;height:300px">
+									</a>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+									<div>
+										<a href="https://home.barclays/">
+											<img src="images/barclays.png" style="width:300px;height:300px">
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<!--Gold-->
+							<span class="subheading">Gold</span>
+							<div class="row1">
+							<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+									<div>
+										<a href="https://www.python.org/psf/">
+											<img src="images/psf.png" style="width:300px;height:300px">
+										</a>
+									</div>
+							</div>
+							
+							<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+								<div>
+									<a href="https://www.onepanel.io/">
+										<img src="images/onepanel.png" style="width:300px;height:300px">
+									</a>
+								</div>
+							</div>
+						</div>
+							<!--Silver-->
+							<span class="subheading">Silver</span>
+							<div class="row1">
+						  <div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+								<div>
+									<a href="https://www.elastic.co/">
+										<img src="images/elastic.png" style="width:300px;height:300px">
+									</a>
+								</div>
+							</div>
+							
+							<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+								<div>
+									<a href="https://o4s.io/">
+										<img src="images/o4s.png" style="width:300px;height:300px">
+									</a>
+								</div>
+							</div>
+						</div>
+							<!--Supporting-->
+							<span class="subheading">Supporting</span>
+							<div class="row1">
+							<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+								<div>
+									<a href="https://www.stickermule.com">
+										<img src="images/sticker-mule.png" style="width:300px;height:300px">
+									</a>
+								</div>
+							</div>
+							
+							<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+								<div>
+									<a href="https://www.sketch.com">
+										<img src="images/sketch-app.png" style="width:300px;height:300px">
+									</a>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+								<div>
+									<a href="https://codingblocks.com/">
+										<img src="images/coding-blocks.png" style="width:300px;height:300px">
+									</a>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+								<div>
+									<a href="https://balsamiq.com/">
+										<img src="images/balsamiq.png" style="width:300px;height:300px">
+									</a>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+								<div>
+									<a href="https://www.facebook.com/acm.iiitd/">
+										<img src="images/acm.png" style="width:300px;height:300px">
+									</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	<section class="ftco-section">
+			<div class="container">
+					<div class="row justify-content-center pb-5">
+			  <div class="col-md-12 heading-section text-center ftco-animate">
+				  <span class="subheading">Tweets</span>
+				<h2 class="mb-4">Give Likes to Our Tweets</h2>
+				<!-- <p>We aim to be an accessible, community-driven conference with tutorials for novices, advanced topical workshops for practitioners, and opportunities for package developers and users to meet in person.</p> -->
+			  </div>
+			</div>
+		<div class="container">
+			<div class="row">
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">One’s a company, two’s a crowd and three’s a [PyData] party. 🔥<br>Announcing third iteration of PyData conference in India: PyData Delhi 2019 🎉<br>3,4 August, mark your calendars! 🗓️<br>More: <a href="https://t.co/Rn5fF5Ti48">https://t.co/Rn5fF5Ti48</a> 💻<a href="https://twitter.com/PyData?ref_src=twsrc%5Etfw">@PyData</a> <a href="https://twitter.com/NumFOCUS?ref_src=twsrc%5Etfw">@NumFOCUS</a> <a href="https://twitter.com/hashtag/PyDataDelhi19?src=hash&amp;ref_src=twsrc%5Etfw">#PyDataDelhi19</a> 🐍 <a href="https://t.co/Y06yjNajjT">pic.twitter.com/Y06yjNajjT</a></p>&mdash; PyData Delhi (@PyDataDelhi) <a href="https://twitter.com/PyDataDelhi/status/1130727064460390401?ref_src=twsrc%5Etfw">May 21, 2019</a></blockquote>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+							<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">PyData Delhi 2019: Call for Proposals is live.🎉<br>What are you waiting for? We can&#39;t wait to see what you submit! 💯<br>Deadline: Jun 30, Apply 🔜 📅<br>CFP Link: <a href="https://t.co/OT1BASVNQf">https://t.co/OT1BASVNQf</a> 🤩<a href="https://twitter.com/PyData?ref_src=twsrc%5Etfw">@PyData</a> <a href="https://twitter.com/NumFOCUS?ref_src=twsrc%5Etfw">@NumFOCUS</a> <a href="https://twitter.com/hashtag/PyDataDelhi19?src=hash&amp;ref_src=twsrc%5Etfw">#PyDataDelhi19</a> 🐍 <a href="https://t.co/34uTA5jD4f">pic.twitter.com/34uTA5jD4f</a></p>&mdash; PyData Delhi (@PyDataDelhi) <a href="https://twitter.com/PyDataDelhi/status/1134026565883351043?ref_src=twsrc%5Etfw">May 30, 2019</a></blockquote>
+							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+							<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">TICKETS are on sale! 🎟️<br>Our &quot;EARLYBIRD&quot; discount code will give you discounted Regular tickets! Get yours before it lasts. ⏳<br>You can also buy a Support ticket to support the conference. 💪<br><br>Buy here: <a href="https://t.co/VHhOEF64K8">https://t.co/VHhOEF64K8</a> …<a href="https://twitter.com/PyData?ref_src=twsrc%5Etfw">@PyData</a> <a href="https://twitter.com/NumFOCUS?ref_src=twsrc%5Etfw">@NumFOCUS</a> <a href="https://twitter.com/hashtag/PyDataDelhi19?src=hash&amp;ref_src=twsrc%5Etfw">#PyDataDelhi19</a> <a href="https://t.co/SMiwtum8Mp">pic.twitter.com/SMiwtum8Mp</a></p>&mdash; PyData Delhi (@PyDataDelhi) <a href="https://twitter.com/PyDataDelhi/status/1134702982551953408?ref_src=twsrc%5Etfw">June 1, 2019</a></blockquote>
+							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+							<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Wrapping up our #32 meetup, hosted at <a href="https://twitter.com/Cowork_Delhi?ref_src=twsrc%5Etfw">@Cowork_Delhi</a>, food sponsored by <a href="https://twitter.com/GoogleIndia?ref_src=twsrc%5Etfw">@GoogleIndia</a> <a href="https://twitter.com/Google?ref_src=twsrc%5Etfw">@Google</a> Thank you <a href="https://twitter.com/sidagarwal04?ref_src=twsrc%5Etfw">@sidagarwal04</a> <a href="https://twitter.com/biswajeet_137?ref_src=twsrc%5Etfw">@biswajeet_137</a>. <br><br>Thanks to all the attendees and speakers (<a href="https://twitter.com/karmanya?ref_src=twsrc%5Etfw">@karmanya</a>, <a href="https://twitter.com/nhlpatra?ref_src=twsrc%5Etfw">@nhlpatra</a> and Ujjwal Singh).<a href="https://twitter.com/PyData?ref_src=twsrc%5Etfw">@PyData</a> <a href="https://twitter.com/NumFOCUS?ref_src=twsrc%5Etfw">@NumFOCUS</a> <a href="https://twitter.com/hashtag/PyDataDelhi32?src=hash&amp;ref_src=twsrc%5Etfw">#PyDataDelhi32</a> <a href="https://t.co/GLWGPvcTHX">pic.twitter.com/GLWGPvcTHX</a></p>&mdash; PyData Delhi (@PyDataDelhi) <a href="https://twitter.com/PyDataDelhi/status/1139884617559769093?ref_src=twsrc%5Etfw">June 15, 2019</a></blockquote>
+							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+			</div>
+		</div>
+	</section>
+	<section class="ftco-section ftco-subscribe img" style="background-image: url(images/joinus.JPG);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+	  <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
+		<h2 class="mb-4">Join Our MeetUp</h2>
+		<p>Alone, We Can Do So Little; Together We Can Do So Much</p>
+		<div class="row d-flex justify-content-center mt-4">
+		  <div class="col-md-10">
+			<a href="https://www.meetup.com/PyDataDelhi/" class="btn btn-primary py-3 px-4">Join MeetUp</a>
+		  </div>
+		</div>
+	  </div>
+	</div>
+		</div>
+	</section>
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <span class="subheading">Contact</span>
+            <h2 class="mb-4">Contact Us</h2>
+            <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> -->
+          </div>
+        </div>
+
+        <div class="row block-9">
+          <div class="col-md-7 order-md-last d-flex">
+            <form action="#" class="bg-light p-4 p-md-5 contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              </div>
+            </form>
+
+          </div>
+
+          <div class="col-md-5 d-flex">
+          	<div class="row d-flex contact-info mb-5">
+		          <div class="col-md-12 ftco-animate">
+		          	<div class="box p-2 px-3 bg-light d-flex">
+		          		<div class="icon mr-3">
+		          			<span class="icon-map-signs"></span>
+		          		</div>
+		          		<div>
+			          		<h3 class="mb-3">Conference Address</h3>
+				            <p>Indraprastha Institute of Information Technology, Delhi<br>
+								Okhla Industrial Estate,Phase III<br>
+								(Near Govind Puri Metro Station)<br>
+								New Delhi, India - 110020</p>
+			            </div>
+			          </div>
+		          </div>
+		          <div class="col-md-12 ftco-animate">
+		          	<div class="box p-2 px-3 bg-light d-flex">
+		          		<div class="icon mr-3">
+		          			<span class="icon-phone2"></span>
+		          		</div>
+		          		<div>
+			          		<h3 class="mb-3">Contact Number</h3>
+				            <p><a href="tel://+91-8860391089">+91-8860391089</a></p>
+			            </div>
+			          </div>
+		          </div>
+		          <div class="col-md-12 ftco-animate">
+		          	<div class="box p-2 px-3 bg-light d-flex">
+		          		<div class="icon mr-3">
+		          			<span class="icon-paper-plane"></span>
+		          		</div>
+		          		<div>
+			          		<h3 class="mb-3">Email Address</h3>
+				            <p><a href="mailto:delhi@pydata.org">delhi@pydata.org</a></p>
+			            </div>
+			          </div>
+		          </div>
+		          <div class="col-md-12 ftco-animate">
+		          	<div class="box p-2 px-3 bg-light d-flex">
+		          		<div class="icon mr-3">
+		          			<span class="icon-globe"></span>
+		          		</div>
+		          		<div>
+			          		<h3 class="mb-3">Website</h3>
+				            <p><a href="https://pydata.org/delhi2019/">https://pydata.org/delhi2019/</a></p>
+			            </div>
+			          </div>
+		          </div>
+		        </div>
+          </div>
+        </div>
+      </div>
+	</section>
+	
+	<section class="ftco-section ftco-no-pt ftco-no-pb">
+		<div id="mapid" class="bg-white"></div>
+</section>
+
+
+	<footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row mb-5 pt-5" >
+			<div class="col-md">
+			  <div class="ftco-footer-widget mb-4">
+				<h2 class="ftco-heading-2">About Pydata Delhi</h2>
+				<p>PyData Delhi is a gathering of users and developers of data analysis tools in Python.</p>
+				<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+				  <li class="ftco-animate"><a href="https://twitter.com/pydatadelhi"><span class="icon-twitter"></span></a></li>
+				  <li class="ftco-animate"><a href="https://www.facebook.com/pydatadelhi/"><span class="icon-facebook"></span></a></li>
+				  <li class="ftco-animate"><a href="https://www.instagram.com/pydatadelhi/"><span class="icon-instagram"></span></a></li>
+				</ul>
+			  </div>
+			</div>
+			<div class="col-md">
+			  <div class="ftco-footer-widget mb-4 ml-md-4">
+				<h2 class="ftco-heading-2">Links</h2>
+				<ul class="list-unstyled">
+				  <li><a href="#home-section"><span class="icon-home mr-2"></span>Home</a></li>
+				  <li><a href="#about-section"><span class="icon-description mr-2"></span>About</a></li>
+				  <li><a href="#schedule-section"><span class="icon-calendar-check-o mr-2"></span>Schedule</a></li>
+				  <li><a href="#speakers-section"><span class="icon-person mr-2"></span>Speakers</a></li>
+								  <li><a href="https://in.explara.com/e/pydata-delhi-2019"><span class="icon-ticket mr-2"></span>Buy Ticket</a></li>
+							  </ul>
+			  </div>
+			</div>
+			<div class="col-md">
+			   <div class="ftco-footer-widget mb-4">
+				<h2 class="ftco-heading-2">Telegram</h2>
+				<ul class="list-unstyled">
+				  <li><a href="https://t.me/joinchat/B71pNUGrUQ7QHuyUJq-Ajg"><span class="icon-telegram mr-2"></span>Join Us</a></li>
+				  </ul>
+			  </div>
+			</div>
+			<div class="col-md">
+			  <div class="ftco-footer-widget mb-4">
+				  <h2 class="ftco-heading-2">Have a Questions?</h2>
+				  <div class="block-23 mb-3">
+					<ul>
+					  <!-- <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li> -->
+					  <li><a href=tel://+91-8860391089"><span class="icon icon-phone"></span><span class="text">+91-8860391089</span></a></li>
+					  <li><a href="mail:delhi@pydata.org"><span class="icon icon-envelope"></span><span class="text">delhi@pydata.org</span></a></li>
+					</ul>
+				  </div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="row">
+			<div class="col-md-12 text-center">
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Website is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+	  </footer>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+</html>
